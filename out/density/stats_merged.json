@@ -1,0 +1,28 @@
+{
+ "dataset": "merged",
+ "frame": "EquirectFrame(6137px, bounds S20.926386 W105.728233 N21.144091 E105.961466, 3.95 m/px)",
+ "marks": 21862,
+ "lines": 7601,
+ "sizing": "side = 3*sqrt(distinct photographers of that class in a 16 px cell), capped at 41 px; cells with one photographer get no square",
+ "popularity": {
+  "cell_px": 16,
+  "squares": 2008,
+  "photographs_on_canvas": 42394,
+  "photographers_in_largest_square": 142,
+  "median_photographers_top50": 23,
+  "min_photographers_top50": 17,
+  "max_side_px": 35.7
+ },
+ "stacking": {
+  "photos": 42394,
+  "distinct_pixels": 21862,
+  "hidden_by_opaque_render": 20532,
+  "hidden_share": 0.48431381799311224,
+  "median": 1,
+  "p99": 19,
+  "max": 275,
+  "pixels_ge_10": 448,
+  "photos_in_pixels_ge_10": 13786,
+  "max_side_px": 41.0
+ }
+}

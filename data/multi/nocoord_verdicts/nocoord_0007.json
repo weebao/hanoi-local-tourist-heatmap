@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "197304833",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "studio portrait"
+ },
+ {
+  "pageid": "64218738",
+  "verdict": "located",
+  "place": "Al-Noor Mosque, 12 Hàng Lược, Hoàn Kiếm, Hanoi",
+  "confidence": 0.9,
+  "evidence": "White gate with crescents and sign AL-NOOR MOSQUE",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "132101969",
+  "verdict": "located",
+  "place": "Hanoi Railway Station (Ga Hà Nội), Lê Duẩn, Hanoi",
+  "confidence": 0.6,
+  "evidence": "1925 crowd and cars before arched station facade; caption says arrival at the Hanoi station",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "122958934",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait/people only, no identifiable place in pixels"
+ },
+ {
+  "pageid": "122958891",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait/people only, no identifiable place in pixels"
+ },
+ {
+  "pageid": "3529982",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait/people only, no identifiable place in pixels"
+ },
+ {
+  "pageid": "1960440",
+  "verdict": "located",
+  "place": "Embassy of the United States, 7 Láng Hạ, Ba Đình, Hanoi",
+  "confidence": 0.75,
+  "evidence": "Dark-glass mid-rise with US flag on pole, matches the Láng Hạ embassy tower",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "71193547",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "bus shelter on unidentified street"
+ },
+ {
+  "pageid": "55292656",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "78130181",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait/people only, no identifiable place in pixels"
+ },
+ {
+  "pageid": "86984054",
+  "verdict": "located",
+  "place": "Trường Đại học Kinh tế - ĐHQGHN (nhà E4), 144 Xuân Thủy, Cầu Giấy, Hanoi",
+  "confidence": 0.8,
+  "evidence": "Red-white building with sign TRƯỜNG ĐẠI HỌC KINH TẾ, Đại học Quốc gia Hà Nội",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "122918785",
+  "verdict": "located",
+  "place": "Tràng Tiền Plaza, Hoàn Kiếm, Hanoi",
+  "confidence": 0.75,
+  "evidence": "Night view of domed corner of the plaza with lit TRANG TIEN lettering",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "14523898",
+  "verdict": "located",
+  "place": "19 Lê Thánh Tông (former Đại học Tổng hợp Hà Nội), Hoàn Kiếm, Hanoi",
+  "confidence": 0.9,
+  "evidence": "Yellow Indochine-style facade with sign ĐẠI HỌC TỔNG HỢP HÀ NỘI over arch",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "14523856",
+  "verdict": "located",
+  "place": "19 Lê Thánh Tông (former Đại học Tổng hợp Hà Nội), Hoàn Kiếm, Hanoi",
+  "confidence": 0.9,
+  "evidence": "Octagonal tiered tower and arch, sign ĐẠI HỌC TỔNG HỢP HÀ NỘI",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "80152269",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "architectural rendering, not a photograph"
+ }
+]

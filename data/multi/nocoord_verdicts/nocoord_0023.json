@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "132703981",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "indoor signing ceremony, venue not identifiable"
+ },
+ {
+  "pageid": "132703959",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "indoor signing ceremony, venue not identifiable"
+ },
+ {
+  "pageid": "108169376",
+  "verdict": "located",
+  "place": "Đoan Môn, Hoàng thành Thăng Long, Hanoi",
+  "confidence": 0.9,
+  "evidence": "Yellow two-tier pavilion atop Đoan Môn gate with festival flags",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "106225217",
+  "verdict": "located",
+  "place": "Đoan Môn, Hoàng thành Thăng Long, Hanoi",
+  "confidence": 0.9,
+  "evidence": "Đoan Môn stone gate with arched portals and yellow pavilion, seen from inner court",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "11920490",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "museum display case, interior with no identifying feature"
+ },
+ {
+  "pageid": "37962152",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "museum object; Guimet museum is in Paris"
+ },
+ {
+  "pageid": "132620800",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait or people shot with no identifiable place"
+ },
+ {
+  "pageid": "132608081",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait or people shot with no identifiable place"
+ },
+ {
+  "pageid": "132610162",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait or people shot with no identifiable place"
+ },
+ {
+  "pageid": "83899845",
+  "verdict": "located",
+  "place": "Phố Tràng Tiền, Hanoi",
+  "confidence": 0.55,
+  "evidence": "Postcard captioned 'Hanoi - Rue Paul-Bert' showing domed GARAGE BOILLOT corner building",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "89177257",
+  "verdict": "located",
+  "place": "Bốt Hàng Đậu (Hàng Đậu water tower), Hanoi",
+  "confidence": 0.9,
+  "evidence": "Unmistakable round stone water tower at street junction",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "113976160",
+  "verdict": "located",
+  "place": "Nhà hát Chèo Quân đội, Hanoi",
+  "confidence": 0.65,
+  "evidence": "Military gate with sign NHÀ HÁT CHÈO QUÂN ĐỘI",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "113976074",
+  "verdict": "located",
+  "place": "Nhà hát Chèo Việt Nam, Kim Mã, Hanoi",
+  "confidence": 0.7,
+  "evidence": "Gate arch sign reads NHÀ HÁT CHÈO VIỆT NAM",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "167402594",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait or people shot with no identifiable place"
+ },
+ {
+  "pageid": "168006834",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait or people shot with no identifiable place"
+ }
+]

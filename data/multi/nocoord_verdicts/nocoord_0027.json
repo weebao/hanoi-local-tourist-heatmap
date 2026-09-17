@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "45416954",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/artwork/object reproduction, not a place photo"
+ },
+ {
+  "pageid": "109371772",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait or people shot with no identifiable place"
+ },
+ {
+  "pageid": "39696079",
+  "verdict": "located",
+  "place": "Vườn Bách Thảo (Hanoi Botanical Garden), Hanoi",
+  "confidence": 0.5,
+  "evidence": "Paved park terrace with balustrade and planters; Botanical Garden series",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "18155968",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "19th-century view of citadel corner, exact spot not identifiable"
+ },
+ {
+  "pageid": "25796099",
+  "verdict": "located",
+  "place": "Đoan Môn, Hoàng thành Thăng Long, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Floodlit Đoan Môn gate pavilion at dusk",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "25796098",
+  "verdict": "located",
+  "place": "Đoan Môn, Hoàng thành Thăng Long, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Floodlit Đoan Môn gate with arched portals seen across lawn at dusk",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "50486799",
+  "verdict": "located",
+  "place": "Hoàng thành Thăng Long, Hanoi",
+  "confidence": 0.55,
+  "evidence": "Yellow French-colonial arcaded two-storey building inside citadel grounds",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "50486798",
+  "verdict": "located",
+  "place": "Hoàng thành Thăng Long, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Yellow citadel wall with tiered-roof gate tower and bonsai garden",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "18177716",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "map/plan/satellite graphic, no camera position"
+ },
+ {
+  "pageid": "18155967",
+  "verdict": "located",
+  "place": "Cửa Bắc (Bắc Môn), Phố Phan Đình Phùng, Hanoi",
+  "confidence": 0.7,
+  "evidence": "Old photo captioned Blockhaus Nord: brick North Gate with single arch and roofed watch post",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "98130200",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "engraving, not a photograph"
+ },
+ {
+  "pageid": "7972445",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "family party interior"
+ },
+ {
+  "pageid": "165873414",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "1946 hall interior, venue not confidently identifiable"
+ },
+ {
+  "pageid": "11920540",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "museum display case, interior with no identifying feature"
+ },
+ {
+  "pageid": "108085969",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/artwork/object reproduction, not a place photo"
+ }
+]

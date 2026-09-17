@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "193451202",
+  "verdict": "located",
+  "place": "Chùa Hoàng Mai (Nga My tự), Hoàng Mai, Hanoi",
+  "confidence": 0.5,
+  "evidence": "Newly built stone-and-brick tam quan pagoda gate with Chinese characters in narrow lane",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "10403040",
+  "verdict": "located",
+  "place": "Đền thờ Tô Hiến Thành, Hạ Mỗ, Đan Phượng, Hanoi",
+  "confidence": 0.5,
+  "evidence": "Stone steps up to small whitewashed temple gate with festival flags under trees",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "125487052",
+  "verdict": "located",
+  "place": "Điện Kính Thiên, Hoàng thành Thăng Long, Hanoi",
+  "confidence": 0.65,
+  "evidence": "Two-tier citadel-style gate, printed caption 'Porte Ouest de l'enceinte de la Pagode Royale', rail track through",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "50113834",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "taken outside Hanoi (HaUI campus 3 in Hà Nam; hills visible)"
+ },
+ {
+  "pageid": "119578773",
+  "verdict": "located",
+  "place": "Chùa Trấn Quốc, Hanoi",
+  "confidence": 0.65,
+  "evidence": "Old arched pagoda gate with pillar finials framing causeway; matches historical Trấn Quốc entrance",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "119578774",
+  "verdict": "located",
+  "place": "Đền Quán Thánh, Hanoi",
+  "confidence": 0.7,
+  "evidence": "Four-pillar temple gate and steps directly on lake edge with boat, 1900s West Lake shoreline",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "193451201",
+  "verdict": "located",
+  "place": "Đền Lư Giang, Hoàng Mai, Hanoi",
+  "confidence": 0.5,
+  "evidence": "Dark timber temple gate with gilded Chinese plaque and couplets, car parked in forecourt",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "121401361",
+  "verdict": "located",
+  "place": "Bưu điện Hà Nội, 75 Đinh Tiên Hoàng, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Clock tower above large 'HÀ NỘI' lettering of the central post office, seen through lakeside trees",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "141361699",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait, no location features"
+ },
+ {
+  "pageid": "141362237",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait, no location features"
+ },
+ {
+  "pageid": "140626419",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait, no location features"
+ },
+ {
+  "pageid": "138549914",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait, no location features"
+ },
+ {
+  "pageid": "138549834",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait, no location features"
+ },
+ {
+  "pageid": "91823131",
+  "verdict": "located",
+  "place": "Vườn thú Thủ Lệ (Hanoi Zoo), Hanoi",
+  "confidence": 0.6,
+  "evidence": "Sandy paddock with deer/goats, fences and concrete troughs; zoo series",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "91823140",
+  "verdict": "located",
+  "place": "Vườn thú Thủ Lệ (Hanoi Zoo), Hanoi",
+  "confidence": 0.6,
+  "evidence": "Sandy paddock with sheep, goat and sika deer; zoo series",
+  "refusal_reason": ""
+ }
+]

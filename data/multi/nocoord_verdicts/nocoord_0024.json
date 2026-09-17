@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "108072563",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait or people shot with no identifiable place"
+ },
+ {
+  "pageid": "89467160",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait or people shot with no identifiable place"
+ },
+ {
+  "pageid": "32934937",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "food close-up, no identifying feature"
+ },
+ {
+  "pageid": "12698824",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Chiếu dời đô millennium plaque, installation site not identifiable"
+ },
+ {
+  "pageid": "2650065",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "children group portrait, old wall background not identifiable"
+ },
+ {
+  "pageid": "48164378",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "stage performance, venue not identifiable"
+ },
+ {
+  "pageid": "193314270",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "autochrome of firecracker stall, street not identifiable"
+ },
+ {
+  "pageid": "77847787",
+  "verdict": "located",
+  "place": "29 Phố Lê Ngọc Hân, Hai Bà Trưng, Hanoi",
+  "confidence": 0.65,
+  "evidence": "Weathered old masonry gate with house number plate between modern shopfronts",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "77847567",
+  "verdict": "located",
+  "place": "29 Phố Lê Ngọc Hân, Hai Bà Trưng, Hanoi",
+  "confidence": 0.65,
+  "evidence": "Same weathered old gate with number plate and rusted iron doors",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "94476549",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "sign reads CHỢ CẦU ĐÔNG but building/location ambiguous, could be outside Hanoi"
+ },
+ {
+  "pageid": "93337423",
+  "verdict": "located",
+  "place": "Chợ Đồng Xuân, Hanoi",
+  "confidence": 0.9,
+  "evidence": "Lit triple-arch Đồng Xuân market facade at night",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "5604902",
+  "verdict": "located",
+  "place": "Chợ Đồng Xuân, Hanoi",
+  "confidence": 0.9,
+  "evidence": "Market facade with CHỢ ĐỒNG XUÂN lettering and arched gables",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "16916741",
+  "verdict": "located",
+  "place": "Chợ hoa Quảng An (Quảng Bá), Âu Cơ, Tây Hồ, Hanoi",
+  "confidence": 0.5,
+  "evidence": "Night wholesale flower stalls under metal roof; market named by title",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "137163082",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "officials in hard hats, site not identifiable"
+ },
+ {
+  "pageid": "113253620",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait or people shot with no identifiable place"
+ }
+]

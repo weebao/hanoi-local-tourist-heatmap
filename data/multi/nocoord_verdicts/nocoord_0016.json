@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "64218232",
+  "verdict": "located",
+  "place": "Khu di tích Chủ tịch Hồ Chí Minh tại Phủ Chủ tịch (ao cá Bác Hồ), Hanoi",
+  "confidence": 0.5,
+  "evidence": "Pond with palms and visitors queueing on far bank by a stilt-house-like structure.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "98773048",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Bowls on unidentified pavement."
+ },
+ {
+  "pageid": "98773052",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Bowls on unidentified pavement."
+ },
+ {
+  "pageid": "16479251",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Portrait/people close-up; no location feature visible."
+ },
+ {
+  "pageid": "125302925",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Document, map, logo or artwork; not a camera location."
+ },
+ {
+  "pageid": "39696073",
+  "verdict": "located",
+  "place": "Bách Thảo Park (Hanoi Botanical Garden), Hanoi",
+  "confidence": 0.5,
+  "evidence": "Stepping-stone bridge through rockery garden; title names Botanical Garden.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "132286783",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Taken at the Smithsonian, USA."
+ },
+ {
+  "pageid": "44816032",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Concert stage only; venue not visible."
+ },
+ {
+  "pageid": "44819476",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Performer close-up; venue not visible."
+ },
+ {
+  "pageid": "77777479",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Food/drink close-up; no location feature."
+ },
+ {
+  "pageid": "78385716",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Food/drink close-up; no location feature."
+ },
+ {
+  "pageid": "176589375",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Worshipper at incense urn; West Lake temple not identifiable (Trấn Quốc vs Phủ Tây Hồ)."
+ },
+ {
+  "pageid": "156971137",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Portrait/people close-up; no location feature visible."
+ },
+ {
+  "pageid": "149859016",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Footballer close-up; stadium not identifiable."
+ },
+ {
+  "pageid": "149853116",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Footballer on track; stadium not identifiable."
+ }
+]

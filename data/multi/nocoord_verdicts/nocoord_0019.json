@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "106658385",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Generic office interior."
+ },
+ {
+  "pageid": "106658430",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Generic office interior."
+ },
+ {
+  "pageid": "93712253",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Archival photo of Bắc Ninh citadel, not Hanoi."
+ },
+ {
+  "pageid": "108329440",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Singer at Vincom event; which mall is not determinable."
+ },
+ {
+  "pageid": "138433188",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Document, map, logo or artwork; not a camera location."
+ },
+ {
+  "pageid": "138433176",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Document, map, logo or artwork; not a camera location."
+ },
+ {
+  "pageid": "125838354",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Portrait/people close-up; no location feature visible."
+ },
+ {
+  "pageid": "144500617",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Portrait/people close-up; no location feature visible."
+ },
+ {
+  "pageid": "119847367",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Portrait/people close-up; no location feature visible."
+ },
+ {
+  "pageid": "132305023",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Document, map, logo or artwork; not a camera location."
+ },
+ {
+  "pageid": "132304805",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Document, map, logo or artwork; not a camera location."
+ },
+ {
+  "pageid": "100856645",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Document, map, logo or artwork; not a camera location."
+ },
+ {
+  "pageid": "30026247",
+  "verdict": "located",
+  "place": "Hồ Đồng Đò, Sóc Sơn, Hanoi",
+  "confidence": 0.5,
+  "evidence": "Swimmers jumping from pier into hill-ringed reservoir; matches title.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "122588557",
+  "verdict": "located",
+  "place": "Bưu điện Hà Nội, Đinh Tiên Hoàng, Hanoi",
+  "confidence": 0.8,
+  "evidence": "Post office block with VNPT Hà Nội rooftop sign along tree-lined lakeside street.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "125622722",
+  "verdict": "located",
+  "place": "Hoàn Kiếm Lake west shore, Lê Thái Tổ, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Post Office with clock and Turtle Tower seen across the lake, so camera on opposite western shore.",
+  "refusal_reason": ""
+ }
+]

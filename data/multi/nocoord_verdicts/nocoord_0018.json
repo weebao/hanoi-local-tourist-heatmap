@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "5825097",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Bus at junction by yellow colonial building; junction not identifiable."
+ },
+ {
+  "pageid": "103489451",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Portrait/people close-up; no location feature visible."
+ },
+ {
+  "pageid": "103489274",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Portrait/people close-up; no location feature visible."
+ },
+ {
+  "pageid": "103489656",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Portrait/people close-up; no location feature visible."
+ },
+ {
+  "pageid": "103489947",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Stage performance; venue not visible."
+ },
+ {
+  "pageid": "22007514",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Portrait/people close-up; no location feature visible."
+ },
+ {
+  "pageid": "120236208",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Portrait/people close-up; no location feature visible."
+ },
+ {
+  "pageid": "64286700",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Document, map, logo or artwork; not a camera location."
+ },
+ {
+  "pageid": "113256719",
+  "verdict": "located",
+  "place": "Hanoi University of Science and Technology, Hanoi",
+  "confidence": 0.4,
+  "evidence": "White multi-storey academic block; title names Bách Khoa, no signage legible.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "89256479",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Flower vendor motorbike on unidentified road."
+ },
+ {
+  "pageid": "16888837",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Food/drink close-up; no location feature."
+ },
+ {
+  "pageid": "128039703",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Document, map, logo or artwork; not a camera location."
+ },
+ {
+  "pageid": "131827180",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Document, map, logo or artwork; not a camera location."
+ },
+ {
+  "pageid": "116897167",
+  "verdict": "located",
+  "place": "Hồ Đồng Quan, Sóc Sơn, Hanoi",
+  "confidence": 0.5,
+  "evidence": "Reservoir with pine-covered red-earth island and mountain behind; matches title.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "48654802",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Document, map, logo or artwork; not a camera location."
+ }
+]

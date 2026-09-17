@@ -1,0 +1,121 @@
+[
+ {
+  "pageid": "132797872",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "16662672",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "106844577",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "colonial postcard of Kinh Lược estate gate; structure gone, not precisely geocodable"
+ },
+ {
+  "pageid": "106844591",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "colonial postcard of Kinh Lược village entrance column; structure gone"
+ },
+ {
+  "pageid": "18156190",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "1885 riverbank photo, location unidentifiable"
+ },
+ {
+  "pageid": "106844566",
+  "verdict": "located",
+  "place": "Lăng Hoàng Cao Khải, Thái Hà, Đống Đa, Hanoi",
+  "confidence": 0.5,
+  "evidence": "Stone funerary pavilion with tiered roof labelled \"Monument funéraire du Kinh-Luoc\" on card; tomb survives in Thái Hà"
+ },
+ {
+  "pageid": "106844570",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "colonial postcard of Kinh Lược estate buildings; exact surviving site uncertain"
+ },
+ {
+  "pageid": "120494451",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "121676965",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "120432966",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "121169562",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "121721202",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "121775854",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "13249739",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "food/produce close-up, no identifying site feature"
+ },
+ {
+  "pageid": "105851836",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "engraving, not a photograph"
+ }
+]

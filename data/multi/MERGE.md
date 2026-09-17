@@ -102,7 +102,8 @@ and `cap_sweep` still prints on every build so the choice stays visible.
 ## Sources
 
 Kept: **flickr** (YFCC100M, the baseline), **commons** (Wikimedia Commons API),
-**inat** (iNaturalist).
+**inat** (iNaturalist), and **commonsplaced**, which is small and different in
+kind and has its own section below.
 
 Excluded, each with its reason in `stats.json` under
 `sources_present_but_excluded` so nobody re-harvests them: **gbif** (about half
@@ -110,6 +111,18 @@ the rows state no uncertainty, the stated ones have a p90 of 16.4 km,
 `recordedBy` is free text rather than a stable id, and it largely republishes
 iNaturalist), **panoramax** (319 rows from exactly one contributor),
 **wikidata**, **openaerialmap**, **osmnotes** (not photographs).
+
+**kartaview** and **osv5m** were harvested in a later round and are also
+excluded. KartaView returned 5,016 thinned rows, but 4,185 of them belong to one
+bulk-import account that is not a photographer, and of the 10 real contributors
+only 4 have any history outside Hanoi. The OSV-5M test split has one row in the
+box. Mapillary needs a token, and no Panoramio dump with coordinates survives.
+
+A file on disk is not a source. `discover()` used to load any `*_hanoi.tsv` it
+found with a default spec, and the half-finished KartaView harvest put 4,631
+unreviewed points on the map, moving the top-5 contributor share from 22% to
+27%, before anyone had looked at it. An unregistered prefix is now reported and
+skipped; rendering it takes a `SourceSpec`.
 
 Wikidata is worth a note because it was wrong here. An earlier version of this
 file listed it as excluded while the code still rendered it, contributing 200
@@ -124,17 +137,69 @@ city from their posting history in order to colour them is profiling of private
 individuals. Every source above uses location data the photographer chose to
 attach to their own photograph.
 
+## Commons files with no camera coordinate (`commonsplaced`)
+
+A walk of the Hanoi category tree on Commons found 4,170 files with no
+`{{Location}}`. 95 of them are on the merged map. They got there by one of
+three routes, and none of the three is a camera position:
+
+- **vision** (22 files). Contact sheets of 750 files were read by agents doing
+  what a GeoGuessr player does: name the place from what the pixels show, never
+  a coordinate. 319 cells were located and 431 refused (portraits, documents,
+  food, events abroad). Only verdicts at confidence 0.7 or higher are used,
+  which excludes every cell placed mainly because its title said so.
+- **title** (69 files). The file title names a place, which is geocoded.
+- **object-location** (4 files). Commons `{{Object location}}`. No file in the
+  set had a usable EXIF GPS fix; 16 had one axis only.
+
+Read these points as follows.
+
+1. They mark where the **subject** is, not where the camera stood.
+2. Every file at one site lands on **one centroid**. The source is flagged
+   `site_level`: its rows are plotted, never joined by a connecting line, never
+   coordinate-deduplicated, and they do not vote on what counts as a shared
+   place pin.
+3. The photographer is the uploader **only where the Artist credit names the
+   uploader**. The first version skipped that test and an audit measured the
+   result: 193 of 347 rows credited someone else. Mass-transferrers of other
+   people's Flickr photographs were classified by other people's travels,
+   labelled local, and through the shared `commons:` namespace flipped 19
+   points of the existing commons source and drew the Mausoleum blue. Files
+   with a Flickr id in the title, bot uploaders and mismatched credits are now
+   dropped, and the history file the merge reads is rebuilt to hold the kept
+   photographers only. With the source on, three pre-existing photographers
+   change label, each on their own dated photographs.
+4. Geocoding was the other failure. The same audit put the first version at
+   14% wrong: chain shops resolving to whichever branch OSM knows, a district
+   name matching a railway station, a village gate placed in a park 15 km
+   away. `lat/geocode.plausible()` now requires every distinctive word of the
+   name to be in the hit's name (English exonyms from a closed list excepted),
+   requires a stated street or district to appear whole in the hit's address,
+   and refuses roads altogether (a street centroid is not a site: "90 Thợ
+   Nhuộm" landed 500 m from number 90) and one-word matches to shops. It is
+   deliberately lossy: 1,202 of 1,319 place-naming titles are rejected,
+   including real ones ("BoBaPop" against OSM's "BoBaBop"). Each rejected case
+   the audit found is a test in `tests/test_multi.py`.
+5. 347 files were placed by the first version, 97 survive the identity and
+   geocoding rules, and 95 have a usable date (one credit reads "30 December
+   2016 (according to Exif data)", one photograph is from 2001, before the
+   window opens).
+
+The same uploader-is-not-the-photographer problem exists in the main
+**commons** source, which has always keyed on the uploader. It has not been
+measured there. It is listed under Known gaps.
+
 ## What the merge shows
 
-    photographers classified   local 426   tourist 1,995   unknown 928  (2 untestable)
-    photographers on the map   local 406   tourist 1,519   unknown 659  = 2,584
-    points                     local 24,863  tourist 14,189  unknown 3,247  = 42,299
+    photographers classified   local 430   tourist 1,998   unknown 944  (3 untestable)
+    photographers on the map   local 410   tourist 1,522   unknown 675  = 2,607
+    points                     local 24,938  tourist 14,194  unknown 3,262  = 42,394
     plus 7,601 connecting lines
-    by source                  flickr 18,230   commons 14,158   inat 9,911
+    by source                  flickr 18,230   commons 14,158   inat 9,911   commonsplaced 95
 
-Two populations, deliberately both shown: 3,349 photographers are classified
+Two populations, deliberately both shown: 3,372 photographers are classified
 (the residency set, before the precision filter and before clipping to the
-drawn box) and 2,584 put a mark on the canvas. Quoting one against the other is
+drawn box) and 2,607 put a mark on the canvas. Quoting one against the other is
 how the earlier draft of this file produced a table that did not add up.
 
 **The colour balance inverts against the faithful map, and the cause is
@@ -149,6 +214,12 @@ photographs; the merge is 59% local. But per source, on the drawn set:
     merged without inat      62.6% local   30.4% tourist
 
     per photographer, share local:  commons 23.9%   flickr 18.5%   inat 12.7%
+
+The per-source table was measured before `commonsplaced` existed and has not
+been re-run. That source adds 95 points (0.22% of the map) and changes the
+label of three commons photographers holding five points between them, so no
+row above moves by as much as 0.1 of a point; the merged line was recomputed and
+is still 58.8% / 33.5%.
 
 So the inversion is **entirely Wikimedia Commons**. Remove it and the merged map
 is 46.2% local against 47.2% tourist, which is the visitor-leaning baseline
@@ -172,6 +243,13 @@ Read the inversion as a statement about Wikimedia Commons and about date
 coverage, not as a correction to the original map.
 
 ## Known gaps
+
+- **Uploader versus photographer in the main commons source.** `commonsplaced`
+  drops a file when its Artist credit is not the uploader, and that removed 56%
+  of its rows. The main commons harvest has never applied the test. Transferred
+  files there are attributed to the transferrer and coloured by the
+  transferrer's other uploads. Commons is 83.7% local and carries the whole
+  local/visitor inversion discussed above, so this could matter a great deal.
 
 - **LOCAL labels rest on very few days.** The span rule asks only that a
   photographer's earliest and latest Hanoi-box dates be 30 days apart. Of the

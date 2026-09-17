@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "154340163",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Haussmann-style buildings behind statue: Garnier monument in Paris"
+ },
+ {
+  "pageid": "154340172",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Garnier monument in Paris street setting"
+ },
+ {
+  "pageid": "152273396",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait/people only, no identifiable place in pixels"
+ },
+ {
+  "pageid": "32712986",
+  "verdict": "located",
+  "place": "Đông Kinh Nghĩa Thục Square (rooftop cafe of the Hàm Cá Mập building), Hoàn Kiếm, Hanoi",
+  "confidence": 0.8,
+  "evidence": "Elevated night view of the square: curved colonial corner building, traffic trails toward Hàng Đào/Cầu Gỗ",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "25083377",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "106530812",
+  "verdict": "located",
+  "place": "Hỏa Lò Prison (Maison Centrale), Hanoi",
+  "confidence": 0.9,
+  "evidence": "Green-lit arch lettered MAISON CENTRALE behind the delegation",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "106530831",
+  "verdict": "located",
+  "place": "Hỏa Lò Prison (Maison Centrale), Hanoi",
+  "confidence": 0.55,
+  "evidence": "Museum photo panels only; placed by same-series shots minutes before/after at Maison Centrale gate",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "106530844",
+  "verdict": "located",
+  "place": "Hỏa Lò Prison (Maison Centrale), Hanoi",
+  "confidence": 0.95,
+  "evidence": "Black arch lettered MAISON CENTRALE over yellow gate",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "121254473",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait/people only, no identifiable place in pixels"
+ },
+ {
+  "pageid": "121254467",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait/people only, no identifiable place in pixels"
+ },
+ {
+  "pageid": "121254399",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait/people only, no identifiable place in pixels"
+ },
+ {
+  "pageid": "162065762",
+  "verdict": "located",
+  "place": "Hoàn Kiếm Lake east shore (Đinh Tiên Hoàng Street), Hanoi",
+  "confidence": 0.6,
+  "evidence": "Postcard captioned Hanoi, Square F. Garnier et Petit Lac; lake shore with pavilion across water",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "162065768",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "postcard back, no image"
+ },
+ {
+  "pageid": "162065779",
+  "verdict": "located",
+  "place": "St. Joseph's Cathedral (Nhà thờ Lớn), Hanoi",
+  "confidence": 0.9,
+  "evidence": "Twin square-towered neo-Gothic facade, caption Hanoi - La Cathédrale, rickshaws on forecourt",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "162065786",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "postcard back, no image"
+ }
+]

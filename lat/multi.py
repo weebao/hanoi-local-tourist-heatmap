@@ -125,6 +125,8 @@ PRECISION_DROP_M = 5000.0
 # Coarser than this is plotted but flagged `coarse`, and excluded from
 # connecting lines. 1000 m == Flickr accuracy 12, i.e. the existing gate.
 PRECISION_COARSE_M = 1000.0
+# One below the connecting-line gate: a site-level row never draws a line.
+SITE_LEVEL_MAX_ACC = LINE_GATE_LEVEL - 1
 
 # iNaturalist randomises an obscured observation inside a 0.2 degree cell,
 # about 22 km at this latitude - larger than the whole map. Such a coordinate
@@ -147,8 +149,14 @@ class SourceSpec:
 
     def __init__(self, key, label, date_kind, precision_kind=None,
                  floor_m=100.0, note="", unknown_m=None, default_on=True,
-                 excluded_because="", namespace=None):
+                 excluded_because="", namespace=None, site_level=False):
         self.key = key
+        # True when the coordinate is where the SUBJECT is, resolved to a site
+        # (a geocoded landmark), not where a camera stood. Such rows are
+        # plotted, but forced coarse and held below the connecting-line
+        # accuracy level whatever their metre value says: two landmark
+        # centroids do not make a journey.
+        self.site_level = site_level
         # The identity system the ids belong to, which is NOT the harvest
         # route. Commons uploader names mean the same thing whether they
         # arrive through the API, the SQL dumps or a Wikidata query, so those
@@ -207,6 +215,35 @@ SOURCES = {
             "often not a person at all (e.g. 'Northern Vietnam'), so it cannot "
             "anchor a per-photographer residency test; 58 of the drawn "
             "photographers existed only from these rows")),
+    # Commons files that carry no camera coordinate, placed instead by what
+    # the photograph shows (a vision pass naming the site, then geocoded), by
+    # the place its title names, or by {{Object location}}. See
+    # lat/build_placed.py. These are SUBJECT positions at site level, so every
+    # row is written at the coarse threshold: plotted, but never joined by a
+    # connecting line and never coordinate-deduplicated.
+    "commonsplaced": SourceSpec(
+        "commonsplaced", "Wikimedia Commons (placed by image/title)", TAKEN,
+        "metres", 150.0, namespace="commons", site_level=True,
+        note="site-level subject position, not a camera fix; no lines drawn"),
+    # Street-level imagery, harvested keylessly (lat/harvest_kartaview.py) and
+    # measured not worth mapping. Kept readable so the negative result stays.
+    "kartaview": SourceSpec(
+        "kartaview", "KartaView / OpenStreetCam", TAKEN, "metres", 5.0,
+        default_on=False,
+        note="one row per user per 50 m cell per day; gps_accuracy mostly blank",
+        excluded_because=(
+            "4,185 of the 5,016 thinned rows belong to one bulk-import account "
+            "('OpenStreetView', 4,585 single-photo 360 sequences), which is "
+            "not a photographer and has no history; the rest is 831 rows from "
+            "10 contributors, of whom 4 have any history outside Hanoi, so "
+            "almost every point would be yellow. A drive is also a different "
+            "kind of object from a photograph someone chose to take")),
+    "osv5m": SourceSpec(
+        "osv5m", "OSV-5M (Mapillary-derived)", TAKEN, None, 50.0,
+        default_on=False,
+        excluded_because=(
+            "the 210,122-row test split has exactly one row inside the Hanoi "
+            "box; the 2.9 GB train split extrapolates to about 25")),
     "inat": SourceSpec(
         "inat", "iNaturalist", OBSERVED, "metres", 5.0,
         "observed_on is a date; positional_accuracy in metres, blank on "
@@ -410,6 +447,7 @@ def parse_date(s):
     # dates, discarding the better of the two iNaturalist history harvests.
     # Drop the trailing timezone name and normalise "GMT-0400" to "-04:00" so
     # the offset regex below can pick it up.
+    s = re.sub(r"^(\d{4}):(\d{2}):(\d{2})(?=[ T]|$)", r"\1-\2-\3", s)
     s = re.sub(r"\s*\([A-Za-z ]+\)\s*$", "", s)
     s = re.sub(r"\bGMT([+-])(\d{2}):?(\d{2})$", r"\1\2:\3", s).strip()
     s = re.sub(r"\bGMT$", "", s).strip()
@@ -701,6 +739,8 @@ def read_table(path, source, kind="hanoi"):
             # it has not earned a connecting line.
             coarse = pm > PRECISION_COARSE_M or (prec_col is not None
                                                  and not stated)
+            if spec.site_level:
+                coarse, lv = True, min(lv, SITE_LEVEL_MAX_ACC)
             out.append({
                 "src": source,
                 "user": namespaced_user(source, user),
@@ -844,8 +884,8 @@ def discover(directory=MULTI_DIR):
     """What is on disk right now. -> {source: {"hanoi", "history", ...}}
 
     Sources are named by the filename prefix, so an agent dropping
-    `panoramax_hanoi.tsv` is picked up without editing this module; an unknown
-    prefix gets a default spec and is reported as unknown. Prefixes are
+    `panoramax_hanoi.tsv` is SEEN without editing this module. Seen is not
+    loaded: an unregistered prefix is reported and skipped (see load_all). Prefixes are
     canonicalised, and where two of them name the same source only one is
     loaded - loading both would split one photographer into two ids, and
     same-source rows are deliberately never deduplicated against each other.
@@ -931,7 +971,13 @@ def load_all(directory=MULTI_DIR, include_flickr=True, sources=None,
         if all_sources:
             return True
         sp = SOURCES.get(src)
-        return sp.default_on if sp else True
+        # An unregistered prefix is OFF. It used to be on, "so an agent
+        # dropping panoramax_hanoi.tsv is picked up without editing this
+        # module" - and then a half-finished KartaView harvest put 4,631
+        # unreviewed street-level points on the map and moved the top-5
+        # contributor share from 22% to 27% before anyone had looked at it.
+        # Discovery still reports the file; rendering it takes a SourceSpec.
+        return sp.default_on if sp else False
 
     if include_flickr and wanted("flickr"):
         fr, fh, rep = load_flickr()
@@ -945,7 +991,9 @@ def load_all(directory=MULTI_DIR, include_flickr=True, sources=None,
             sp = SOURCES.get(src)
             reports.append({"source": src, "exists": True, "skipped": True,
                             "kept": 0, "history_rows": 0,
-                            "excluded_because": sp.excluded_because if sp else ""})
+                            "excluded_because": sp.excluded_because if sp else
+                            "unregistered source: present on disk but it has "
+                            "no SourceSpec, so nobody has reviewed it"})
             continue
         rows, rep = read_table(paths.get("hanoi", os.path.join(directory, f"{src}_hanoi.tsv")),
                                src, "hanoi")
@@ -977,6 +1025,19 @@ def load_all(directory=MULTI_DIR, include_flickr=True, sources=None,
 # like-for-like 2004-2014 merge can be rendered next to the all-time one, and
 # the all-time default is disclosed rather than assumed.
 YFCC_WINDOW = (datetime(2004, 1, 1), datetime(2015, 6, 1))
+
+
+def pin_voters(rows):
+    """The rows allowed to decide what is a shared place pin.
+
+    Site-level sources put many photographers on one geocoded landmark on
+    purpose. Letting those rows vote would make the pipeline read its own
+    placements as place-picker artefacts and strip lines from real camera
+    fixes that sit on the same spot (it cost one Flickr line before this).
+    One definition, because two builders call find_pins.
+    """
+    site = {k for k, sp in SOURCES.items() if sp.site_level}
+    return [r for r in rows if r.get("src") not in site]
 
 
 def filter_window(rows, window):

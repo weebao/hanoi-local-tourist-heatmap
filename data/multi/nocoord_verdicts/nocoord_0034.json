@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "91823146",
+  "verdict": "located",
+  "place": "Vườn thú Thủ Lệ (Hanoi Zoo), Hanoi",
+  "confidence": 0.6,
+  "evidence": "Sandy paddock with deer/goats under trees; zoo series",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "91823150",
+  "verdict": "located",
+  "place": "Vườn thú Thủ Lệ (Hanoi Zoo), Hanoi",
+  "confidence": 0.6,
+  "evidence": "Sandy paddock with deer/goats under trees; zoo series",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "94118433",
+  "verdict": "located",
+  "place": "Trường THPT chuyên Hà Nội - Amsterdam, Hoàng Minh Giám, Hanoi",
+  "confidence": 0.5,
+  "evidence": "Glass atrium entrance doors viewed from inside looking onto forecourt; modern school lobby",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "79684578",
+  "verdict": "located",
+  "place": "161A Phố Vọng, Hai Bà Trưng, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Shop sign 'Cường blue' reads address '161A Phố Vọng'",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "79684785",
+  "verdict": "located",
+  "place": "161A Phố Vọng, Hai Bà Trưng, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Shop sign 'Cường blue' reads 'ĐC: 161A Phố Vọng'",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "121403577",
+  "verdict": "located",
+  "place": "Bưu điện Hà Nội, 75 Đinh Tiên Hoàng, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Granite-pillared entrance with Vietnam Post emblem above glass doors",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "15378927",
+  "verdict": "located",
+  "place": "Ga Hà Nội (Hanoi Railway Station), Hanoi",
+  "confidence": 0.6,
+  "evidence": "D12E-643 diesel locomotive at station platform tracks at night",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "25701056",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "engraving, not a photograph"
+ },
+ {
+  "pageid": "94118945",
+  "verdict": "located",
+  "place": "Tòa nhà D5, Đại học Bách khoa Hà Nội, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Yellow gallery-corridor teaching block with BKACAD sign around garden courtyard",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "98522192",
+  "verdict": "located",
+  "place": "Tòa nhà D6-D8, Đại học Bách khoa Hà Nội, Hanoi",
+  "confidence": 0.45,
+  "evidence": "Paved campus plaza between tall teaching blocks with benches and students",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "16916105",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "unidentified institutional block, no signage legible"
+ },
+ {
+  "pageid": "66995233",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "animal close-up"
+ },
+ {
+  "pageid": "66995612",
+  "verdict": "located",
+  "place": "Hỏa Lò Prison, Hanoi",
+  "confidence": 0.95,
+  "evidence": "Yellow arched gate lettered 'MAISON CENTRALE' with Vietnamese flag",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "66995613",
+  "verdict": "located",
+  "place": "Hỏa Lò Prison, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Prison museum hall: barred arched windows, display cases and site model",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "66995618",
+  "verdict": "located",
+  "place": "Hỏa Lò Prison, Hanoi",
+  "confidence": 0.9,
+  "evidence": "Row of shackled prisoner mannequins on sleeping platform, signature Hỏa Lò exhibit",
+  "refusal_reason": ""
+ }
+]

@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "17173784",
+  "verdict": "located",
+  "place": "Đền Ngọc Sơn, Hanoi",
+  "confidence": 0.45,
+  "evidence": "Stitched strip of red-lacquer temple interior; identification rests mainly on title",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "24717020",
+  "verdict": "located",
+  "place": "Đền thờ An Dương Vương, Cổ Loa, Đông Anh, Hanoi",
+  "confidence": 0.8,
+  "evidence": "Distinctive mossy three-arch gate with tiered bell-tower top and stone steps, Cổ Loa temple",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "159348881",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "traffic light close-up, no identifiable site"
+ },
+ {
+  "pageid": "149668925",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "traffic light close-up, no identifiable site"
+ },
+ {
+  "pageid": "10049966",
+  "verdict": "located",
+  "place": "Đền thờ Ngô Quyền, Đường Lâm, Sơn Tây, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Laterite-walled courtyard with pillar gate and low tiled hall, Đường Lâm style",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "10049995",
+  "verdict": "located",
+  "place": "Đền thờ Phùng Hưng, Đường Lâm, Sơn Tây, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Walled courtyard with stone pillars, low tiled worship hall and flags",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "117925916",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "diplomatic photo on steps; building ambiguous between ministry and guest house"
+ },
+ {
+  "pageid": "193356437",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "historic street; 'rue des Tasses' location not resolvable to a present site with confidence"
+ },
+ {
+  "pageid": "193329050",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "historic street; 'rue des Tasses' location not resolvable to a present site with confidence"
+ },
+ {
+  "pageid": "109429472",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait, no location features (group)"
+ },
+ {
+  "pageid": "80522555",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "food/object close-up, no location features"
+ },
+ {
+  "pageid": "21703817",
+  "verdict": "located",
+  "place": "Embassy of Germany, 29 Trần Phú, Hanoi",
+  "confidence": 0.7,
+  "evidence": "French villa behind wall with German and EU flags at gate",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "89175108",
+  "verdict": "located",
+  "place": "Trường Đại học Sư phạm Hà Nội, 136 Xuân Thủy, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Main building with lettering 'TRƯỜNG ĐẠI HỌC SƯ PHẠM HÀ NỘI' above entrance",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "20477487",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/logo/artwork, not a locatable photo"
+ },
+ {
+  "pageid": "94168617",
+  "verdict": "located",
+  "place": "Trường Đại học Giao thông Vận tải, 3 Cầu Giấy, Hanoi",
+  "confidence": 0.55,
+  "evidence": "Multi-storey gallery teaching block with external stair and formal flower garden",
+  "refusal_reason": ""
+ }
+]

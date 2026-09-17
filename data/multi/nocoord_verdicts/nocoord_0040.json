@@ -1,0 +1,118 @@
+[
+ {
+  "pageid": "14619650",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "food/produce close-up, no identifying site feature"
+ },
+ {
+  "pageid": "2670892",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "food/produce close-up, no identifying site feature"
+ },
+ {
+  "pageid": "2821755",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "food/produce close-up, no identifying site feature"
+ },
+ {
+  "pageid": "31076015",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "dog-meat restaurant frontage; address text on sign not legible enough to geocode safely"
+ },
+ {
+  "pageid": "181286366",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "117767109",
+  "verdict": "located",
+  "place": "Hồ Đồng Quan, Sóc Sơn, Hanoi",
+  "confidence": 0.5,
+  "evidence": "Reservoir with low forested hills at dusk, matches Đồng Quan lake at Sóc Sơn foothills; shore vantage"
+ },
+ {
+  "pageid": "66631770",
+  "verdict": "located",
+  "place": "Đồng Xuân Market, Hoàn Kiếm, Hanoi",
+  "confidence": 0.95,
+  "evidence": "Unmistakable triple-arched facade with \"Chợ Đồng Xuân\" lettering, seen from forecourt street"
+ },
+ {
+  "pageid": "3002124",
+  "verdict": "located",
+  "place": "Đồng Xuân Market, Hoàn Kiếm, Hanoi",
+  "confidence": 0.95,
+  "evidence": "Arched facade with \"Chợ Đồng Xuân\" lettering and the forecourt memorial relief"
+ },
+ {
+  "pageid": "15067751",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait, no location content"
+ },
+ {
+  "pageid": "116405927",
+  "verdict": "located",
+  "place": "Hồ Đồng Quan, Sóc Sơn, Hanoi",
+  "confidence": 0.5,
+  "evidence": "Rocky reservoir shore with same hill skyline as companion image; sunset over lake"
+ },
+ {
+  "pageid": "120120554",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait, no location content"
+ },
+ {
+  "pageid": "120120502",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait, no location content"
+ },
+ {
+  "pageid": "132158701",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait, no location content"
+ },
+ {
+  "pageid": "63502436",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "close-up of seated man in doorway, no site feature"
+ },
+ {
+  "pageid": "63502438",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "generic Old-Quarter-style street/market scene; no legible street sign or landmark; title place unverifiable"
+ }
+]

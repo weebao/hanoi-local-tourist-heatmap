@@ -1,0 +1,119 @@
+[
+ {
+  "pageid": "63502454",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "food/produce close-up, no identifying site feature"
+ },
+ {
+  "pageid": "63502455",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "food/produce close-up, no identifying site feature"
+ },
+ {
+  "pageid": "63502458",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "generic Old-Quarter-style street/market scene; no legible street sign or landmark; title place unverifiable"
+ },
+ {
+  "pageid": "63502457",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "generic Old-Quarter-style street/market scene; no legible street sign or landmark; title place unverifiable"
+ },
+ {
+  "pageid": "63502459",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "generic Old-Quarter-style street/market scene; no legible street sign or landmark; title place unverifiable"
+ },
+ {
+  "pageid": "63502460",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "generic Old-Quarter-style street/market scene; no legible street sign or landmark; title place unverifiable"
+ },
+ {
+  "pageid": "63502461",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "generic Old-Quarter-style street/market scene; no legible street sign or landmark; title place unverifiable"
+ },
+ {
+  "pageid": "63502462",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "generic Old-Quarter-style street/market scene; no legible street sign or landmark; title place unverifiable"
+ },
+ {
+  "pageid": "16968851",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "military parade on a wide street; shop signs illegible, street cannot be confirmed from pixels"
+ },
+ {
+  "pageid": "132280928",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait, no location content"
+ },
+ {
+  "pageid": "132441241",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait, no location content"
+ },
+ {
+  "pageid": "132198936",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait, no location content"
+ },
+ {
+  "pageid": "185834979",
+  "verdict": "located",
+  "place": "Làng Trung Kính Hạ, Yên Hòa, Cầu Giấy, Hanoi",
+  "confidence": 0.5,
+  "evidence": "Narrow village alley at night hung with party/national flags and lanterns; consistent with titled village lane"
+ },
+ {
+  "pageid": "49308783",
+  "verdict": "located",
+  "place": "Đình Dương Đanh, Dương Xá, Gia Lâm, Hanoi",
+  "confidence": 0.65,
+  "evidence": "Four-pillar ceremonial gate (nghi môn) before a low communal hall across a brick yard"
+ },
+ {
+  "pageid": "62228129",
+  "verdict": "located",
+  "place": "Đình Dương Đanh, Dương Xá, Gia Lâm, Hanoi",
+  "confidence": 0.65,
+  "evidence": "Yellow-walled communal hall with curved tiled roof and paved yard, same compound as companion"
+ }
+]

@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "124560174",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/logo/artwork, not a locatable photo"
+ },
+ {
+  "pageid": "124560172",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "shop interior; exact building within Vinhomes Smart City unknown"
+ },
+ {
+  "pageid": "124560170",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "shop interior; exact building within Vinhomes Smart City unknown"
+ },
+ {
+  "pageid": "124560169",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "shop interior; exact building within Vinhomes Smart City unknown"
+ },
+ {
+  "pageid": "124560168",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "shop opening crowd; exact building within large estate unknown"
+ },
+ {
+  "pageid": "57348608",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "tree blossom close-up"
+ },
+ {
+  "pageid": "57348558",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "tree blossom close-up"
+ },
+ {
+  "pageid": "100853457",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "taken outside Hanoi (Suối Vàng dam, Đà Lạt)"
+ },
+ {
+  "pageid": "107865783",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait, no location features"
+ },
+ {
+  "pageid": "9413105",
+  "verdict": "located",
+  "place": "Nhà hát Lớn Hà Nội (Hanoi Opera House), Hanoi",
+  "confidence": 0.5,
+  "evidence": "Orchestra and choir on proscenium stage with ornate classical boxes at sides",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "9413110",
+  "verdict": "located",
+  "place": "Nhà hát Lớn Hà Nội (Hanoi Opera House), Hanoi",
+  "confidence": 0.6,
+  "evidence": "Orchestra seen from above with tiered horseshoe balconies and gilded classical decor",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "103769645",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/logo/artwork, not a locatable photo"
+ },
+ {
+  "pageid": "93936212",
+  "verdict": "located",
+  "place": "Hỏa Lò Prison, Hanoi",
+  "confidence": 0.45,
+  "evidence": "Brass memorial plaque listing names in dim exhibit room; consistent with Hỏa Lò memorial",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "48486836",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/logo/artwork, not a locatable photo"
+ },
+ {
+  "pageid": "30156029",
+  "verdict": "located",
+  "place": "Embassy of Denmark, 19 Điện Biên Phủ, Hanoi",
+  "confidence": 0.6,
+  "evidence": "White French colonial mansion behind trees and wall on tree-lined boulevard",
+  "refusal_reason": ""
+ }
+]

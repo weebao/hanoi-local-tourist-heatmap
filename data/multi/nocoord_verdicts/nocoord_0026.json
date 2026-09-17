@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "125116260",
+  "verdict": "located",
+  "place": "Chùa Non Nước, Sóc Sơn, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Large timber hall behind tall stone pillar gate on terraced platform, forested hill",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "93121965",
+  "verdict": "located",
+  "place": "Chùa Pháp Vân, Văn Bình, Thường Tín, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Ornate village pagoda triple gate at end of lane with pond wall",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "93121971",
+  "verdict": "located",
+  "place": "Chùa Pháp Vân, Văn Bình, Thường Tín, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Long timber pagoda hall with curved roof and brick court",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "93122001",
+  "verdict": "located",
+  "place": "Chùa Pháp Vân, Văn Bình, Thường Tín, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Pagoda forecourt with Quan Âm statue and gate pillars",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "91233445",
+  "verdict": "located",
+  "place": "Chùa Pháp Vân, Văn Bình, Thường Tín, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Blue-and-white ceramic-inlaid triple gate with Chinese name board",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "10899600",
+  "verdict": "located",
+  "place": "Chùa Quang Hoa, Phố Trần Nhân Tông, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Two adjoining pagoda gates in yellow wall along wide street under large trees",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "17788164",
+  "verdict": "located",
+  "place": "Chùa Sải, Võng Thị, Tây Hồ, Hanoi",
+  "confidence": 0.4,
+  "evidence": "Pagoda triple gate with banners beside old banyan; identity from title only",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "48607124",
+  "verdict": "located",
+  "place": "Chùa Trấn Quốc, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Illuminated red multi-tier stupa reflected in West Lake at night",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "93122030",
+  "verdict": "located",
+  "place": "Chùa Yên Phú, Liên Ninh, Thanh Trì, Hanoi",
+  "confidence": 0.55,
+  "evidence": "Pagoda roofs with Buddhist flags behind painted perimeter wall",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "93121869",
+  "verdict": "located",
+  "place": "Chùa Đinh Xá, Văn Tự, Thường Tín, Hanoi",
+  "confidence": 0.55,
+  "evidence": "Long dark timber hall with tall end pillars in open ground",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "93121884",
+  "verdict": "located",
+  "place": "Chùa Đinh Xá, Văn Tự, Thường Tín, Hanoi",
+  "confidence": 0.55,
+  "evidence": "Same timber hall and pillar across sandy ground",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "95460945",
+  "verdict": "located",
+  "place": "Chùa Tứ Liên, Tây Hồ, Hanoi",
+  "confidence": 0.5,
+  "evidence": "Yellow pagoda compound with steps and red banner; named by title",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "32657814",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/artwork/object reproduction, not a place photo"
+ },
+ {
+  "pageid": "49437310",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/artwork/object reproduction, not a place photo"
+ },
+ {
+  "pageid": "124244403",
+  "verdict": "located",
+  "place": "Chợ Đồng Xuân, Hanoi",
+  "confidence": 0.9,
+  "evidence": "Market facade with CHỢ ĐỒNG XUÂN lettering and arches, daytime",
+  "refusal_reason": ""
+ }
+]

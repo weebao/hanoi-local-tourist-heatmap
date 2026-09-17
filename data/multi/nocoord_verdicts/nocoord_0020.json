@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "121403575",
+  "verdict": "located",
+  "place": "Bưu điện Hà Nội, 75 Đinh Tiên Hoàng, Hanoi",
+  "confidence": 0.7,
+  "evidence": "Post office frontage with VNPost mailbox, lakeside trees across Đinh Tiên Hoàng",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "121403573",
+  "verdict": "located",
+  "place": "Bưu điện Hà Nội, 75 Đinh Tiên Hoàng, Hanoi",
+  "confidence": 0.75,
+  "evidence": "White post office block with clock tower at right, Hòa Phong tower under lakeside trees at left",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "121400079",
+  "verdict": "located",
+  "place": "Bưu điện Hà Nội, 75 Đinh Tiên Hoàng, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Colonial-era rotunda post office building on street corner, rickshaw and pedestrians",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "52047888",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait or people shot with no identifiable place"
+ },
+ {
+  "pageid": "125667414",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "map/plan/satellite graphic, no camera position"
+ },
+ {
+  "pageid": "117957778",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "map/plan/satellite graphic, no camera position"
+ },
+ {
+  "pageid": "127860130",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "map/plan/satellite graphic, no camera position"
+ },
+ {
+  "pageid": "117957777",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "map/plan/satellite graphic, no camera position"
+ },
+ {
+  "pageid": "117957772",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "map/plan/satellite graphic, no camera position"
+ },
+ {
+  "pageid": "52113974",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "map/plan/satellite graphic, no camera position"
+ },
+ {
+  "pageid": "52077417",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "map/plan/satellite graphic, no camera position"
+ },
+ {
+  "pageid": "125666145",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "map/plan/satellite graphic, no camera position"
+ },
+ {
+  "pageid": "162824966",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "map/plan/satellite graphic, no camera position"
+ },
+ {
+  "pageid": "162824900",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "map/plan/satellite graphic, no camera position"
+ },
+ {
+  "pageid": "162824670",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "map/plan/satellite graphic, no camera position"
+ }
+]

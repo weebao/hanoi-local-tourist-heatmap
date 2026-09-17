@@ -1,0 +1,118 @@
+[
+ {
+  "pageid": "2990098",
+  "verdict": "located",
+  "place": "Hanoi Flag Tower (Cột cờ Hà Nội), Điện Biên Phủ, Hanoi",
+  "confidence": 0.95,
+  "evidence": "Flag Tower on its tiered brick base, close view from the grounds"
+ },
+ {
+  "pageid": "67249569",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "flower shop frontage; sign gives no legible address"
+ },
+ {
+  "pageid": "64218461",
+  "verdict": "located",
+  "place": "Hỏa Lò Prison, Hoàn Kiếm, Hanoi",
+  "confidence": 0.75,
+  "evidence": "Glass case with US pilot flight suit, helmet and parachute: the McCain exhibit inside Hỏa Lò museum"
+ },
+ {
+  "pageid": "106215033",
+  "verdict": "located",
+  "place": "Hỏa Lò Prison, Hoàn Kiếm, Hanoi",
+  "confidence": 0.75,
+  "evidence": "Exhibit caption legibly naming John McCain and Trúc Bạch lake beside flight helmet in case"
+ },
+ {
+  "pageid": "187855658",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "taken at Xiengkhouang, Laos"
+ },
+ {
+  "pageid": "187855682",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "taken at Xiengkhouang, Laos"
+ },
+ {
+  "pageid": "188162335",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "taken at Xiengkhouang, Laos"
+ },
+ {
+  "pageid": "188162366",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "taken at Xiengkhouang, Laos"
+ },
+ {
+  "pageid": "39696076",
+  "verdict": "located",
+  "place": "Hanoi Botanical Garden (Vườn Bách Thảo), Ba Đình, Hanoi",
+  "confidence": 0.5,
+  "evidence": "Flower-decorated cylinders under tall park trees; consistent with garden, no unique feature"
+ },
+ {
+  "pageid": "46646731",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "indoor group portrait"
+ },
+ {
+  "pageid": "10380623",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "architectural drawing, not a photograph"
+ },
+ {
+  "pageid": "113103056",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "food/produce close-up, no identifying site feature"
+ },
+ {
+  "pageid": "113103058",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "indoor dried-goods stall; market not identifiable"
+ },
+ {
+  "pageid": "113103062",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "indoor dried-goods stall; market not identifiable"
+ },
+ {
+  "pageid": "113103068",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "indoor dried-goods stall; market not identifiable"
+ }
+]

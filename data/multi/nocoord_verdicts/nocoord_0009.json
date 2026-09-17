@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "80522490",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "facade detail, street unknown"
+ },
+ {
+  "pageid": "80522493",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "gate and facade detail, site unknown"
+ },
+ {
+  "pageid": "80522533",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "facade detail, street unknown"
+ },
+ {
+  "pageid": "80522540",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "villa detail, site unknown"
+ },
+ {
+  "pageid": "80522550",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "wall and trees, site unknown"
+ },
+ {
+  "pageid": "108169364",
+  "verdict": "located",
+  "place": "Cột cờ Hà Nội (Hanoi Flag Tower), Điện Biên Phủ Street, Hanoi",
+  "confidence": 0.95,
+  "evidence": "Hexagonal brick Flag Tower with red flag on stepped base",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "112835863",
+  "verdict": "located",
+  "place": "Cột cờ Hà Nội (Hanoi Flag Tower), Điện Biên Phủ Street, Hanoi",
+  "confidence": 0.95,
+  "evidence": "Close view of Flag Tower top with national flag",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "112835868",
+  "verdict": "located",
+  "place": "Cột cờ Hà Nội (Hanoi Flag Tower), Điện Biên Phủ Street, Hanoi",
+  "confidence": 0.95,
+  "evidence": "Flag Tower on three-tier brick base",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "64064210",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "airport tarmac arrival ceremony; Nov 2017 APEC arrival was Da Nang, mountains in background, not Hanoi"
+ },
+ {
+  "pageid": "64064216",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "airport tarmac arrival ceremony; Nov 2017 APEC arrival was Da Nang, mountains in background, not Hanoi"
+ },
+ {
+  "pageid": "64064217",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "airport tarmac arrival ceremony; Nov 2017 APEC arrival was Da Nang, mountains in background, not Hanoi"
+ },
+ {
+  "pageid": "64064222",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "airport tarmac arrival ceremony; Nov 2017 APEC arrival was Da Nang, mountains in background, not Hanoi"
+ },
+ {
+  "pageid": "64064201",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "airport tarmac arrival ceremony; Nov 2017 APEC arrival was Da Nang, mountains in background, not Hanoi"
+ },
+ {
+  "pageid": "64064229",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "airport tarmac arrival ceremony; Nov 2017 APEC arrival was Da Nang, mountains in background, not Hanoi"
+ },
+ {
+  "pageid": "64064221",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "airport tarmac arrival ceremony; Nov 2017 APEC arrival was Da Nang, mountains in background, not Hanoi"
+ }
+]

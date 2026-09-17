@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "30156030",
+  "verdict": "located",
+  "place": "Embassy of Denmark, 19 Điện Biên Phủ, Hanoi",
+  "confidence": 0.6,
+  "evidence": "White colonial mansion behind iron gate and fence, flag on pole",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "193317686",
+  "verdict": "located",
+  "place": "Nhà hát Lớn Hà Nội (Hanoi Opera House), Hanoi",
+  "confidence": 0.9,
+  "evidence": "Autochrome of Opera House side with slate domes, columns and rickshaw on square",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "113561726",
+  "verdict": "located",
+  "place": "Ngã tư Đào Duy Từ – Mã Mây, Hoàn Kiếm, Hanoi",
+  "confidence": 0.55,
+  "evidence": "Hat-and-clothes vendor bicycle at Old Quarter corner with cafe signage; matches titled junction",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "100210482",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/logo/artwork, not a locatable photo"
+ },
+ {
+  "pageid": "44706375",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait, no location features"
+ },
+ {
+  "pageid": "186873899",
+  "verdict": "located",
+  "place": "Ngã tư Mạc Thái Tổ – Trung Kính – Vũ Phạm Hàm, Cầu Giấy, Hanoi",
+  "confidence": 0.5,
+  "evidence": "Large junction with traffic lights, vacant lot, mid-rise offices and Yên Hòa-style towers",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "186873907",
+  "verdict": "located",
+  "place": "Ngã tư Mạc Thái Tổ – Trung Kính – Vũ Phạm Hàm, Cầu Giấy, Hanoi",
+  "confidence": 0.5,
+  "evidence": "Same junction: construction hoarding, project signboard, residential towers",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "100922477",
+  "verdict": "located",
+  "place": "Phố Cửa Đông (former East Gate of Hanoi Citadel), Hanoi",
+  "confidence": 0.45,
+  "evidence": "Citadel gate with watch pavilion over arched tunnel and Decauville rails across moat bridge",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "20688770",
+  "verdict": "located",
+  "place": "Đại học Quốc gia Hà Nội, 144 Xuân Thủy, Hanoi",
+  "confidence": 0.55,
+  "evidence": "Auditorium aisle with military cadets; same event series whose banner names Vietnam National University, Hanoi",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "20688765",
+  "verdict": "located",
+  "place": "Đại học Quốc gia Hà Nội, 144 Xuân Thủy, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Backdrop reads 'Welcome ... to Vietnam National University, Hanoi' with VNU logo",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "21344802",
+  "verdict": "located",
+  "place": "Đại học Quốc gia Hà Nội, 144 Xuân Thủy, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Auditorium stage with VNU logo backdrop, same event",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "21344793",
+  "verdict": "located",
+  "place": "Đại học Quốc gia Hà Nội, 144 Xuân Thủy, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Backdrop text 'Vietnam National University, Hanoi, October 11, 2010'",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "21344806",
+  "verdict": "located",
+  "place": "Đại học Quốc gia Hà Nội, 144 Xuân Thủy, Hanoi",
+  "confidence": 0.55,
+  "evidence": "Same auditorium aisle, same event",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "30049490",
+  "verdict": "located",
+  "place": "Đền Bà Kiệu, 59 Đinh Tiên Hoàng, Hanoi",
+  "confidence": 0.8,
+  "evidence": "Low tiled temple hall directly on busy lakeside street under large trees, matches Bà Kiệu opposite Ngọc Sơn",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "16922983",
+  "verdict": "located",
+  "place": "Đền Bạch Mã, 76 Hàng Buồm, Hanoi",
+  "confidence": 0.75,
+  "evidence": "Yellow-walled temple with tiled roof, red fence and blue heritage sign on Old Quarter street",
+  "refusal_reason": ""
+ }
+]

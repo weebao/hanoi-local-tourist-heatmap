@@ -1,0 +1,115 @@
+[
+ {
+  "pageid": "185647542",
+  "verdict": "located",
+  "place": "Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Red salvia flower bed with clipped hedge swirl in palm-planted park"
+ },
+ {
+  "pageid": "185647544",
+  "verdict": "located",
+  "place": "Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Red salvia flower bed with clipped hedge swirl in palm-planted park"
+ },
+ {
+  "pageid": "185652975",
+  "verdict": "located",
+  "place": "Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Park lawn, benches and palms, surrounding buildings"
+ },
+ {
+  "pageid": "10730787",
+  "verdict": "located",
+  "place": "Đông Kinh Nghĩa Thục Square, Hoàn Kiếm, Hanoi",
+  "confidence": 0.75,
+  "evidence": "Elevated night view of the fountain roundabout and lit arcaded corner block north of Hoàn Kiếm Lake"
+ },
+ {
+  "pageid": "30617128",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "food/produce close-up, no identifying site feature"
+ },
+ {
+  "pageid": "74669790",
+  "verdict": "located",
+  "place": "Cung Văn hóa Hữu nghị Việt Xô (site of the 1902 Grand Palais d'Exposition), 91 Trần Hưng Đạo, Hanoi",
+  "confidence": 0.7,
+  "evidence": "Domed Grand Palais of the 1902 Hanoi Exposition, caption printed on postcard; site is now the Friendship Cultural Palace"
+ },
+ {
+  "pageid": "107169508",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "122878713",
+  "verdict": "located",
+  "place": "Phùng Khoang Station, Cát Linh–Hà Đông Line, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Night long exposure from above of elevated metro station and viaduct over a wide arterial road"
+ },
+ {
+  "pageid": "55301395",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "26364411",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "beer tap close-up, no site feature"
+ },
+ {
+  "pageid": "10220166",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "rooftop with antenna over hazy skyline; building not identifiable"
+ },
+ {
+  "pageid": "140619272",
+  "verdict": "located",
+  "place": "Đoan Môn, Imperial Citadel of Thăng Long, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Yellow gate pavilion on brick rampart looking south over lawn to the Flag Tower on axis"
+ },
+ {
+  "pageid": "141816036",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "historic family portrait"
+ },
+ {
+  "pageid": "131726031",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "historic family portrait"
+ },
+ {
+  "pageid": "140714868",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "historic family portrait"
+ }
+]

@@ -24,7 +24,7 @@ from collections import Counter
 import requests
 
 MULTI = "data/multi"
-UA = "hanoi-locals-tourists/1.0 (contact: baochidangg@gmail.com)"
+UA = "hanoi-locals-tourists/1.0 (+https://github.com/weebao/local-tourist-heatmap)"
 PER_USER_CAP = 2000
 
 
@@ -189,6 +189,13 @@ SPECS = {
     "commons": dict(hanoi="commons_hanoi.tsv", out="commons_history.tsv",
                     cols=["user"], fn=commons_history, pause=0.15,
                     max_pages=6),
+    # Commons files placed by vision/title rather than by a camera coordinate
+    # (lat/build_placed.py). Same identity system, so an uploader whose history
+    # the main commons pass already fetched is not fetched again.
+    "commonsplaced": dict(hanoi="commonsplaced_hanoi.tsv",
+                          out="commonsplaced_uploaders_raw.tsv", cols=["user"],
+                          fn=commons_history, pause=0.15, max_pages=6,
+                          also_done=["commons_history.tsv"]),
     "inat": dict(hanoi="inat_hanoi.tsv", out="inat_history.tsv",
                  cols=["user"], fn=inat_history, pause=1.05,
                  max_pages=2),
@@ -201,6 +208,8 @@ def main(source, limit=None, max_pages=None, workers=1, pause=None):
     outp = os.path.join(MULTI, spec["out"])
     counts = Counter(_read_col(hanoi, spec["cols"]))
     already = done_users(outp)
+    for other in spec.get("also_done", []):
+        already |= done_users(os.path.join(MULTI, other))
     # Busiest photographers first: they carry the most points, so a run cut
     # short still covers the users who matter most to the picture.
     todo = [u for u, _ in counts.most_common() if u not in already]

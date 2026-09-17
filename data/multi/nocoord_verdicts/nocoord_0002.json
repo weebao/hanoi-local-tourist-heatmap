@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "162065797",
+  "verdict": "located",
+  "place": "Tháp Hòa Phong (site of Báo Ân Pagoda), Đinh Tiên Hoàng, Hoàn Kiếm, Hanoi",
+  "confidence": 0.55,
+  "evidence": "Postcard captioned Pagode des Supplices - Hanoi (Báo Ân pagoda): tiered tower and gate pillars",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "162065804",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "postcard back, no image"
+ },
+ {
+  "pageid": "194031230",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait/people only, no identifiable place in pixels"
+ },
+ {
+  "pageid": "99389646",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait/people only, no identifiable place in pixels"
+ },
+ {
+  "pageid": "133061924",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "15864096",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "1954 troops marching on tree-lined street; street not identifiable"
+ },
+ {
+  "pageid": "113138365",
+  "verdict": "located",
+  "place": "Nhà sàn Bác Hồ (Ho Chi Minh's Stilt House), Presidential Palace complex, Hanoi",
+  "confidence": 0.8,
+  "evidence": "Pond edged with bald-cypress knees and willows, as at the stilt-house fish pond",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "113138376",
+  "verdict": "located",
+  "place": "Nhà sàn Bác Hồ (Ho Chi Minh's Stilt House), Presidential Palace complex, Hanoi",
+  "confidence": 0.55,
+  "evidence": "Pomelo orchard on lawn; same-series as pond shots, no unique feature itself",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "113138383",
+  "verdict": "located",
+  "place": "Nhà sàn Bác Hồ (Ho Chi Minh's Stilt House), Presidential Palace complex, Hanoi",
+  "confidence": 0.8,
+  "evidence": "Distinctive cypress knees rising from pond edge",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "113138398",
+  "verdict": "located",
+  "place": "Nhà sàn Bác Hồ (Ho Chi Minh's Stilt House), Presidential Palace complex, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Cypress knees foreground, pond, ochre house and railing on far bank",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "113138413",
+  "verdict": "located",
+  "place": "Nhà sàn Bác Hồ (Ho Chi Minh's Stilt House), Presidential Palace complex, Hanoi",
+  "confidence": 0.55,
+  "evidence": "Pomelo tree on lawn; same series as the pond shots",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "113138421",
+  "verdict": "located",
+  "place": "Nhà sàn Bác Hồ (Ho Chi Minh's Stilt House), Presidential Palace complex, Hanoi",
+  "confidence": 0.75,
+  "evidence": "Large rain-dimpled pond with wooden pavilion among trees on far bank",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "156293904",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "124235190",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait/people only, no identifiable place in pixels"
+ },
+ {
+  "pageid": "31409444",
+  "verdict": "located",
+  "place": "Ho Chi Minh Mausoleum, Ba Đình Square, Hanoi",
+  "confidence": 0.95,
+  "evidence": "Grey granite colonnaded mausoleum inscribed CHỦ TỊCH HỒ-CHÍ-MINH",
+  "refusal_reason": ""
+ }
+]

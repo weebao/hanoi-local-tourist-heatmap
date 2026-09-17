@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "69113805",
+  "verdict": "located",
+  "place": "Công ty Rạng Đông, 87-89 Hạ Đình, Thanh Xuân, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Factory gate with red 'Rạng Đông' lettering and emblem, guardhouse and yellow office block",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "113103881",
+  "verdict": "located",
+  "place": "Công viên Cầu Giấy, Hanoi",
+  "confidence": 0.5,
+  "evidence": "Elevated view from adjacent building over wooded park, Cầu Giấy high-rise skyline behind",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "113104264",
+  "verdict": "located",
+  "place": "Công viên Cầu Giấy, Hanoi",
+  "confidence": 0.55,
+  "evidence": "Elevated view from adjacent building over park lake with curved island; Cầu Giấy towers behind",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "113104265",
+  "verdict": "located",
+  "place": "Công viên Cầu Giấy, Hanoi",
+  "confidence": 0.55,
+  "evidence": "Elevated view from adjacent building over park lake with curved island; Cầu Giấy towers behind",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "113103882",
+  "verdict": "located",
+  "place": "Công viên Cầu Giấy, Hanoi",
+  "confidence": 0.5,
+  "evidence": "Elevated view from adjacent building over wooded park, Cầu Giấy high-rise skyline behind",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "193232016",
+  "verdict": "located",
+  "place": "Hồ Đền Lừ, Hoàng Mai, Hanoi",
+  "confidence": 0.5,
+  "evidence": "Night lakeshore path with lamp, person sitting by water, apartment towers across lake",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "103520541",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait, no location features (TV studio)"
+ },
+ {
+  "pageid": "94556819",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "BKACAD sign visible but campus address not determinable"
+ },
+ {
+  "pageid": "69523977",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "promotional render/collage, not a photo vantage"
+ },
+ {
+  "pageid": "50113377",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "taken outside Hanoi (HaUI campus C is in Hà Nam)"
+ },
+ {
+  "pageid": "12884959",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "parade close-up, trees only, no identifying feature"
+ },
+ {
+  "pageid": "125666470",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "engraving, not a photograph"
+ },
+ {
+  "pageid": "2070815",
+  "verdict": "located",
+  "place": "Hôtel du Parc Hanoi (former Hotel Nikko), 84 Trần Nhân Tông, Hanoi",
+  "confidence": 0.5,
+  "evidence": "High vantage directly over striped circus big-top at north edge of Thống Nhất Park, lake beyond",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "94507691",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "welcome arch on unidentified road, district-level only"
+ },
+ {
+  "pageid": "121403578",
+  "verdict": "located",
+  "place": "Bưu điện Hà Nội, 75 Đinh Tiên Hoàng, Hanoi",
+  "confidence": 0.55,
+  "evidence": "Iron gate in side lane between cream colonial-style post buildings, VNPT-style blue sign",
+  "refusal_reason": ""
+ }
+]

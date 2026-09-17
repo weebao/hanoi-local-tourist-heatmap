@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "94058343",
+  "verdict": "located",
+  "place": "Sân vận động Quốc gia Mỹ Đình, Hanoi",
+  "confidence": 0.8,
+  "evidence": "Large stadium with arched roof and floodlight masts across wide plaza, matches My Dinh main gate side",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "67251229",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "food/object close-up, no location features"
+ },
+ {
+  "pageid": "67251230",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "food/object close-up, no location features"
+ },
+ {
+  "pageid": "67251231",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "food/object close-up, no location features"
+ },
+ {
+  "pageid": "188045130",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "taken outside Hanoi (Blao tea station, Annam)"
+ },
+ {
+  "pageid": "188045155",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "taken outside Hanoi (Blao tea station, Annam)"
+ },
+ {
+  "pageid": "3101941",
+  "verdict": "located",
+  "place": "Cung Văn hóa Hữu nghị Việt-Xô, Hanoi",
+  "confidence": 0.8,
+  "evidence": "Long colonnaded Soviet-style palace facade with red banner, flags and roundabout garden in front",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "141466115",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait, no location features"
+ },
+ {
+  "pageid": "141466054",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait, no location features"
+ },
+ {
+  "pageid": "77846406",
+  "verdict": "located",
+  "place": "Phố Lê Ngọc Hân, Hai Bà Trưng, Hanoi",
+  "confidence": 0.5,
+  "evidence": "Street end with zebra crossing, banyan aerial roots, shophouses; consistent with titled street end",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "50114157",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "generic interior/event, no identifying feature"
+ },
+ {
+  "pageid": "30643815",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "shopfront with no readable address/street"
+ },
+ {
+  "pageid": "91823115",
+  "verdict": "located",
+  "place": "Vườn thú Thủ Lệ (Hanoi Zoo), Hanoi",
+  "confidence": 0.8,
+  "evidence": "Information board with 'HANOI ZOO' logo for Siamese crocodile",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "91823117",
+  "verdict": "located",
+  "place": "Vườn thú Thủ Lệ (Hanoi Zoo), Hanoi",
+  "confidence": 0.65,
+  "evidence": "Crocodiles in concrete pond enclosure behind mesh fence, same series as zoo sign",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "91823122",
+  "verdict": "located",
+  "place": "Vườn thú Thủ Lệ (Hanoi Zoo), Hanoi",
+  "confidence": 0.65,
+  "evidence": "Crocodiles in concrete pond enclosure behind mesh fence, same series as zoo sign",
+  "refusal_reason": ""
+ }
+]

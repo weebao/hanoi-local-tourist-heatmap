@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "52301295",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "generic mall interior; which AEON mall not determinable"
+ },
+ {
+  "pageid": "8332018",
+  "verdict": "located",
+  "place": "Mỹ Đình National Stadium, Nam Từ Liêm, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Stadium bowl with arched truss roof and running track during 2009 Asian Indoor Games opening",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "80634653",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "80634655",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "132034604",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Huế 1924 per title"
+ },
+ {
+  "pageid": "120459258",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Hong Kong 1947 per title"
+ },
+ {
+  "pageid": "150302909",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "1902 group portrait, no place cue"
+ },
+ {
+  "pageid": "26364428",
+  "verdict": "located",
+  "place": "Cột cờ Hà Nội (Hanoi Flag Tower), Điện Biên Phủ Street, Hanoi",
+  "confidence": 0.95,
+  "evidence": "Hexagonal brick Flag Tower on stepped base seen over aircraft wreckage in old army museum yard",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "26363942",
+  "verdict": "located",
+  "place": "Cột cờ Hà Nội (Hanoi Flag Tower), Điện Biên Phủ Street, Hanoi",
+  "confidence": 0.95,
+  "evidence": "Flag Tower above aircraft wreckage display of the old military museum",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "187973850",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "botanical close-up, Blao (Annam)"
+ },
+ {
+  "pageid": "187973873",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "botanical close-up, Blao (Annam)"
+ },
+ {
+  "pageid": "198785736",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "125304557",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "197304828",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "studio portrait"
+ },
+ {
+  "pageid": "197304838",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait with Christmas backdrop"
+ }
+]

@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "113103365",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "caged animal close-up; market not identified"
+ },
+ {
+  "pageid": "113103374",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "caged animal close-up; market not identified"
+ },
+ {
+  "pageid": "113103380",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "caged fish close-up"
+ },
+ {
+  "pageid": "113103361",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "caged birds close-up"
+ },
+ {
+  "pageid": "124696239",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait/people only, no identifiable place in pixels"
+ },
+ {
+  "pageid": "32943138",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait/people only, no identifiable place in pixels"
+ },
+ {
+  "pageid": "25736763",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait/people only, no identifiable place in pixels"
+ },
+ {
+  "pageid": "66631772",
+  "verdict": "located",
+  "place": "Đồng Xuân Market, Hoàn Kiếm, Hanoi",
+  "confidence": 0.95,
+  "evidence": "Distinctive triple-gabled colonial facade of Đồng Xuân Market with motorbike parking",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "62737613",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "banner on pole; only district known"
+ },
+ {
+  "pageid": "62737615",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "banner on wall; only district known"
+ },
+ {
+  "pageid": "179005860",
+  "verdict": "located",
+  "place": "Laika Cafe, phố Thâm Tâm, Cầu Giấy, Hanoi",
+  "confidence": 0.75,
+  "evidence": "Corner cafe with LAIKA Cafe sign, matches title street",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "80522450",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "facade detail, street unknown"
+ },
+ {
+  "pageid": "80522455",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "facade detail, street unknown"
+ },
+ {
+  "pageid": "80522466",
+  "verdict": "located",
+  "place": "Đình Thuận Mỹ, Hàng Quạt, Hoàn Kiếm, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Temple gate with characters 順美祠 (Thuận Mỹ từ) over round red door",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "80522488",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "facade detail, street unknown"
+ }
+]

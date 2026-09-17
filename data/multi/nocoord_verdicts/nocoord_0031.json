@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "91823126",
+  "verdict": "located",
+  "place": "Vườn thú Thủ Lệ (Hanoi Zoo), Hanoi",
+  "confidence": 0.6,
+  "evidence": "Crocodiles seen through chain-link fence, same zoo series",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "77833201",
+  "verdict": "located",
+  "place": "Ngã ba Kim Mã – Vạn Bảo, Ba Đình, Hanoi",
+  "confidence": 0.5,
+  "evidence": "Wide road with median fence, low stone wall and tree row with park behind; consistent with Kim Mã at Vạn Bảo",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "119578775",
+  "verdict": "located",
+  "place": "Đền Quán Thánh, Hanoi",
+  "confidence": 0.7,
+  "evidence": "Four-pillar temple gate atop stone steps rising from shore, matches Quán Thánh gate in 1890s",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "125485421",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "taken outside Hanoi (Hong Kong)"
+ },
+ {
+  "pageid": "120457870",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "taken outside Hanoi (Hong Kong)"
+ },
+ {
+  "pageid": "165838014",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "taken outside Hanoi (Shanghai)"
+ },
+ {
+  "pageid": "125656932",
+  "verdict": "located",
+  "place": "Hồ Hoàn Kiếm (lakeside promenade), Hanoi",
+  "confidence": 0.55,
+  "evidence": "Postcard captioned 'Hanoi - Sur le bord du Petit Lac'; awning drink stalls along tree-lined lakeshore path",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "125206202",
+  "verdict": "located",
+  "place": "Tháp Hòa Phong, Hồ Hoàn Kiếm, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Multi-tier brick tower gate of Báo Ân pagoda; surviving Hòa Phong tower on Hoàn Kiếm east shore",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "130927238",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/logo/artwork, not a locatable photo"
+ },
+ {
+  "pageid": "130927236",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/logo/artwork, not a locatable photo"
+ },
+ {
+  "pageid": "130927237",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/logo/artwork, not a locatable photo"
+ },
+ {
+  "pageid": "198120389",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/logo/artwork, not a locatable photo"
+ },
+ {
+  "pageid": "197867348",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "software screenshot"
+ },
+ {
+  "pageid": "64287077",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait, no location features"
+ },
+ {
+  "pageid": "12884973",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "parade close-up, no background features"
+ }
+]

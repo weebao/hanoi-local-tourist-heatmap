@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "30617595",
+  "verdict": "located",
+  "place": "Thăng Long Water Puppet Theatre, 57B Đinh Tiên Hoàng, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Framed Asia Book of Records certificate naming Thang Long Water Puppet Theatre; displayed in its lobby",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "132323302",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait/people only, no identifiable place in pixels"
+ },
+ {
+  "pageid": "92220371",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "open water and a fisherman only; no shoreline or landmark"
+ },
+ {
+  "pageid": "137891921",
+  "verdict": "located",
+  "place": "Cổng làng Văn Trì, Minh Khai, Bắc Từ Liêm, Hanoi",
+  "confidence": 0.7,
+  "evidence": "Old tiled village gate over lane; sign reads Chùa Bà Bè / Thôn Ngọa Long, consistent with Văn Trì gate",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "137995525",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "building not recognisable to me and title gives no geocodable site name"
+ },
+ {
+  "pageid": "137892022",
+  "verdict": "located",
+  "place": "Cổng làng Văn Trì, Minh Khai, Bắc Từ Liêm, Hanoi",
+  "confidence": 0.7,
+  "evidence": "Same tiled two-storey village gate with guardian lions, lane through arch",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "137995684",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "building not recognisable to me and title gives no geocodable site name"
+ },
+ {
+  "pageid": "137892297",
+  "verdict": "located",
+  "place": "Cổng làng Văn Trì, Minh Khai, Bắc Từ Liêm, Hanoi",
+  "confidence": 0.7,
+  "evidence": "Same village gate; sign Chùa Bà Bè / Thôn Ngọa Long at left pillar",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "149568443",
+  "verdict": "located",
+  "place": "Cổng làng Văn Trì, Minh Khai, Bắc Từ Liêm, Hanoi",
+  "confidence": 0.65,
+  "evidence": "Same tiled village gate seen from the other side of the lane",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "12812941",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "group at cafe terrace; lake unidentifiable"
+ },
+ {
+  "pageid": "12812959",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "group at cafe terrace beside a lake; which lake/cafe not determinable"
+ },
+ {
+  "pageid": "12812907",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "group at cafe terrace; no identifying feature"
+ },
+ {
+  "pageid": "154340133",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Garnier monument in tropical park; title says Saigon, not Hanoi"
+ },
+ {
+  "pageid": "154340143",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Garnier monument in tropical park; title says Saigon, not Hanoi"
+ },
+ {
+  "pageid": "154340153",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "statue close-up; Garnier monument, Saigon or Paris, not Hanoi"
+ }
+]

@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "123349354",
+  "verdict": "located",
+  "place": "Chùa Một Cột, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Postcard showing single-pillar pagoda over pond, caption Chua-Mot-Cot",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "6856336",
+  "verdict": "located",
+  "place": "Đình - Chùa Hà, Dịch Vọng, Cầu Giấy, Hanoi",
+  "confidence": 0.45,
+  "evidence": "Temple gate pillars and tiled hall beyond brick courtyard; named by title",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "96650822",
+  "verdict": "located",
+  "place": "Chùa Mui, An Duyên, Tô Hiệu, Thường Tín, Hanoi",
+  "confidence": 0.55,
+  "evidence": "Long low tiled pagoda hall with pillar gate across brick yard",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "120482494",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait or people shot with no identifiable place"
+ },
+ {
+  "pageid": "145791630",
+  "verdict": "located",
+  "place": "Nhà hát Lớn Hà Nội, Hanoi",
+  "confidence": 0.85,
+  "evidence": "1945 crowd rally in front of unmistakable Opera House facade",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "146388274",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "close-up of sold-out notice, no place visible"
+ },
+ {
+  "pageid": "125185923",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait or people shot with no identifiable place"
+ },
+ {
+  "pageid": "155460151",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait or people shot with no identifiable place"
+ },
+ {
+  "pageid": "45413717",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/artwork/object reproduction, not a place photo"
+ },
+ {
+  "pageid": "45413716",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/artwork/object reproduction, not a place photo"
+ },
+ {
+  "pageid": "126114562",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait or people shot with no identifiable place"
+ },
+ {
+  "pageid": "84672778",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "group photo on palace steps, building not confidently identified"
+ },
+ {
+  "pageid": "125236421",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "group photo on steps, likely not Hanoi, building not identified"
+ },
+ {
+  "pageid": "95206144",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "temple altar interior; several Phùng Hưng temples exist"
+ },
+ {
+  "pageid": "48922867",
+  "verdict": "located",
+  "place": "Chùa Mui, An Duyên, Tô Hiệu, Thường Tín, Hanoi",
+  "confidence": 0.55,
+  "evidence": "Same long tiled pagoda hall and pillar gate across brick yard",
+  "refusal_reason": ""
+ }
+]

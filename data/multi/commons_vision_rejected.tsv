@@ -1,0 +1,270 @@
+pageid	place	reason
+30617595	Thăng Long Water Puppet Theatre, 57B Đinh Tiên Hoàng, Hanoi	confidence 0.60 < 0.7
+137891921	Cổng làng Văn Trì, Minh Khai, Bắc Từ Liêm, Hanoi	'tri' is not in the hit's name 'Làng Văn Hóa Công Viên Yên Sở'
+137892022	Cổng làng Văn Trì, Minh Khai, Bắc Từ Liêm, Hanoi	'tri' is not in the hit's name 'Làng Văn Hóa Công Viên Yên Sở'
+137892297	Cổng làng Văn Trì, Minh Khai, Bắc Từ Liêm, Hanoi	'tri' is not in the hit's name 'Làng Văn Hóa Công Viên Yên Sở'
+149568443	Cổng làng Văn Trì, Minh Khai, Bắc Từ Liêm, Hanoi	confidence 0.65 < 0.7
+32712986	Đông Kinh Nghĩa Thục Square (rooftop cafe of the Hàm Cá Mập building), Hoàn Kiếm, Hanoi	'ca' is not in the hit's name 'Quảng trường Đông Kinh Nghĩa Thục'
+106530831	Hỏa Lò Prison (Maison Centrale), Hanoi	confidence 0.55 < 0.7
+162065762	Hoàn Kiếm Lake east shore (Đinh Tiên Hoàng Street), Hanoi	confidence 0.60 < 0.7
+162065779	St. Joseph's Cathedral (Nhà thờ Lớn), Hanoi	'cathedral' is not in the hit's name 'Nhà thờ Lớn'
+162065797	Tháp Hòa Phong (site of Báo Ân Pagoda), Đinh Tiên Hoàng, Hoàn Kiếm, Hanoi	confidence 0.55 < 0.7
+113138365	Nhà sàn Bác Hồ (Ho Chi Minh's Stilt House), Presidential Palace complex, Hanoi	'chi' is not in the hit's name 'Nhà sàn Bác Hồ'
+113138376	Nhà sàn Bác Hồ (Ho Chi Minh's Stilt House), Presidential Palace complex, Hanoi	confidence 0.55 < 0.7
+113138383	Nhà sàn Bác Hồ (Ho Chi Minh's Stilt House), Presidential Palace complex, Hanoi	'chi' is not in the hit's name 'Nhà sàn Bác Hồ'
+113138398	Nhà sàn Bác Hồ (Ho Chi Minh's Stilt House), Presidential Palace complex, Hanoi	'chi' is not in the hit's name 'Nhà sàn Bác Hồ'
+113138413	Nhà sàn Bác Hồ (Ho Chi Minh's Stilt House), Presidential Palace complex, Hanoi	confidence 0.55 < 0.7
+113138421	Nhà sàn Bác Hồ (Ho Chi Minh's Stilt House), Presidential Palace complex, Hanoi	'chi' is not in the hit's name 'Nhà sàn Bác Hồ'
+107993531	Hỏa Lò Prison (Maison Centrale), Hanoi	confidence 0.60 < 0.7
+107993532	Hỏa Lò Prison (Maison Centrale), Hanoi	confidence 0.60 < 0.7
+107993535	Hỏa Lò Prison (Maison Centrale), Hanoi	confidence 0.50 < 0.7
+107993533	Hỏa Lò Prison (Maison Centrale), Hanoi	confidence 0.50 < 0.7
+107993540	Hỏa Lò Prison (Maison Centrale), Hanoi	confidence 0.50 < 0.7
+79375180	78 Chùa Hà Street, Cầu Giấy, Hanoi	a road is not a site (highway/residential)
+22558528	90 Thợ Nhuộm Street, Hoàn Kiếm, Hanoi	a road is not a site (highway/residential)
+78106925	304 Nguyễn Trãi, Thanh Xuân, Hanoi	a road is not a site (highway/trunk)
+44815386	Mỹ Đình National Stadium, Nam Từ Liêm, Hanoi	'national' is not in the hit's name 'Sân vận động Quốc gia Mỹ Đình'
+44815127	Mỹ Đình National Stadium, Nam Từ Liêm, Hanoi	'national' is not in the hit's name 'Sân vận động Quốc gia Mỹ Đình'
+116025284	Ga Vành Đai 3 (Cát Linh–Hà Đông metro), Nguyễn Trãi, Thanh Xuân, Hanoi	'cat' is not in the hit's name 'Ga Vành Đai 3'
+37053202	Đinh Tiên Hoàng Street by Thê Húc Bridge, Hoàn Kiếm Lake, Hanoi	'by' is not in the hit's name 'Hồ Hoàn Kiếm'
+30614534	Đinh Tiên Hoàng Street by Thê Húc Bridge, Hoàn Kiếm Lake, Hanoi	'by' is not in the hit's name 'Hồ Hoàn Kiếm'
+8332018	Mỹ Đình National Stadium, Nam Từ Liêm, Hanoi	'national' is not in the hit's name 'Sân vận động Quốc gia Mỹ Đình'
+64218738	Al-Noor Mosque, 12 Hàng Lược, Hoàn Kiếm, Hanoi	'mosque' is not in the hit's name 'Thánh đường Hồi giáo Al-Noor'
+132101969	Hanoi Railway Station (Ga Hà Nội), Lê Duẩn, Hanoi	confidence 0.60 < 0.7
+1960440	Embassy of the United States, 7 Láng Hạ, Ba Đình, Hanoi	'embassy' is not in the hit's name 'Đại sứ quán Hoa Kỳ'
+86984054	Trường Đại học Kinh tế - ĐHQGHN (nhà E4), 144 Xuân Thủy, Cầu Giấy, Hanoi	a road is not a site (highway/bus_stop)
+122918785	Tràng Tiền Plaza, Hoàn Kiếm, Hanoi	stated locality 'Hoàn Kiếm' not in the hit's address
+14523898	19 Lê Thánh Tông (former Đại học Tổng hợp Hà Nội), Hoàn Kiếm, Hanoi	'former' is not in the hit's name 'Trường Đại học Khoa học Tự nhiên'
+14523856	19 Lê Thánh Tông (former Đại học Tổng hợp Hà Nội), Hoàn Kiếm, Hanoi	'former' is not in the hit's name 'Trường Đại học Khoa học Tự nhiên'
+179005860	Laika Cafe, phố Thâm Tâm, Cầu Giấy, Hanoi	one-word title matched to a shop or restaurant
+80522466	Đình Thuận Mỹ, Hàng Quạt, Hoàn Kiếm, Hanoi	confidence 0.60 < 0.7
+22545929	Au Lac Café, 57 Lý Thái Tổ, Hanoi	a road is not a site (highway/tertiary)
+149576274	Hanoi Opera House, Hanoi	confidence 0.60 < 0.7
+103327674	British Vietnamese International School Hanoi, Royal City, Hanoi	confidence 0.60 < 0.7
+10459217	Ba Đình Hall, Ba Đình Square, Hanoi	'ba' is not in the hit's name 'Nhà Quốc hội'
+64218565	Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi	confidence 0.60 < 0.7
+64218580	Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi	confidence 0.60 < 0.7
+64218589	Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi	confidence 0.60 < 0.7
+64218591	Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi	confidence 0.60 < 0.7
+64218598	Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi	confidence 0.60 < 0.7
+64218579	Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi	confidence 0.60 < 0.7
+64218583	Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi	confidence 0.60 < 0.7
+64218544	Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi	confidence 0.65 < 0.7
+64218547	Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi	confidence 0.65 < 0.7
+64218550	Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi	confidence 0.60 < 0.7
+64218552	Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi	confidence 0.60 < 0.7
+64218560	Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi	confidence 0.60 < 0.7
+64218564	Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi	confidence 0.60 < 0.7
+17514735	Ba Đình Hall, Ba Đình Square, Hanoi	'ba' is not in the hit's name 'Nhà Quốc hội'
+3388593	Bách Thảo Park (Hanoi Botanical Garden), Hanoi	confidence 0.50 < 0.7
+181298253	State Bank of Vietnam, Lý Thái Tổ, Hanoi	'bank' is not in the hit's name 'Ngân hàng Nhà nước Việt Nam'
+8785745	Bia Hơi Corner, Tạ Hiện - Lương Ngọc Quyến, Hanoi	confidence 0.50 < 0.7
+24775196	Mỹ Đình Bus Station, Hanoi	confidence 0.60 < 0.7
+94564552	Vườn hoa Vạn Xuân (Hàng Đậu), Hanoi	confidence 0.60 < 0.7
+94564737	Vườn hoa Vạn Xuân (Hàng Đậu), Hanoi	confidence 0.60 < 0.7
+94564378	Vườn hoa Vạn Xuân (Hàng Đậu), Hanoi	confidence 0.60 < 0.7
+94563348	Vườn hoa Vạn Xuân (Hàng Đậu), Hanoi	'dau' is not in the hit's name 'Vườn hoa Vạn Xuân'
+24572380	Bích Câu Đạo Quán, Cát Linh, Hanoi	confidence 0.65 < 0.7
+24572379	Bích Câu Đạo Quán, Cát Linh, Hanoi	confidence 0.65 < 0.7
+24572384	Bích Câu Đạo Quán, Cát Linh, Hanoi	confidence 0.60 < 0.7
+24572382	Bích Câu Đạo Quán, Cát Linh, Hanoi	confidence 0.45 < 0.7
+24572385	Bích Câu Đạo Quán, Cát Linh, Hanoi	confidence 0.50 < 0.7
+24572390	Bích Câu Đạo Quán, Cát Linh, Hanoi	confidence 0.60 < 0.7
+93222613	Chợ Cầu Đông, Cầu Gỗ, Hoàn Kiếm, Hanoi	confidence 0.60 < 0.7
+11919677	Big C Thăng Long, Trần Duy Hưng, Hanoi	'long' is not in the hit's name 'Big C'
+3718545	Bít tết Ông Lợi, 51 Hàng Buồm, Hanoi	confidence 0.60 < 0.7
+39696081	Bách Thảo Park (Hanoi Botanical Garden), Hanoi	no specific feature found
+39696072	Bách Thảo Park (Hanoi Botanical Garden), Hanoi	no specific feature found
+121398546	Bưu điện Hà Nội, 75 Đinh Tiên Hoàng, Hanoi	confidence 0.65 < 0.7
+93844248	Tượng đài Lý Thái Tổ, Đinh Tiên Hoàng, Hanoi	stated locality 'Đinh Tiên Hoàng' not in the hit's address
+14608030	Hanoi University of Science and Technology, Hanoi	confidence 0.45 < 0.7
+14608107	Thư viện Tạ Quang Bửu, Hanoi University of Science and Technology, Hanoi	confidence 0.55 < 0.7
+3648465	Hanoi University of Science and Technology, Hanoi	confidence 0.50 < 0.7
+77772989	56 Nguyễn Phong Sắc, Cầu Giấy, Hanoi	a road is not a site (highway/secondary)
+76030622	6 Hồ Tùng Mậu, Cầu Giấy, Hanoi	'mau' is not in the hit's name 'Trà Sữa BoBaBop'
+75979516	6 Hồ Tùng Mậu, Cầu Giấy, Hanoi	'mau' is not in the hit's name 'Trà Sữa BoBaBop'
+88758953	Ministry of Public Security headquarters, 47 Phạm Văn Đồng, Hanoi	confidence 0.50 < 0.7
+64218217	Khu di tích Chủ tịch Hồ Chí Minh tại Phủ Chủ tịch (ao cá Bác Hồ), Hanoi	confidence 0.50 < 0.7
+64218221	Khu di tích Chủ tịch Hồ Chí Minh tại Phủ Chủ tịch (ao cá Bác Hồ), Hanoi	confidence 0.50 < 0.7
+64218230	Khu di tích Chủ tịch Hồ Chí Minh tại Phủ Chủ tịch (ao cá Bác Hồ), Hanoi	confidence 0.50 < 0.7
+64218232	Khu di tích Chủ tịch Hồ Chí Minh tại Phủ Chủ tịch (ao cá Bác Hồ), Hanoi	confidence 0.50 < 0.7
+39696073	Bách Thảo Park (Hanoi Botanical Garden), Hanoi	confidence 0.50 < 0.7
+78106493	44 Hồ Tùng Mậu, Cầu Giấy, Hanoi	a road is not a site (highway/residential)
+50473445	Hầm D67, Imperial Citadel of Thăng Long, Hanoi	confidence 0.60 < 0.7
+50473443	Hầm D67, Imperial Citadel of Thăng Long, Hanoi	confidence 0.60 < 0.7
+50473444	Hầm D67, Imperial Citadel of Thăng Long, Hanoi	confidence 0.60 < 0.7
+113256719	Hanoi University of Science and Technology, Hanoi	confidence 0.40 < 0.7
+116897167	Hồ Đồng Quan, Sóc Sơn, Hanoi	confidence 0.50 < 0.7
+30026247	Hồ Đồng Đò, Sóc Sơn, Hanoi	confidence 0.50 < 0.7
+125622722	Hoàn Kiếm Lake west shore, Lê Thái Tổ, Hanoi	confidence 0.60 < 0.7
+121400079	Bưu điện Hà Nội, 75 Đinh Tiên Hoàng, Hanoi	confidence 0.60 < 0.7
+125116311	Chùa Non Nước, Sóc Sơn, Hanoi	confidence 0.60 < 0.7
+139187164	Bệnh viện Đại học Y Dược - Đại học Quốc gia Hà Nội, Hanoi	no specific feature found
+93781860	Tòa nhà C1, Đại học Bách khoa Hà Nội, Hanoi	'bach' is not in the hit's name 'Toà nhà C1'
+15794639	Trường THPT Chu Văn An, 10 Thụy Khuê, Hanoi	'thpt' is not in the hit's name 'Trường Trung học phổ thông chuyên Chu Vă'
+39696078	Vườn Bách Thảo (Hanoi Botanical Garden), Hanoi	confidence 0.50 < 0.7
+17514964	Phố Đinh Tiên Hoàng, Hoàn Kiếm, Hanoi	confidence 0.45 < 0.7
+40026459	Phố Văn Miếu, Đống Đa, Hanoi	confidence 0.55 < 0.7
+81991300	Nhà E4, Đại học Quốc gia Hà Nội, 144 Xuân Thủy, Hanoi	confidence 0.45 < 0.7
+119578779	Đường Thanh Niên, Hanoi	confidence 0.55 < 0.7
+108169376	Đoan Môn, Hoàng thành Thăng Long, Hanoi	stated locality 'Hoàng thành Thăng Long' not in the hit's address
+106225217	Đoan Môn, Hoàng thành Thăng Long, Hanoi	stated locality 'Hoàng thành Thăng Long' not in the hit's address
+83899845	Phố Tràng Tiền, Hanoi	confidence 0.55 < 0.7
+89177257	Bốt Hàng Đậu (Hàng Đậu water tower), Hanoi	no specific feature found
+113976160	Nhà hát Chèo Quân đội, Hanoi	confidence 0.65 < 0.7
+113976074	Nhà hát Chèo Việt Nam, Kim Mã, Hanoi	'cheo' is not in the hit's name 'Nhà hát Kim Mã'
+77847787	29 Phố Lê Ngọc Hân, Hai Bà Trưng, Hanoi	confidence 0.65 < 0.7
+77847567	29 Phố Lê Ngọc Hân, Hai Bà Trưng, Hanoi	confidence 0.65 < 0.7
+16916741	Chợ hoa Quảng An (Quảng Bá), Âu Cơ, Tây Hồ, Hanoi	confidence 0.50 < 0.7
+6856336	Đình - Chùa Hà, Dịch Vọng, Cầu Giấy, Hanoi	confidence 0.45 < 0.7
+96650822	Chùa Mui, An Duyên, Tô Hiệu, Thường Tín, Hanoi	confidence 0.55 < 0.7
+145791630	Nhà hát Lớn Hà Nội, Hanoi	no specific feature found
+48922867	Chùa Mui, An Duyên, Tô Hiệu, Thường Tín, Hanoi	confidence 0.55 < 0.7
+125116260	Chùa Non Nước, Sóc Sơn, Hanoi	confidence 0.60 < 0.7
+93121965	Chùa Pháp Vân, Văn Bình, Thường Tín, Hanoi	confidence 0.60 < 0.7
+93121971	Chùa Pháp Vân, Văn Bình, Thường Tín, Hanoi	confidence 0.60 < 0.7
+93122001	Chùa Pháp Vân, Văn Bình, Thường Tín, Hanoi	confidence 0.60 < 0.7
+91233445	Chùa Pháp Vân, Văn Bình, Thường Tín, Hanoi	confidence 0.60 < 0.7
+10899600	Chùa Quang Hoa, Phố Trần Nhân Tông, Hanoi	confidence 0.60 < 0.7
+17788164	Chùa Sải, Võng Thị, Tây Hồ, Hanoi	confidence 0.40 < 0.7
+93122030	Chùa Yên Phú, Liên Ninh, Thanh Trì, Hanoi	confidence 0.55 < 0.7
+93121869	Chùa Đinh Xá, Văn Tự, Thường Tín, Hanoi	confidence 0.55 < 0.7
+93121884	Chùa Đinh Xá, Văn Tự, Thường Tín, Hanoi	confidence 0.55 < 0.7
+95460945	Chùa Tứ Liên, Tây Hồ, Hanoi	confidence 0.50 < 0.7
+39696079	Vườn Bách Thảo (Hanoi Botanical Garden), Hanoi	confidence 0.50 < 0.7
+25796099	Đoan Môn, Hoàng thành Thăng Long, Hanoi	stated locality 'Hoàng thành Thăng Long' not in the hit's address
+25796098	Đoan Môn, Hoàng thành Thăng Long, Hanoi	stated locality 'Hoàng thành Thăng Long' not in the hit's address
+50486799	Hoàng thành Thăng Long, Hanoi	confidence 0.55 < 0.7
+50486798	Hoàng thành Thăng Long, Hanoi	confidence 0.60 < 0.7
+18155967	Cửa Bắc (Bắc Môn), Phố Phan Đình Phùng, Hanoi	'mon' is not in the hit's name 'Cửa Bắc'
+135767704	Concordia International School Hanoi, Đông Anh, Hanoi	confidence 0.55 < 0.7
+67252135	Green Farm Restaurant, Hanoi	confidence 0.45 < 0.7
+67252143	Green Farm Restaurant, Hanoi	confidence 0.40 < 0.7
+67252142	Green Farm Restaurant, Hanoi	confidence 0.40 < 0.7
+47107991	Công viên Thống Nhất, Hanoi	confidence 0.60 < 0.7
+39696077	Vườn Bách Thảo (Hanoi Botanical Garden), Hanoi	confidence 0.50 < 0.7
+66958037	Nhà hát Lớn Hà Nội, Hanoi	no specific feature found
+185650317	Sân tennis Trung Yên, Trung Yên, Cầu Giấy, Hanoi	confidence 0.50 < 0.7
+185650331	Sân tennis Trung Yên, Trung Yên, Cầu Giấy, Hanoi	confidence 0.55 < 0.7
+77846406	Phố Lê Ngọc Hân, Hai Bà Trưng, Hanoi	confidence 0.50 < 0.7
+91823115	Vườn thú Thủ Lệ (Hanoi Zoo), Hanoi	'vuon' is not in the hit's name 'Công viên Thủ Lệ'
+91823117	Vườn thú Thủ Lệ (Hanoi Zoo), Hanoi	confidence 0.65 < 0.7
+91823122	Vườn thú Thủ Lệ (Hanoi Zoo), Hanoi	confidence 0.65 < 0.7
+91823126	Vườn thú Thủ Lệ (Hanoi Zoo), Hanoi	confidence 0.60 < 0.7
+77833201	Ngã ba Kim Mã – Vạn Bảo, Ba Đình, Hanoi	confidence 0.50 < 0.7
+125656932	Hồ Hoàn Kiếm (lakeside promenade), Hanoi	confidence 0.55 < 0.7
+125206202	Tháp Hòa Phong, Hồ Hoàn Kiếm, Hanoi	confidence 0.60 < 0.7
+69113805	Công ty Rạng Đông, 87-89 Hạ Đình, Thanh Xuân, Hanoi	confidence 0.60 < 0.7
+113103881	Công viên Cầu Giấy, Hanoi	confidence 0.50 < 0.7
+113104264	Công viên Cầu Giấy, Hanoi	confidence 0.55 < 0.7
+113104265	Công viên Cầu Giấy, Hanoi	confidence 0.55 < 0.7
+113103882	Công viên Cầu Giấy, Hanoi	confidence 0.50 < 0.7
+193232016	Hồ Đền Lừ, Hoàng Mai, Hanoi	confidence 0.50 < 0.7
+2070815	Hôtel du Parc Hanoi (former Hotel Nikko), 84 Trần Nhân Tông, Hanoi	confidence 0.50 < 0.7
+121403578	Bưu điện Hà Nội, 75 Đinh Tiên Hoàng, Hanoi	confidence 0.55 < 0.7
+193451202	Chùa Hoàng Mai (Nga My tự), Hoàng Mai, Hanoi	confidence 0.50 < 0.7
+10403040	Đền thờ Tô Hiến Thành, Hạ Mỗ, Đan Phượng, Hanoi	confidence 0.50 < 0.7
+125487052	Điện Kính Thiên, Hoàng thành Thăng Long, Hanoi	confidence 0.65 < 0.7
+119578773	Chùa Trấn Quốc, Hanoi	confidence 0.65 < 0.7
+193451201	Đền Lư Giang, Hoàng Mai, Hanoi	confidence 0.50 < 0.7
+91823131	Vườn thú Thủ Lệ (Hanoi Zoo), Hanoi	confidence 0.60 < 0.7
+91823140	Vườn thú Thủ Lệ (Hanoi Zoo), Hanoi	confidence 0.60 < 0.7
+91823146	Vườn thú Thủ Lệ (Hanoi Zoo), Hanoi	confidence 0.60 < 0.7
+91823150	Vườn thú Thủ Lệ (Hanoi Zoo), Hanoi	confidence 0.60 < 0.7
+94118433	Trường THPT chuyên Hà Nội - Amsterdam, Hoàng Minh Giám, Hanoi	confidence 0.50 < 0.7
+79684578	161A Phố Vọng, Hai Bà Trưng, Hanoi	a road is not a site (highway/tertiary)
+79684785	161A Phố Vọng, Hai Bà Trưng, Hanoi	a road is not a site (highway/tertiary)
+121403577	Bưu điện Hà Nội, 75 Đinh Tiên Hoàng, Hanoi	confidence 0.60 < 0.7
+15378927	Ga Hà Nội (Hanoi Railway Station), Hanoi	confidence 0.60 < 0.7
+94118945	Tòa nhà D5, Đại học Bách khoa Hà Nội, Hanoi	confidence 0.60 < 0.7
+98522192	Tòa nhà D6-D8, Đại học Bách khoa Hà Nội, Hanoi	confidence 0.45 < 0.7
+66995612	Hỏa Lò Prison, Hanoi	'prison' is not in the hit's name 'Nhà tù Hỏa Lò'
+66995613	Hỏa Lò Prison, Hanoi	'prison' is not in the hit's name 'Nhà tù Hỏa Lò'
+66995618	Hỏa Lò Prison, Hanoi	'prison' is not in the hit's name 'Nhà tù Hỏa Lò'
+66995623	Hỏa Lò Prison, Hanoi	'prison' is not in the hit's name 'Nhà tù Hỏa Lò'
+66995627	Hỏa Lò Prison, Hanoi	'prison' is not in the hit's name 'Nhà tù Hỏa Lò'
+66995628	Hỏa Lò Prison, Hanoi	'prison' is not in the hit's name 'Nhà tù Hỏa Lò'
+66995635	Hỏa Lò Prison, Hanoi	'prison' is not in the hit's name 'Nhà tù Hỏa Lò'
+66995632	Hỏa Lò Prison, Hanoi	'prison' is not in the hit's name 'Nhà tù Hỏa Lò'
+66995634	Hỏa Lò Prison, Hanoi	'prison' is not in the hit's name 'Nhà tù Hỏa Lò'
+66995646	Hỏa Lò Prison, Hanoi	'prison' is not in the hit's name 'Nhà tù Hỏa Lò'
+66995650	Hỏa Lò Prison, Hanoi	'prison' is not in the hit's name 'Nhà tù Hỏa Lò'
+5717050	Embassy of North Korea (DPRK), 25 Cao Bá Quát, Hanoi	confidence 0.60 < 0.7
+5717063	Embassy of North Korea (DPRK), 25 Cao Bá Quát, Hanoi	confidence 0.60 < 0.7
+9413105	Nhà hát Lớn Hà Nội (Hanoi Opera House), Hanoi	confidence 0.50 < 0.7
+9413110	Nhà hát Lớn Hà Nội (Hanoi Opera House), Hanoi	confidence 0.60 < 0.7
+93936212	Hỏa Lò Prison, Hanoi	confidence 0.45 < 0.7
+30156029	Embassy of Denmark, 19 Điện Biên Phủ, Hanoi	confidence 0.60 < 0.7
+30156030	Embassy of Denmark, 19 Điện Biên Phủ, Hanoi	confidence 0.60 < 0.7
+193317686	Nhà hát Lớn Hà Nội (Hanoi Opera House), Hanoi	no specific feature found
+113561726	Ngã tư Đào Duy Từ – Mã Mây, Hoàn Kiếm, Hanoi	confidence 0.55 < 0.7
+186873899	Ngã tư Mạc Thái Tổ – Trung Kính – Vũ Phạm Hàm, Cầu Giấy, Hanoi	confidence 0.50 < 0.7
+186873907	Ngã tư Mạc Thái Tổ – Trung Kính – Vũ Phạm Hàm, Cầu Giấy, Hanoi	confidence 0.50 < 0.7
+100922477	Phố Cửa Đông (former East Gate of Hanoi Citadel), Hanoi	confidence 0.45 < 0.7
+20688770	Đại học Quốc gia Hà Nội, 144 Xuân Thủy, Hanoi	confidence 0.55 < 0.7
+20688765	Đại học Quốc gia Hà Nội, 144 Xuân Thủy, Hanoi	confidence 0.60 < 0.7
+21344802	Đại học Quốc gia Hà Nội, 144 Xuân Thủy, Hanoi	confidence 0.60 < 0.7
+21344793	Đại học Quốc gia Hà Nội, 144 Xuân Thủy, Hanoi	confidence 0.60 < 0.7
+21344806	Đại học Quốc gia Hà Nội, 144 Xuân Thủy, Hanoi	confidence 0.55 < 0.7
+16922983	Đền Bạch Mã, 76 Hàng Buồm, Hanoi	stated locality '76 Hàng Buồm' not in the hit's address
+17173784	Đền Ngọc Sơn, Hanoi	confidence 0.45 < 0.7
+10049966	Đền thờ Ngô Quyền, Đường Lâm, Sơn Tây, Hanoi	confidence 0.60 < 0.7
+10049995	Đền thờ Phùng Hưng, Đường Lâm, Sơn Tây, Hanoi	confidence 0.60 < 0.7
+21703817	Embassy of Germany, 29 Trần Phú, Hanoi	'embassy' is not in the hit's name 'Đại sứ quán Đức'
+94168617	Trường Đại học Giao thông Vận tải, 3 Cầu Giấy, Hanoi	confidence 0.55 < 0.7
+10432992	Điện Kính Thiên, Hoàng thành Thăng Long, Hanoi	stated locality 'Hoàng thành Thăng Long' not in the hit's address
+10433062	Điện Kính Thiên, Hoàng thành Thăng Long, Hanoi	stated locality 'Hoàng thành Thăng Long' not in the hit's address
+94043435	Điện Kính Thiên, Hoàng thành Thăng Long, Hanoi	stated locality 'Hoàng thành Thăng Long' not in the hit's address
+77689655	103 Cầu Diễn, Bắc Từ Liêm, Hanoi	confidence 0.60 < 0.7
+78107061	306 Nguyễn Trãi, Thanh Xuân, Hanoi	confidence 0.65 < 0.7
+77686902	69 Quang Trung, Hai Bà Trưng, Hanoi	confidence 0.60 < 0.7
+117767109	Hồ Đồng Quan, Sóc Sơn, Hanoi	confidence 0.50 < 0.7
+116405927	Hồ Đồng Quan, Sóc Sơn, Hanoi	confidence 0.50 < 0.7
+185834979	Làng Trung Kính Hạ, Yên Hòa, Cầu Giấy, Hanoi	confidence 0.50 < 0.7
+49308783	Đình Dương Đanh, Dương Xá, Gia Lâm, Hanoi	confidence 0.65 < 0.7
+62228129	Đình Dương Đanh, Dương Xá, Gia Lâm, Hanoi	confidence 0.65 < 0.7
+39696075	Hanoi Botanical Garden (Vườn Bách Thảo), Ba Đình, Hanoi	confidence 0.60 < 0.7
+123302966	Embassy of Poland, 3 Chùa Một Cột, Ba Đình, Hanoi	confidence 0.60 < 0.7
+106844566	Lăng Hoàng Cao Khải, Thái Hà, Đống Đa, Hanoi	confidence 0.50 < 0.7
+30617530	Lý Thái Tổ Statue and Park, Đinh Tiên Hoàng, Hoàn Kiếm, Hanoi	a road is not a site (highway/secondary)
+185646388	Junction of Mạc Thái Tông, Trung Kính and Vũ Phạm Hàm, Cầu Giấy, Hanoi	confidence 0.60 < 0.7
+185646387	Junction of Mạc Thái Tông, Trung Kính and Vũ Phạm Hàm, Cầu Giấy, Hanoi	confidence 0.60 < 0.7
+185646393	Junction of Mạc Thái Tông, Trung Kính and Vũ Phạm Hàm, Cầu Giấy, Hanoi	confidence 0.60 < 0.7
+185646394	Junction of Mạc Thái Tông, Trung Kính and Vũ Phạm Hàm, Cầu Giấy, Hanoi	confidence 0.60 < 0.7
+185925874	Junction of Trần Duy Hưng and Trung Kính, Cầu Giấy, Hanoi	confidence 0.55 < 0.7
+185925875	Junction of Trần Duy Hưng and Trung Kính, Cầu Giấy, Hanoi	confidence 0.55 < 0.7
+185646389	Junction of Mạc Thái Tông, Trung Kính and Vũ Phạm Hàm, Cầu Giấy, Hanoi	confidence 0.60 < 0.7
+185647487	Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi	confidence 0.50 < 0.7
+185647488	Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi	confidence 0.60 < 0.7
+185647491	Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi	confidence 0.60 < 0.7
+185647494	Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi	confidence 0.60 < 0.7
+185647493	Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi	confidence 0.60 < 0.7
+185647497	Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi	confidence 0.60 < 0.7
+185647498	Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi	confidence 0.60 < 0.7
+185647499	Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi	confidence 0.60 < 0.7
+185647502	Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi	confidence 0.60 < 0.7
+185647508	Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi	confidence 0.60 < 0.7
+185647519	Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi	confidence 0.60 < 0.7
+185647520	Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi	confidence 0.60 < 0.7
+185647522	Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi	confidence 0.60 < 0.7
+185647530	Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi	confidence 0.60 < 0.7
+185647532	Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi	confidence 0.60 < 0.7
+185647533	Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi	confidence 0.60 < 0.7
+185647547	Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi	confidence 0.60 < 0.7
+185647557	Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi	confidence 0.50 < 0.7
+185647549	Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi	confidence 0.55 < 0.7
+185647509	Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi	confidence 0.60 < 0.7
+185647513	Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi	confidence 0.60 < 0.7
+185647539	Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi	confidence 0.60 < 0.7
+185647542	Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi	confidence 0.60 < 0.7
+185647544	Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi	confidence 0.60 < 0.7
+185652975	Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi	confidence 0.60 < 0.7
+74669790	Cung Văn hóa Hữu nghị Việt Xô (site of the 1902 Grand Palais d'Exposition), 91 Trần Hưng Đạo, Hanoi	'exposition' is not in the hit's name 'Cung Văn hóa Lao động Hữu nghị Việt Xô'
+122878713	Phùng Khoang Station, Cát Linh–Hà Đông Line, Hanoi	confidence 0.60 < 0.7
+140619272	Đoan Môn, Imperial Citadel of Thăng Long, Hanoi	stated locality 'Imperial Citadel of Thăng Long' not in the hit's address
+66631792	Hàng Đậu Water Tower, Hàng Đậu, Hanoi	'dau' is not in the hit's name 'Agribank'
+39696070	Hanoi Botanical Garden (Vườn Bách Thảo), Ba Đình, Hanoi	confidence 0.50 < 0.7
+66864338	Tràng Tiền Plaza, Hoàn Kiếm, Hanoi	confidence 0.55 < 0.7
+64218461	Hỏa Lò Prison, Hoàn Kiếm, Hanoi	'prison' is not in the hit's name 'Nhà tù Hỏa Lò'
+106215033	Hỏa Lò Prison, Hoàn Kiếm, Hanoi	'prison' is not in the hit's name 'Nhà tù Hỏa Lò'
+39696076	Hanoi Botanical Garden (Vườn Bách Thảo), Ba Đình, Hanoi	confidence 0.50 < 0.7

@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "24572379",
+  "verdict": "located",
+  "place": "Bích Câu Đạo Quán, Cát Linh, Hanoi",
+  "confidence": 0.65,
+  "evidence": "Reconstruction plan boards and Buddhist flags along temple wall on street.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "24572384",
+  "verdict": "located",
+  "place": "Bích Câu Đạo Quán, Cát Linh, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Temple courtyard with pond rim, dismantled timbers under tarpaulin.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "24572378",
+  "verdict": "located",
+  "place": "Bích Câu Đạo Quán, Cát Linh, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Gate banner reads \"An Quốc Tự - Bích Câu Đạo Quán\" over old arched side gate.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "24572382",
+  "verdict": "located",
+  "place": "Bích Câu Đạo Quán, Cát Linh, Hanoi",
+  "confidence": 0.45,
+  "evidence": "Street shopfront with bird cages; title says temple street front, same 2011 sequence.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "24572385",
+  "verdict": "located",
+  "place": "Bích Câu Đạo Quán, Cát Linh, Hanoi",
+  "confidence": 0.5,
+  "evidence": "Stacked old timber columns under tarpaulin; same reconstruction sequence.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "24572390",
+  "verdict": "located",
+  "place": "Bích Câu Đạo Quán, Cát Linh, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Courtyard with circular pond, rockery and bonsai as in main hall photo.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "93222613",
+  "verdict": "located",
+  "place": "Chợ Cầu Đông, Cầu Gỗ, Hoàn Kiếm, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Entrance sign reads \"Chợ Cầu Đông\" with floor directory above stairway.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "130578666",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Shop sign close-up \"Hanoi Connection\"; address not visible."
+ },
+ {
+  "pageid": "11919677",
+  "verdict": "located",
+  "place": "Big C Thăng Long, Trần Duy Hưng, Hanoi",
+  "confidence": 0.8,
+  "evidence": "Large green-white hypermarket with Big C logo and car park.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "3718545",
+  "verdict": "located",
+  "place": "Bít tết Ông Lợi, 51 Hàng Buồm, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Sign reads \"Bít tết Ông Lợi\" over narrow alley entrance.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "39696081",
+  "verdict": "located",
+  "place": "Bách Thảo Park (Hanoi Botanical Garden), Hanoi",
+  "confidence": 0.7,
+  "evidence": "Distinctive three-tier circular aviary beside pond under tall trees.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "39696072",
+  "verdict": "located",
+  "place": "Bách Thảo Park (Hanoi Botanical Garden), Hanoi",
+  "confidence": 0.7,
+  "evidence": "Same three-tier circular aviary with fence and park path.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "121398546",
+  "verdict": "located",
+  "place": "Bưu điện Hà Nội, 75 Đinh Tiên Hoàng, Hanoi",
+  "confidence": 0.65,
+  "evidence": "Wall plaque commemorating 20-12-1946 fight of post office workers \"tại đây\".",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "113081669",
+  "verdict": "located",
+  "place": "Ga Cát Linh, Hanoi",
+  "confidence": 0.75,
+  "evidence": "Hanoi Khuê Văn Các emblem on metro station gate wall, elevated station structure, dusk.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "93844248",
+  "verdict": "located",
+  "place": "Tượng đài Lý Thái Tổ, Đinh Tiên Hoàng, Hanoi",
+  "confidence": 0.75,
+  "evidence": "Bronze Lý Thái Tổ statue on pedestal behind protest crowd, park trees.",
+  "refusal_reason": ""
+ }
+]

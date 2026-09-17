@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "40026459",
+  "verdict": "located",
+  "place": "Phố Văn Miếu, Đống Đa, Hanoi",
+  "confidence": 0.55,
+  "evidence": "Cafe sign reads 'văn miếu' beside small temple gate with Chinese couplets",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "69524847",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/artwork/object reproduction, not a place photo"
+ },
+ {
+  "pageid": "50473715",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "generic dormitory block, campus not identifiable"
+ },
+ {
+  "pageid": "81991300",
+  "verdict": "located",
+  "place": "Nhà E4, Đại học Quốc gia Hà Nội, 144 Xuân Thủy, Hanoi",
+  "confidence": 0.45,
+  "evidence": "University block with red name sign and E4 marking; sign text not legible",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "120931528",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "map/plan/satellite graphic, no camera position"
+ },
+ {
+  "pageid": "30857495",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "map/plan/satellite graphic, no camera position"
+ },
+ {
+  "pageid": "122167912",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "map/plan/satellite graphic, no camera position"
+ },
+ {
+  "pageid": "120884680",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "map/plan/satellite graphic, no camera position"
+ },
+ {
+  "pageid": "119578779",
+  "verdict": "located",
+  "place": "Đường Thanh Niên, Hanoi",
+  "confidence": 0.55,
+  "evidence": "Old postcard captioned Hanoi: rickshaw on tree-lined causeway with water alongside (Cổ Ngư road)",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "140698783",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait or people shot with no identifiable place"
+ },
+ {
+  "pageid": "18155966",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "19th-century barracks by water, site not identifiable today"
+ },
+ {
+  "pageid": "18156191",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "thatched huts under palms, no identifiable site"
+ },
+ {
+  "pageid": "152318216",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "map/plan/satellite graphic, no camera position"
+ },
+ {
+  "pageid": "79453921",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "high-rise skyline from unidentified elevated vantage"
+ },
+ {
+  "pageid": "93047311",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "postcard caption reads Lao-Kay, Pont sur le Nam Thi - not Hanoi"
+ }
+]

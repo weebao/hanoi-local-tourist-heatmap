@@ -1,0 +1,116 @@
+[
+ {
+  "pageid": "66631792",
+  "verdict": "located",
+  "place": "Hàng Đậu Water Tower, Hàng Đậu, Hanoi",
+  "confidence": 0.9,
+  "evidence": "Unmistakable round stone colonial water tower at the multi-way junction, seen from adjacent street"
+ },
+ {
+  "pageid": "81178351",
+  "verdict": "located",
+  "place": "Ho Chi Minh Mausoleum, Ba Đình Square, Hanoi",
+  "confidence": 0.8,
+  "evidence": "White-uniformed honour guard carrying wreath on red carpet, Ba Đình lawn grid and yellow ministry building behind"
+ },
+ {
+  "pageid": "101596970",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "39696070",
+  "verdict": "located",
+  "place": "Hanoi Botanical Garden (Vườn Bách Thảo), Ba Đình, Hanoi",
+  "confidence": 0.5,
+  "evidence": "Green ornamental iron perimeter fence with dense garden vegetation behind"
+ },
+ {
+  "pageid": "66864338",
+  "verdict": "located",
+  "place": "Tràng Tiền Plaza, Hoàn Kiếm, Hanoi",
+  "confidence": 0.55,
+  "evidence": "Looking out from under entrance canopy with Tết 2018 banner toward tree-lined junction"
+ },
+ {
+  "pageid": "23394291",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "1898 private house veranda, unidentifiable"
+ },
+ {
+  "pageid": "23393584",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "1898 private house veranda, unidentifiable"
+ },
+ {
+  "pageid": "39695342",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "food/produce close-up, no identifying site feature"
+ },
+ {
+  "pageid": "39695341",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "food/produce close-up, no identifying site feature"
+ },
+ {
+  "pageid": "157099817",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "interior, no identifying feature"
+ },
+ {
+  "pageid": "80522479",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "close-up of people on motorbike; street unidentifiable"
+ },
+ {
+  "pageid": "110763907",
+  "verdict": "located",
+  "place": "Hanoi Flag Tower (Cột cờ Hà Nội), Điện Biên Phủ, Hanoi",
+  "confidence": 0.9,
+  "evidence": "Hexagonal brick Flag Tower with flag, seen from below its base"
+ },
+ {
+  "pageid": "34722758",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "34722763",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "3259016",
+  "verdict": "located",
+  "place": "Hanoi Flag Tower (Cột cờ Hà Nội), Điện Biên Phủ, Hanoi",
+  "confidence": 0.9,
+  "evidence": "Hexagonal brick Flag Tower with national flag above hedges"
+ }
+]

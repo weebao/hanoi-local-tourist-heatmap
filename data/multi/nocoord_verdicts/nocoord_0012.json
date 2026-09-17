@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "64218583",
+  "verdict": "located",
+  "place": "Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Gilded red-lacquer altar interior; same minutes-apart sequence as exterior shots of the red-doored Bà Kiệu shrine.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "64218551",
+  "verdict": "located",
+  "place": "Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi",
+  "confidence": 0.7,
+  "evidence": "Red-doored shrine between grey pillars under banyan, motorbike parked in front.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "64218553",
+  "verdict": "located",
+  "place": "Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi",
+  "confidence": 0.7,
+  "evidence": "Shrine with red doors and tiled roof seen across street, shops at left, big trees.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "64218544",
+  "verdict": "located",
+  "place": "Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi",
+  "confidence": 0.65,
+  "evidence": "Red lacquer doors, gilt carved eaves, white columns, banyan roots at right.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "64218547",
+  "verdict": "located",
+  "place": "Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi",
+  "confidence": 0.65,
+  "evidence": "Red lacquer door panels with gilt lattice, white stone columns with couplets.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "64218550",
+  "verdict": "located",
+  "place": "Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Gilded red-lacquer altar interior; same minutes-apart sequence as exterior shots of the red-doored Bà Kiệu shrine.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "64218552",
+  "verdict": "located",
+  "place": "Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Gilded red-lacquer altar interior; same minutes-apart sequence as exterior shots of the red-doored Bà Kiệu shrine.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "64218560",
+  "verdict": "located",
+  "place": "Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Gilded red-lacquer altar interior; same minutes-apart sequence as exterior shots of the red-doored Bà Kiệu shrine.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "64218564",
+  "verdict": "located",
+  "place": "Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Gilded red-lacquer altar interior; same minutes-apart sequence as exterior shots of the red-doored Bà Kiệu shrine.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "17514735",
+  "verdict": "located",
+  "place": "Ba Đình Hall, Ba Đình Square, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Old Ba Đình Hall facade with red slogan banner seen obliquely across square lawn.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "175067428",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Document, map, logo or artwork; not a camera location."
+ },
+ {
+  "pageid": "3388593",
+  "verdict": "located",
+  "place": "Bách Thảo Park (Hanoi Botanical Garden), Hanoi",
+  "confidence": 0.5,
+  "evidence": "Park road under tall old trees beside a pond; title names Bách Thảo.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "140713772",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "1919 archival group portrait; building unidentified."
+ },
+ {
+  "pageid": "109591150",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Tower seen from distance across elevated ring road; camera vantage not identifiable."
+ },
+ {
+  "pageid": "196655758",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Cropped banner strip of flowers; no location feature."
+ }
+]

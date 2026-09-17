@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "64064194",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Airport tarmac state arrival; mountains behind suggest Da Nang (APEC 2017), not Hanoi."
+ },
+ {
+  "pageid": "64064205",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Airport tarmac state arrival; mountains behind suggest Da Nang (APEC 2017), not Hanoi."
+ },
+ {
+  "pageid": "64064211",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Airport tarmac state arrival; mountains behind suggest Da Nang (APEC 2017), not Hanoi."
+ },
+ {
+  "pageid": "64064228",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Airport tarmac state arrival; mountains behind suggest Da Nang (APEC 2017), not Hanoi."
+ },
+ {
+  "pageid": "17515052",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Art gallery interior with paintings; no identifying feature."
+ },
+ {
+  "pageid": "131843766",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Archival indoor portrait; no location feature."
+ },
+ {
+  "pageid": "122318946",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Document, map, logo or artwork; not a camera location."
+ },
+ {
+  "pageid": "22545929",
+  "verdict": "located",
+  "place": "Au Lac Café, 57 Lý Thái Tổ, Hanoi",
+  "confidence": 0.7,
+  "evidence": "Umbrellas printed \"AU LAC\", yellow colonial villa, house number 57 on gate pillar.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "149576271",
+  "verdict": "located",
+  "place": "Hanoi Opera House, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Horseshoe auditorium with tiered gilded balconies and columns of the Hanoi Opera House interior.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "149576274",
+  "verdict": "located",
+  "place": "Hanoi Opera House, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Audience in red theatre seats with balcony front behind; same event series as auditorium wide shots.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "149576267",
+  "verdict": "located",
+  "place": "Hanoi Opera House, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Tiered horseshoe balconies, cream-gilt columns, stage-front flowers; Opera House auditorium.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "145059831",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Tourist in cyclo on unidentified street; no specific site visible."
+ },
+ {
+  "pageid": "16902668",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Unidentified institutional courtyard buildings; title gives no confirmable site."
+ },
+ {
+  "pageid": "44034039",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Document, map, logo or artwork; not a camera location."
+ },
+ {
+  "pageid": "44034038",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Document, map, logo or artwork; not a camera location."
+ }
+]

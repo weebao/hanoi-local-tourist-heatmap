@@ -353,7 +353,7 @@ for k in ("gbif", "panoramax", "osmnotes", "openaerialmap"):
     check(f"{k} readable but off", multi.SOURCES[k].default_on, False)
     check(f"{k} records why", bool(multi.SOURCES[k].excluded_because), True)
 check("the default set", sorted(multi.enabled_sources()),
-      ["commons", "commonsdump", "flickr", "inat", "mapillary"])
+      ["commons", "commonsdump", "commonsplaced", "flickr", "inat", "mapillary"])
 # Wikidata was switched off after an audit found the documentation describing it
 # as excluded while the code still rendered it. Assert both halves so the flag
 # and the prose cannot drift apart again.
@@ -532,6 +532,77 @@ check("per-source counts are reported", all(
 check("point counts sum to the row count",
       sum(v["points"] for v in summ.values()), len(m["rows"]))
 
+# --- site-level sources, EXIF dates, geocode plausibility, own work ----------
+# A geocoded landmark is where the subject is, so it must never earn a
+# connecting line, whatever accuracy it states.
+import tempfile as _tf
+from datetime import datetime as _dt
+from lat.fischer import LINE_MIN_ACCURACY as _GATE
+check("EXIF colon date", multi.parse_date("2014:08:04 17:50:34"),
+      _dt(2014, 8, 4, 17, 50, 34))
+check("EXIF zero date is refused", multi.parse_date("0000:00:00 00:00:00"), None)
+check("commonsplaced is site-level", multi.SOURCES["commonsplaced"].site_level, True)
+check("commonsplaced shares the commons namespace",
+      multi.namespace_of("commonsplaced"), "commons")
+with _tf.TemporaryDirectory() as _d:
+    _p = os.path.join(_d, "commonsplaced_hanoi.tsv")
+    with open(_p, "w") as _f:
+        _f.write("id\tuser\tdate\tdate_kind\tlon\tlat\taccuracy_m\n"
+                 "1\tA\t2014:08:04 17:50:34\ttaken\t105.8346\t21.0367\t150\n")
+    _rows, _ = multi.read_table(_p, "commonsplaced")
+check("site-level row is forced coarse", [r["coarse"] for r in _rows], [True])
+check("site-level row sits below the line gate",
+      all(r["acc"] < _GATE for r in _rows), True)
+check("site-level rows do not vote on shared pins",
+      multi.pin_voters([{"src": "commonsplaced"}, {"src": "flickr"}]),
+      [{"src": "flickr"}])
+
+# every case below is a wrong point an audit found on the map, or a right one
+# an over-tight rule threw away
+from lat.geocode import plausible as _pl
+_CASES = [
+    ("Food market, July 2003, Hanoi", "Weekend Night Market food stalls, Phố Hàng Giấy", "amenity", "restaurant", False),
+    ("44 Hồ Tùng Mậu, Cầu Giấy", "Đường Hồ Tùng Mậu, Mai Dịch", "highway", "trunk", False),
+    ("Keangnam Landmark 72, Hanoi", "Cầu Giấy, Đường Cầu Giấy", "railway", "station", False),
+    ("Chùa Yên Phú, Liên Ninh, Thanh Trì", "Chùa Trấn Quốc, Thanh Niên, Tây Hồ", "amenity", "place_of_worship", False),
+    ("Ding Tea, 12 Trần Đại Nghĩa, Hai Bà Trưng, Hanoi", "Ding Tea, Xuân Thủy, Cầu Giấy, Hà Nội", "amenity", "cafe", False),
+    ("Tòa nhà C1, ĐH Bách khoa, Hanoi", "Toà nhà C1, Xuân Đỉnh, Bắc Từ Liêm", "building", "apartments", False),
+    ("Cổng làng Văn Trì, Hà Nội", "Làng Văn Hóa Công Viên Yên Sở, Phường Yên Sở", "leisure", "park", False),
+    ("Công viên Cầu Giấy 2", "Viện Hàn lâm Khoa học và Công nghệ Việt Nam, 18, Cầu Giấy", "office", "research", False),
+    ("Chùa Pháp Vân, Văn Bình, Thường Tín, Hà Nội", "Chùa Pháp Vân, Đường Giải Phóng, Pháp Vân, Hoàng Mai", "amenity", "place_of_worship", False),
+    ("Ho Chi minh mausoleum 2", "Bộ Tư lệnh Lăng Chủ tịch Hồ Chí Minh, 2, Phố Ông Ích Khiêm", "military", "base", False),
+    ("Lang Toi", "Nhà Hàng Làng Tôi, Phố Nam Ngư", "amenity", "restaurant", False),
+    ("90 Thợ Nhuộm Street, Hoàn Kiếm, Hanoi", "Phố Thợ Nhuộm, Khu phố cổ, Hoàn Kiếm", "highway", "residential", False),
+    ("Ho Chi Minh Mausoleum, Hanoi", "Lăng Chủ tịch Hồ Chí Minh, 1, Đường Hùng Vương", "building", "yes", True),
+    ("Temple of Literature Hanoi", "Văn Miếu - Quốc Tử Giám, Phường Văn Miếu", "landuse", "religious", True),
+    ("One Pillar Pagoda", "Chùa Một Cột, Ba Đình", "amenity", "place_of_worship", True),
+    ("Công viên Cầu Giấy", "Công viên Cầu Giấy, Phường Cầu Giấy", "leisure", "park", True),
+    ("Đồng Xuân Market, Hoàn Kiếm, Hanoi", "Chợ Đồng Xuân, Ngõ Hàng Khoai, Khu phố cổ, Hoàn Kiếm", "amenity", "marketplace", True),
+]
+for _q, _disp, _c, _t, _want in _CASES:
+    check(f"plausible: {_q[:40]}", _pl(_q, (0, 0, _disp, _c, _t))[0], _want)
+
+# an unregistered file on disk must be reported, never rendered
+with _tf.TemporaryDirectory() as _d:
+    with open(os.path.join(_d, "mysterysource_hanoi.tsv"), "w") as _f:
+        _f.write("id\tuser\tdate\tlon\tlat\n1\tZ\t2015-01-01\t105.85\t21.03\n")
+    _h, _hist, _reps = multi.load_all(directory=_d, include_flickr=False)
+check("unregistered source contributes no rows", len(_h), 0)
+check("unregistered source is reported as skipped",
+      [(r["source"], r.get("skipped")) for r in _reps["sources"]],
+      [("mysterysource", True)])
+
+from lat.build_placed import own_work as _own, BOT as _BOT
+check("own work: same name", _own("Syced", "Syced"), True)
+check("own work: wiki-prefixed credit", _own("vi:User:NHHP", "NHHP"), True)
+check("own work: talk suffix", _own("Phương Huy (thảo luận)", "Phương Huy"), True)
+check("not own work: Flickr author via a transferrer",
+      _own("shankar s. from Dubai, united arab emirates", "Thesupermat2"), False)
+check("not own work: press agency", _own("VOA", "源義信"), False)
+check("not own work: empty credit", _own("", "Somebody"), False)
+check("bot with a numeric suffix", bool(_BOT.search("MGA73bot2")), True)
+check("a person is not a bot", bool(_BOT.search("Abbott Nguyen")), False)
+
 shutil.rmtree(TMP, ignore_errors=True)
 
 print()
@@ -541,3 +612,4 @@ if FAIL:
         print("  " + f)
     sys.exit(1)
 print("ALL TESTS PASS")
+

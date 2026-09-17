@@ -1,0 +1,120 @@
+[
+ {
+  "pageid": "138550277",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "1920s rowing boat on unidentified rural water"
+ },
+ {
+  "pageid": "18144523",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "engraving, not a photograph"
+ },
+ {
+  "pageid": "112733988",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "school interior, no identifying feature"
+ },
+ {
+  "pageid": "30617388",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "pavement breakfast stall; \"near Hoan Kiem\" too vague and no landmark visible"
+ },
+ {
+  "pageid": "119097971",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "1900s workshop photo; site not identifiable"
+ },
+ {
+  "pageid": "39696075",
+  "verdict": "located",
+  "place": "Hanoi Botanical Garden (Vườn Bách Thảo), Ba Đình, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Moss-stained yellow perimeter wall under tall old trees with garden mural board; matches Bách Thảo edge"
+ },
+ {
+  "pageid": "118223444",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "118223454",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "118223441",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "118223440",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "36093774",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "engraving of Sơn Tây church, not a photograph"
+ },
+ {
+  "pageid": "187899095",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "taken at Blao, Annam (Lâm Đồng), not Hanoi"
+ },
+ {
+  "pageid": "187899113",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "taken at Blao, Annam (Lâm Đồng), not Hanoi"
+ },
+ {
+  "pageid": "18144521",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "engraving, not a photograph"
+ },
+ {
+  "pageid": "123302966",
+  "verdict": "located",
+  "place": "Embassy of Poland, 3 Chùa Một Cột, Ba Đình, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Yellow French villa with flags behind dark railing fence on tree-lined street; matches Polish embassy compound"
+ }
+]

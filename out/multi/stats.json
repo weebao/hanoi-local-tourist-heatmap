@@ -29,6 +29,22 @@
    "error": null
   },
   {
+   "source": "commonsplaced",
+   "present": true,
+   "rows": 95,
+   "history_rows": 3364,
+   "date_kind": "taken",
+   "columns": {
+    "date": "date",
+    "date_kind": "date_kind",
+    "id": "id",
+    "lat": "lat",
+    "lon": "lon",
+    "user": "user"
+   },
+   "error": null
+  },
+  {
    "source": "gbif",
    "present": true,
    "rows": 0,
@@ -56,6 +72,15 @@
    "error": null
   },
   {
+   "source": "kartaview",
+   "present": true,
+   "rows": 0,
+   "history_rows": 0,
+   "date_kind": null,
+   "columns": null,
+   "error": null
+  },
+  {
    "source": "openaerialmap",
    "present": true,
    "rows": 0,
@@ -66,6 +91,15 @@
   },
   {
    "source": "osmnotes",
+   "present": true,
+   "rows": 0,
+   "history_rows": 0,
+   "date_kind": null,
+   "columns": null,
+   "error": null
+  },
+  {
+   "source": "osv5m",
    "present": true,
    "rows": 0,
    "history_rows": 0,
@@ -95,13 +129,15 @@
  "source_docs": [
   "inat_report.md"
  ],
- "rows_loaded": 60971,
+ "rows_loaded": 61066,
  "window": null,
  "window_dropped": {},
  "sources_present_but_excluded": {
   "gbif": "48.8% of harvested rows state no uncertainty and the stated ones have a p90 of 16.4 km (1 sample row at 7,296 m is 1,846 px of slop on this map); `recordedBy` is free text, not a stable photographer id, so it cannot anchor a residency test; 863 rows are 1880s museum specimens; and 3,759 coordinate+day keys are shared with the iNaturalist harvest, which we already hold at better fidelity",
+  "kartaview": "4,185 of the 5,016 thinned rows belong to one bulk-import account ('OpenStreetView', 4,585 single-photo 360 sequences), which is not a photographer and has no history; the rest is 831 rows from 10 contributors, of whom 4 have any history outside Hanoi, so almost every point would be yellow. A drive is also a different kind of object from a photograph someone chose to take",
   "openaerialmap": "aerial imagery has no photographer standing anywhere: the coordinate is a scene centroid under an aircraft or satellite, `accuracy` is a ground sample distance in metres per pixel, and `acquisition_start` is a flight window. 2 rows in the box",
   "osmnotes": "an OSM note is not a photograph. Its position is where the mapper says something needs fixing, which is routinely filed from aerial imagery at a desk, and its `created` date is a filing time. 2,334 rows from 1,185 accounts is good diversity, so it is one flag away (--sources osmnotes) if the map is ever redefined as 'people who recorded something here'",
+  "osv5m": "the 210,122-row test split has exactly one row inside the Hanoi box; the 2.9 GB train split extrapolates to about 25",
   "panoramax": "320 rows in the drawn box from exactly 1 contributor, whose 34,327-row history file is that one person's global track. A locals-vs-tourists distinction cannot be drawn from a single identity at any coordinate quality",
   "wikidata": "the `user` column is whatever the Wikidata item credits, which is often not a person at all (e.g. 'Northern Vietnam'), so it cannot anchor a per-photographer residency test; 58 of the drawn photographers existed only from these rows"
  },
@@ -140,30 +176,31 @@
   "taken"
  ],
  "photographers": {
-  "tourist": 1995,
-  "unknown": 928,
-  "local": 426
+  "tourist": 1998,
+  "unknown": 944,
+  "local": 430
  },
- "photographers_untestable": 2,
+ "photographers_untestable": 3,
  "photographers_on_map": {
-  "local": 406,
-  "tourist": 1519,
-  "unknown": 659
+  "local": 410,
+  "tourist": 1522,
+  "unknown": 675
  },
  "cap": null,
  "cap_removed": {},
  "cap_sweep": [
   {
    "cap": null,
-   "points": 42299,
-   "photographers": 2584,
+   "points": 42394,
+   "photographers": 2607,
    "by_source": {
     "flickr": 18230,
     "commons": 14158,
+    "commonsplaced": 95,
     "inat": 9911
    },
-   "top3_share": 0.169,
-   "top5_share": 0.2238,
+   "top3_share": 0.1686,
+   "top5_share": 0.2233,
    "top5": [
     [
      "commons:Phan Minh Tu\u1ea5n",
@@ -189,15 +226,16 @@
   },
   {
    "cap": 2000,
-   "points": 40791,
-   "photographers": 2584,
+   "points": 40886,
+   "photographers": 2607,
    "by_source": {
     "flickr": 18230,
     "commons": 12650,
+    "commonsplaced": 95,
     "inat": 9911
    },
-   "top3_share": 0.1383,
-   "top5_share": 0.1951,
+   "top3_share": 0.1379,
+   "top5_share": 0.1947,
    "top5": [
     [
      "commons:Ltn12345",
@@ -223,15 +261,16 @@
   },
   {
    "cap": 1000,
-   "points": 37832,
-   "photographers": 2584,
+   "points": 37927,
+   "photographers": 2607,
    "by_source": {
     "flickr": 17590,
     "commons": 10331,
+    "commonsplaced": 95,
     "inat": 9911
    },
-   "top3_share": 0.0793,
-   "top5_share": 0.1322,
+   "top3_share": 0.0791,
+   "top5_share": 0.1318,
    "top5": [
     [
      "flickr:77987497@N00",
@@ -257,15 +296,16 @@
   },
   {
    "cap": 500,
-   "points": 34116,
-   "photographers": 2584,
+   "points": 34209,
+   "photographers": 2607,
    "by_source": {
     "flickr": 16372,
-    "commons": 7853,
+    "commons": 7852,
+    "commonsplaced": 94,
     "inat": 9891
    },
-   "top3_share": 0.044,
-   "top5_share": 0.0733,
+   "top3_share": 0.0438,
+   "top5_share": 0.0731,
    "top5": [
     [
      "flickr:75234007@N06",
@@ -291,15 +331,16 @@
   },
   {
    "cap": 200,
-   "points": 28552,
-   "photographers": 2584,
+   "points": 28645,
+   "photographers": 2607,
    "by_source": {
     "flickr": 14268,
-    "commons": 5058,
+    "commons": 5057,
+    "commonsplaced": 94,
     "inat": 9226
    },
-   "top3_share": 0.021,
-   "top5_share": 0.035,
+   "top3_share": 0.0209,
+   "top5_share": 0.0349,
    "top5": [
     [
      "flickr:75234007@N06",
@@ -325,15 +366,16 @@
   },
   {
    "cap": 100,
-   "points": 24618,
-   "photographers": 2584,
+   "points": 24710,
+   "photographers": 2607,
    "by_source": {
     "flickr": 12283,
-    "commons": 3647,
+    "commons": 3646,
+    "commonsplaced": 93,
     "inat": 8688
    },
-   "top3_share": 0.0122,
-   "top5_share": 0.0203,
+   "top3_share": 0.0121,
+   "top5_share": 0.0202,
    "top5": [
     [
      "flickr:75234007@N06",
@@ -359,15 +401,16 @@
   },
   {
    "cap": 50,
-   "points": 20349,
-   "photographers": 2584,
+   "points": 20441,
+   "photographers": 2607,
    "by_source": {
     "flickr": 10060,
-    "commons": 2547,
+    "commons": 2546,
+    "commonsplaced": 93,
     "inat": 7742
    },
-   "top3_share": 0.0074,
-   "top5_share": 0.0123,
+   "top3_share": 0.0073,
+   "top5_share": 0.0122,
    "top5": [
     [
      "flickr:75234007@N06",
@@ -392,11 +435,11 @@
    ]
   }
  ],
- "points_total": 42299,
+ "points_total": 42394,
  "points_by_class": {
-  "local": 24863,
-  "tourist": 14189,
-  "unknown": 3247
+  "local": 24938,
+  "tourist": 14194,
+  "unknown": 3262
  },
  "connecting_lines": 7601,
  "per_source": {
@@ -414,13 +457,25 @@
   "commons": {
    "points": 16925,
    "photographers": 411,
-   "local": 14031,
-   "tourist": 1280,
-   "unknown": 1614,
+   "local": 14036,
+   "tourist": 1278,
+   "unknown": 1611,
    "coarse": 60,
    "date_kinds": {
     "taken": 16525,
     "upload": 400
+   }
+  },
+  "commonsplaced": {
+   "points": 95,
+   "photographers": 32,
+   "local": 70,
+   "tourist": 7,
+   "unknown": 18,
+   "coarse": 95,
+   "date_kinds": {
+    "taken": 94,
+    "upload": 1
    }
   },
   "inat": {
@@ -441,6 +496,11 @@
    "png": "hanoi_multi_commons_6137.png",
    "points": 14158,
    "lines": 3626
+  },
+  "commonsplaced": {
+   "png": "hanoi_multi_commonsplaced_6137.png",
+   "points": 95,
+   "lines": 0
   },
   "flickr": {
    "png": "hanoi_multi_flickr_6137.png",

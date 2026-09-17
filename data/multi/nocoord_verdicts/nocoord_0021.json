@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "167997141",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "map/plan/satellite graphic, no camera position"
+ },
+ {
+  "pageid": "125354466",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "map/plan/satellite graphic, no camera position"
+ },
+ {
+  "pageid": "125116311",
+  "verdict": "located",
+  "place": "Chùa Non Nước, Sóc Sơn, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Tiered pagoda halls climbing forested hillside with long stone staircase",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "125303968",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/artwork/object reproduction, not a place photo"
+ },
+ {
+  "pageid": "89263310",
+  "verdict": "located",
+  "place": "Bệnh viện Thể thao Việt Nam, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Blue facade lettering reads BỆNH VIỆN THỂ THAO VIỆT NAM / Vietnam Sport Hospital",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "139187164",
+  "verdict": "located",
+  "place": "Bệnh viện Đại học Y Dược - Đại học Quốc gia Hà Nội, Hanoi",
+  "confidence": 0.7,
+  "evidence": "Rooftop lettering BỆNH VIỆN ĐẠI HỌC Y DƯỢC above entrance draped with flag",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "139186387",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "logo graphic"
+ },
+ {
+  "pageid": "148798792",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "early-1900s wall and banyan at unidentified street corner"
+ },
+ {
+  "pageid": "36724661",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "food close-up, no identifying feature"
+ },
+ {
+  "pageid": "93781860",
+  "verdict": "located",
+  "place": "Tòa nhà C1, Đại học Bách khoa Hà Nội, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Roof sign ĐẠI HỌC BÁCH KHOA HÀ NỘI on long yellow C1 main building",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "177463065",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "conference room interior, venue not identifiable"
+ },
+ {
+  "pageid": "15794639",
+  "verdict": "located",
+  "place": "Trường THPT Chu Văn An, 10 Thụy Khuê, Hanoi",
+  "confidence": 0.9,
+  "evidence": "Gate banner reads TRƯỜNG TRUNG HỌC PHỔ THÔNG CHU VĂN AN, 10 Thụy Khuê",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "39696078",
+  "verdict": "located",
+  "place": "Vườn Bách Thảo (Hanoi Botanical Garden), Hanoi",
+  "confidence": 0.5,
+  "evidence": "Park plaza with tall old trees and cafe umbrellas; consistent with Botanical Garden series",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "17514964",
+  "verdict": "located",
+  "place": "Phố Đinh Tiên Hoàng, Hoàn Kiếm, Hanoi",
+  "confidence": 0.45,
+  "evidence": "Yellow shophouse with balcony cafe seating; street named only by title",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "89313720",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "food close-up, no identifying feature"
+ }
+]

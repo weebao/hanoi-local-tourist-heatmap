@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "66995623",
+  "verdict": "located",
+  "place": "Hỏa Lò Prison, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Shackled prisoner mannequins in leg stocks, signature Hỏa Lò exhibit",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "66995627",
+  "verdict": "located",
+  "place": "Hỏa Lò Prison, Hanoi",
+  "confidence": 0.8,
+  "evidence": "Bas-relief of prison torture scenes, the courtyard memorial relief at Hỏa Lò",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "66995628",
+  "verdict": "located",
+  "place": "Hỏa Lò Prison, Hanoi",
+  "confidence": 0.8,
+  "evidence": "Bas-relief of shackled prisoners and guards, Hỏa Lò memorial relief",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "66995635",
+  "verdict": "located",
+  "place": "Hỏa Lò Prison, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Female prisoner mannequins behind green barred window",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "66995632",
+  "verdict": "located",
+  "place": "Hỏa Lò Prison, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Mannequins on plank bed in black-tarred cell with barred window",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "66995634",
+  "verdict": "located",
+  "place": "Hỏa Lò Prison, Hanoi",
+  "confidence": 0.9,
+  "evidence": "Guillotine displayed in black-and-white painted cell room",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "66995646",
+  "verdict": "located",
+  "place": "Hỏa Lò Prison, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Narrow corridor of solitary cells with iron doors (cachot)",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "66995650",
+  "verdict": "located",
+  "place": "Hỏa Lò Prison, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Pilot flight suit and helmet in display case, the McCain exhibit",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "66995652",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "generic street/market scene, no specific place identifiable"
+ },
+ {
+  "pageid": "66995674",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "generic street/market scene, no specific place identifiable"
+ },
+ {
+  "pageid": "5717050",
+  "verdict": "located",
+  "place": "Embassy of North Korea (DPRK), 25 Cao Bá Quát, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Cream French colonial villa with tower and red shutters behind wall at street corner",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "5717063",
+  "verdict": "located",
+  "place": "Embassy of North Korea (DPRK), 25 Cao Bá Quát, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Same cream villa with red shutters behind fence, plaque at gate",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "21121325",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait, no location features (unidentified roadside)"
+ },
+ {
+  "pageid": "7822599",
+  "verdict": "located",
+  "place": "Trường Đại học Xây dựng, 55 Giải Phóng, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Tower block with 'ĐẠI HỌC XÂY DỰNG' lettering and university logo",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "94091985",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "generic interior/event, no identifying feature"
+ }
+]

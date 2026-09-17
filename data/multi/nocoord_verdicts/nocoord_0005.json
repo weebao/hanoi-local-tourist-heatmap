@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "22558528",
+  "verdict": "located",
+  "place": "90 Thợ Nhuộm Street, Hoàn Kiếm, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Stone plaque: here comrade Trần Phú drafted the Party political thesis — the 90 Thợ Nhuộm memorial house",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "17001957",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "59349641",
+  "verdict": "located",
+  "place": "Bệnh viện Công an thành phố Hà Nội, Hanoi",
+  "confidence": 0.75,
+  "evidence": "Facade sign reads BỆNH VIỆN CÔNG AN TP. HÀ NỘI with police emblem",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "71578468",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "meeting in New Delhi"
+ },
+ {
+  "pageid": "78106925",
+  "verdict": "located",
+  "place": "304 Nguyễn Trãi, Thanh Xuân, Hanoi",
+  "confidence": 0.75,
+  "evidence": "Shop sign shows number 304 on a main road shopfront, matching title address",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "11317004",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "street vendor close-up, no place cue"
+ },
+ {
+  "pageid": "108979173",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "private house courtyard"
+ },
+ {
+  "pageid": "108846495",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "window interior"
+ },
+ {
+  "pageid": "44815386",
+  "verdict": "located",
+  "place": "Mỹ Đình National Stadium, Nam Từ Liêm, Hanoi",
+  "confidence": 0.7,
+  "evidence": "Huge two-tier roofed stadium stand packed for concert (MTV EXIT 2011)",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "44815127",
+  "verdict": "located",
+  "place": "Mỹ Đình National Stadium, Nam Từ Liêm, Hanoi",
+  "confidence": 0.7,
+  "evidence": "Large roofed stadium grandstand with truss roof behind concert crowd",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "179307920",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "116025284",
+  "verdict": "located",
+  "place": "Ga Vành Đai 3 (Cát Linh–Hà Đông metro), Nguyễn Trãi, Thanh Xuân, Hanoi",
+  "confidence": 0.75,
+  "evidence": "View from station footbridge with blue roof: elevated ring road over underpass traffic",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "37053202",
+  "verdict": "located",
+  "place": "Đinh Tiên Hoàng Street by Thê Húc Bridge, Hoàn Kiếm Lake, Hanoi",
+  "confidence": 0.8,
+  "evidence": "Red arched Thê Húc bridge and lake visible behind vendor across the lakeside street",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "30614534",
+  "verdict": "located",
+  "place": "Đinh Tiên Hoàng Street by Thê Húc Bridge, Hoàn Kiếm Lake, Hanoi",
+  "confidence": 0.8,
+  "evidence": "Red Thê Húc bridge, lakeside promenade and stone stele behind vendor",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "52301294",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "generic mall interior; which AEON mall not determinable"
+ }
+]

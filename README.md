@@ -239,6 +239,15 @@ pipeline cannot discredit coordinates it created itself.
     lat/multi.py            multi-source merge (see data/multi/MERGE.md)
     lat/build_multi.py      renders the merged map to out/multi/
     lat/harvest_history.py  backfills per-photographer worldwide history
+    lat/density.py          squares sized by distinct photographers per cell
+    lat/build_density.py    renders that variant to out/density/
+    lat/harvest_commons_cats.py   walks Hanoi categories for files with no coordinate
+    lat/nocoord_sheets.py   contact sheets for the vision pass (deleted after use)
+    lat/nocoord_vision_ingest.py  vision verdicts -> geocoded points
+    lat/nocoord_geocode.py  title -> geocoded points
+    lat/build_placed.py     own-work filter; writes the commonsplaced source
+    lat/harvest_commons_exif.py, harvest_kartaview.py, harvest_osv5m.py
+                            harvests that were measured and excluded
     lat/proj.py             projections
     lat/relocate_fetch.py   pull pile images, build contact sheets
     lat/pile_sheets.py      per-pile contact sheets for adjudication
@@ -282,7 +291,7 @@ cannot be computed at all, so a source that lacks it adds uncoloured dots to a
 map whose only content is the colour. GBIF, Panoramax, Wikidata, OpenAerialMap
 and OSM notes fail it, and MERGE.md records the measurement that excluded each.
 
-The merged map holds 42,299 points from 2,584 photographers against this map's
+The merged map holds 42,394 points from 2,607 photographers against this map's
 20,274 from 817, and the colour balance inverts: the Flickr slice is 51%
 visitor photographs, the merge is 59% local.
 
@@ -300,6 +309,39 @@ local-minus-tourist margin from +25.3 points to +8.5. The 30-day span rule pays
 for a long baseline, and Commons has one where a corpus ending in 2014 cannot.
 So read it as a statement about Commons and about date coverage, not about
 Hanoi. MERGE.md carries the per-source table.
+
+95 of those points are a fourth, different kind of source. Commons holds
+thousands of Hanoi photographs with no coordinate at all; some were placed by
+agents naming the site from the image, GeoGuessr-style, and some by the place
+their title names. Those points mark where the subject is, not where the camera
+stood, they snap to one centroid per site, they never draw a travel line, and a
+file is only used when its Artist credit is the uploader. An adversarial audit
+failed the first version of this source (14% of points misplaced, and mass
+transferrers of other people's photos being coloured as locals); MERGE.md
+records what it found and what was changed.
+
+### Busy places should look busy (`out/density/`)
+
+Fischer's opaque 3x3 points have a property that is easy to miss: a thousand
+photographs on one spot draw exactly what one photograph draws. On the merged
+data 48.4% of photographs are hidden under another point, 70.8% on the
+Flickr-only data. `lat/build_density.py` renders a variant that keeps the
+points, lines and colours but first lays a square under each 16 px cell (about
+63 m), sized by the number of distinct photographers of that colour who
+photographed there: side = 3 x sqrt(n), capped at 41 px, nothing for a cell
+with one photographer. Squares are drawn largest first and the points go on
+top, so a small mark is never buried.
+
+![Hanoi, sized by distinct photographers](out/density/hanoi_density_merged_6137.png)
+
+    .venv/bin/python lat/build_density.py merged --size 6137
+
+Sizing by photographs was tried first and was wrong. An audit found 44 of its
+50 largest squares held a single photographer, with a rank correlation of 0.06
+between photographs and photographers: it drew who uploads in bulk from one
+spot, not where people go. In this version the 50 largest squares hold between
+17 and 142 photographers each. It is a variant, not the reproduction; the map
+at the top of this page is unchanged.
 
 Reddit, Instagram, TikTok and X were deliberately not crawled. None exposes a
 geotag the photographer attached, and deriving the colour would mean inferring

@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "181298253",
+  "verdict": "located",
+  "place": "State Bank of Vietnam, Lý Thái Tổ, Hanoi",
+  "confidence": 0.9,
+  "evidence": "Former Banque de l'Indochine facade with octagonal domed entrance, flag, red banner.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "118869671",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Document, map, logo or artwork; not a camera location."
+ },
+ {
+  "pageid": "13249708",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Stacked plastic basins close-up; market unidentified."
+ },
+ {
+  "pageid": "67250099",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Hardware shopfront; signage shows shop names but no readable street or address."
+ },
+ {
+  "pageid": "37896972",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Document, map, logo or artwork; not a camera location."
+ },
+ {
+  "pageid": "39668688",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Document, map, logo or artwork; not a camera location."
+ },
+ {
+  "pageid": "8785745",
+  "verdict": "located",
+  "place": "Bia Hơi Corner, Tạ Hiện - Lương Ngọc Quyến, Hanoi",
+  "confidence": 0.5,
+  "evidence": "Night panorama of crowded street junction with plastic-stool drinkers; title names Bia Hoi Corner.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "88806560",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Title and hillside setting indicate Sa Pa, not Hanoi."
+ },
+ {
+  "pageid": "24775196",
+  "verdict": "located",
+  "place": "Mỹ Đình Bus Station, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Bus-station ticket hall with route/fare boards, counters and waiting passengers.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "94564552",
+  "verdict": "located",
+  "place": "Vườn hoa Vạn Xuân (Hàng Đậu), Hanoi",
+  "confidence": 0.6,
+  "evidence": "Two-tier roofed stele pavilion on stepped plinth in a small park; archival view.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "94564737",
+  "verdict": "located",
+  "place": "Vườn hoa Vạn Xuân (Hàng Đậu), Hanoi",
+  "confidence": 0.6,
+  "evidence": "Same two-tier stele pavilion on plinth among trees; archival view.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "94564378",
+  "verdict": "located",
+  "place": "Vườn hoa Vạn Xuân (Hàng Đậu), Hanoi",
+  "confidence": 0.6,
+  "evidence": "Same stele pavilion with stone stele inside, park trees; archival view.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "94563348",
+  "verdict": "located",
+  "place": "Vườn hoa Vạn Xuân (Hàng Đậu), Hanoi",
+  "confidence": 0.7,
+  "evidence": "Two-tier stele pavilion in small park with benches and lamp posts, city buildings behind.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "94231193",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Portrait/people close-up; no location feature visible."
+ },
+ {
+  "pageid": "24572380",
+  "verdict": "located",
+  "place": "Bích Câu Đạo Quán, Cát Linh, Hanoi",
+  "confidence": 0.65,
+  "evidence": "Temple hall with red doors, Chinese name board, bonsai and rock pond in courtyard.",
+  "refusal_reason": ""
+ }
+]

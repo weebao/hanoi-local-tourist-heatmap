@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "107993540",
+  "verdict": "located",
+  "place": "Hỏa Lò Prison (Maison Centrale), Hanoi",
+  "confidence": 0.5,
+  "evidence": "Guest-book signing before Ho Chi Minh bust and party flag; placed only by series timing",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "71630372",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "aerial view of a lake peninsula; camera airborne, vantage not a place"
+ },
+ {
+  "pageid": "66069463",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "11735569",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait/people only, no identifiable place in pixels"
+ },
+ {
+  "pageid": "4432160",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "beer bottles close-up"
+ },
+ {
+  "pageid": "150190388",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "historic interior group, not Hanoi-identifiable"
+ },
+ {
+  "pageid": "75611117",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "1924 print of a school building; cannot identify which site"
+ },
+ {
+  "pageid": "75611122",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "1924 print of colonial building; site not confirmable from pixels"
+ },
+ {
+  "pageid": "131507646",
+  "verdict": "located",
+  "place": "Tòa Tổng Giám mục Hà Nội, 40 Nhà Chung, Hoàn Kiếm, Hanoi",
+  "confidence": 0.8,
+  "evidence": "Curved yellow multi-storey building with entrance sign ending GIÁM MỤC HÀ NỘI",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "150190366",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "meeting in Việt Bắc, not Hanoi"
+ },
+ {
+  "pageid": "16916754",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "columned hall with anniversary banners; building not identifiable with confidence"
+ },
+ {
+  "pageid": "153275274",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait/people only, no identifiable place in pixels"
+ },
+ {
+  "pageid": "79375180",
+  "verdict": "located",
+  "place": "78 Chùa Hà Street, Cầu Giấy, Hanoi",
+  "confidence": 0.8,
+  "evidence": "Shopfront sign shows address 78 Chùa Hà",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "16665871",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/map/graphic, not a photograph of a place"
+ },
+ {
+  "pageid": "4099470",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait/people only, no identifiable place in pixels"
+ }
+]

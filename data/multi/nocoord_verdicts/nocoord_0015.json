@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "113081667",
+  "verdict": "located",
+  "place": "Ga Cát Linh, Hanoi",
+  "confidence": 0.75,
+  "evidence": "Close-up of circular Hanoi emblem on station wall with glass facade above.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "14608030",
+  "verdict": "located",
+  "place": "Hanoi University of Science and Technology, Hanoi",
+  "confidence": 0.45,
+  "evidence": "Yellow multi-storey campus block at end of tree-lined road; title Bkhn.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "14608107",
+  "verdict": "located",
+  "place": "Thư viện Tạ Quang Bửu, Hanoi University of Science and Technology, Hanoi",
+  "confidence": 0.55,
+  "evidence": "Large library block with banded facade and podium at sunset.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "3648465",
+  "verdict": "located",
+  "place": "Hanoi University of Science and Technology, Hanoi",
+  "confidence": 0.5,
+  "evidence": "Elevated view down axial path to fountain with flag rows, campus towers at left.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "105754851",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Black swans on paved edge; site not identifiable."
+ },
+ {
+  "pageid": "18155965",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Archival rural blockhouse; location north of Hanoi unspecified."
+ },
+ {
+  "pageid": "187924212",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Botanical specimen photo from Laos."
+ },
+ {
+  "pageid": "187924229",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Botanical specimen photo from Laos."
+ },
+ {
+  "pageid": "77772989",
+  "verdict": "located",
+  "place": "56 Nguyễn Phong Sắc, Cầu Giấy, Hanoi",
+  "confidence": 0.7,
+  "evidence": "BoBaPop storefront sign on narrow tube house on busy street.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "76030622",
+  "verdict": "located",
+  "place": "6 Hồ Tùng Mậu, Cầu Giấy, Hanoi",
+  "confidence": 0.7,
+  "evidence": "Large BoBaPop Taiwan Lattea sign on black two-storey corner shop.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "75979516",
+  "verdict": "located",
+  "place": "6 Hồ Tùng Mậu, Cầu Giấy, Hanoi",
+  "confidence": 0.7,
+  "evidence": "Same BoBaPop shopfront lit at night.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "88758953",
+  "verdict": "located",
+  "place": "Ministry of Public Security headquarters, 47 Phạm Văn Đồng, Hanoi",
+  "confidence": 0.5,
+  "evidence": "Monumental grey office block with glazed entrance and emblem seen through trees.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "64218217",
+  "verdict": "located",
+  "place": "Khu di tích Chủ tịch Hồ Chí Minh tại Phủ Chủ tịch (ao cá Bác Hồ), Hanoi",
+  "confidence": 0.5,
+  "evidence": "Pond with yellow balustraded bank and palms, matching Ho Chi Minh fish pond beside Botanical Garden.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "64218221",
+  "verdict": "located",
+  "place": "Khu di tích Chủ tịch Hồ Chí Minh tại Phủ Chủ tịch (ao cá Bác Hồ), Hanoi",
+  "confidence": 0.5,
+  "evidence": "Yellow colonial building on pond edge with yellow balustrade and royal palms.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "64218230",
+  "verdict": "located",
+  "place": "Khu di tích Chủ tịch Hồ Chí Minh tại Phủ Chủ tịch (ao cá Bác Hồ), Hanoi",
+  "confidence": 0.5,
+  "evidence": "Yellow single-storey colonial buildings across the pond under large trees.",
+  "refusal_reason": ""
+ }
+]

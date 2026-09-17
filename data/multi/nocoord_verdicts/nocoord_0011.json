@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "26363865",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Yellow three-tier pagoda gate with stone lions; cannot determine which Hanoi pagoda."
+ },
+ {
+  "pageid": "103327674",
+  "verdict": "located",
+  "place": "British Vietnamese International School Hanoi, Royal City, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Aerial of white-blue school blocks with sports field beside Royal City towers; building signage.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "112732885",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Generic indoor swimming pool; no identifying feature in pixels."
+ },
+ {
+  "pageid": "112733817",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Generic indoor climbing wall; no identifying feature in pixels."
+ },
+ {
+  "pageid": "10459217",
+  "verdict": "located",
+  "place": "Ba Đình Hall, Ba Đình Square, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Old Ba Đình Hall colonnaded facade with red banner and flag across the square lawn grid.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "3135202",
+  "verdict": "located",
+  "place": "Ba Đình Square, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Ho Chi Minh Mausoleum silhouette and flagpole across the grass grid of the square at sunset.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "11686771",
+  "verdict": "located",
+  "place": "Ba Đình Square, Hanoi",
+  "confidence": 0.7,
+  "evidence": "Wide panorama of grass-grid parade square with central flagpole.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "3004479",
+  "verdict": "located",
+  "place": "Ba Đình Square, Hanoi",
+  "confidence": 0.9,
+  "evidence": "Ho Chi Minh Mausoleum frontal with flagpole and white-uniformed honour guard.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "64218600",
+  "verdict": "located",
+  "place": "Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi",
+  "confidence": 0.7,
+  "evidence": "Small shrine with red wooden doors between grey stone pillars under banyan trees.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "64218565",
+  "verdict": "located",
+  "place": "Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Gilded red-lacquer altar interior; same minutes-apart sequence as exterior shots of the red-doored Bà Kiệu shrine.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "64218580",
+  "verdict": "located",
+  "place": "Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Gilded red-lacquer altar interior; same minutes-apart sequence as exterior shots of the red-doored Bà Kiệu shrine.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "64218589",
+  "verdict": "located",
+  "place": "Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Gilded red-lacquer altar interior; same minutes-apart sequence as exterior shots of the red-doored Bà Kiệu shrine.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "64218591",
+  "verdict": "located",
+  "place": "Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Gilded red-lacquer altar interior; same minutes-apart sequence as exterior shots of the red-doored Bà Kiệu shrine.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "64218598",
+  "verdict": "located",
+  "place": "Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Gilded red-lacquer altar interior; same minutes-apart sequence as exterior shots of the red-doored Bà Kiệu shrine.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "64218579",
+  "verdict": "located",
+  "place": "Đền Bà Kiệu, Đinh Tiên Hoàng, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Gilded red-lacquer altar interior; same minutes-apart sequence as exterior shots of the red-doored Bà Kiệu shrine.",
+  "refusal_reason": ""
+ }
+]

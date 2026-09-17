@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "121240747",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "map/plan/satellite graphic, no camera position"
+ },
+ {
+  "pageid": "121240831",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "map/plan/satellite graphic, no camera position"
+ },
+ {
+  "pageid": "2440823",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/artwork/object reproduction, not a place photo"
+ },
+ {
+  "pageid": "2445650",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/artwork/object reproduction, not a place photo"
+ },
+ {
+  "pageid": "31951628",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "night street vendor, street not identifiable"
+ },
+ {
+  "pageid": "18155637",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait or people shot with no identifiable place"
+ },
+ {
+  "pageid": "18155638",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "portrait or people shot with no identifiable place"
+ },
+ {
+  "pageid": "125702438",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/artwork/object reproduction, not a place photo"
+ },
+ {
+  "pageid": "11435875",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "ceramic mosaic dyke road runs ~4 km; panel position not identifiable"
+ },
+ {
+  "pageid": "18156192",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "19th-century distant view, vantage not identifiable"
+ },
+ {
+  "pageid": "135767704",
+  "verdict": "located",
+  "place": "Concordia International School Hanoi, Đông Anh, Hanoi",
+  "confidence": 0.55,
+  "evidence": "Aerial view of modern school campus blocks amid fields and village",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "67252135",
+  "verdict": "located",
+  "place": "Green Farm Restaurant, Hanoi",
+  "confidence": 0.45,
+  "evidence": "Restaurant interior with 'Green Farm' signboard visible",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "67252143",
+  "verdict": "located",
+  "place": "Green Farm Restaurant, Hanoi",
+  "confidence": 0.4,
+  "evidence": "Same restaurant interior and table setup as the Green Farm sign shot",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "67252133",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "food close-up, no identifying feature"
+ },
+ {
+  "pageid": "67252134",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "food close-up, no identifying feature"
+ }
+]

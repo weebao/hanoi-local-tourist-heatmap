@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "112364249",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "meeting room in Brazil (Brazilian ministry photo)"
+ },
+ {
+  "pageid": "112364398",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "meeting room in Brazil"
+ },
+ {
+  "pageid": "112364467",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "meeting room in Brazil"
+ },
+ {
+  "pageid": "113075675",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Japan-Vietnam signing in Tokyo (Japanese cabinet office)"
+ },
+ {
+  "pageid": "113075663",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "banquet room in Tokyo"
+ },
+ {
+  "pageid": "177490366",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "food close-up"
+ },
+ {
+  "pageid": "177490365",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "private home interior"
+ },
+ {
+  "pageid": "162376676",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "US Institute of Peace stage, Washington DC"
+ },
+ {
+  "pageid": "154771435",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "USIP event, Washington DC"
+ },
+ {
+  "pageid": "154771434",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "USIP podium, Washington DC"
+ },
+ {
+  "pageid": "107993530",
+  "verdict": "located",
+  "place": "Hỏa Lò Prison (Maison Centrale), Hanoi",
+  "confidence": 0.85,
+  "evidence": "Row of shackled prisoner mannequins on sloped platform, the signature Hỏa Lò exhibit",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "107993531",
+  "verdict": "located",
+  "place": "Hỏa Lò Prison (Maison Centrale), Hanoi",
+  "confidence": 0.6,
+  "evidence": "Prison-museum corridor with photo panels and checkered tile; same visit series",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "107993532",
+  "verdict": "located",
+  "place": "Hỏa Lò Prison (Maison Centrale), Hanoi",
+  "confidence": 0.6,
+  "evidence": "Barred cell door and exhibit photos; same visit series",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "107993535",
+  "verdict": "located",
+  "place": "Hỏa Lò Prison (Maison Centrale), Hanoi",
+  "confidence": 0.5,
+  "evidence": "Guest-book signing; no unique feature, placed only by series timing minutes after prison shots",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "107993533",
+  "verdict": "located",
+  "place": "Hỏa Lò Prison (Maison Centrale), Hanoi",
+  "confidence": 0.5,
+  "evidence": "Guest-book signing before Ho Chi Minh bust; placed only by series timing",
+  "refusal_reason": ""
+ }
+]

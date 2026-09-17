@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "67252138",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "food close-up, no identifying feature"
+ },
+ {
+  "pageid": "67252137",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "food close-up, no identifying feature"
+ },
+ {
+  "pageid": "67252139",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "food close-up, no identifying feature"
+ },
+ {
+  "pageid": "67252140",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "food close-up, no identifying feature"
+ },
+ {
+  "pageid": "67252141",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "food close-up, no identifying feature"
+ },
+ {
+  "pageid": "67252142",
+  "verdict": "located",
+  "place": "Green Farm Restaurant, Hanoi",
+  "confidence": 0.4,
+  "evidence": "Same restaurant interior and cook as the Green Farm sign shot",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "40073288",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/artwork/object reproduction, not a place photo"
+ },
+ {
+  "pageid": "47107991",
+  "verdict": "located",
+  "place": "Công viên Thống Nhất, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Park path with flowerbeds and lake through trees; named by title",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "147918771",
+  "verdict": "located",
+  "place": "Cột cờ Hà Nội, Hanoi",
+  "confidence": 0.7,
+  "evidence": "Old halftone of the Flag Tower with stepped base",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "39696077",
+  "verdict": "located",
+  "place": "Vườn Bách Thảo (Hanoi Botanical Garden), Hanoi",
+  "confidence": 0.5,
+  "evidence": "Lawn with tall old trees and pond; Botanical Garden series",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "190437990",
+  "verdict": "located",
+  "place": "Quảng trường Ba Đình, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Ho Chi Minh Mausoleum across the gridded lawn of Ba Đình Square",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "66958037",
+  "verdict": "located",
+  "place": "Nhà hát Lớn Hà Nội, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Opera House columns and front steps facing the square",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "141376501",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "document/artwork/object reproduction, not a place photo"
+ },
+ {
+  "pageid": "185650317",
+  "verdict": "located",
+  "place": "Sân tennis Trung Yên, Trung Yên, Cầu Giấy, Hanoi",
+  "confidence": 0.5,
+  "evidence": "Green clubhouse and fence by tennis courts; named by title",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "185650331",
+  "verdict": "located",
+  "place": "Sân tennis Trung Yên, Trung Yên, Cầu Giấy, Hanoi",
+  "confidence": 0.55,
+  "evidence": "Covered tennis courts behind gate, sign for MT 61 Sport company",
+  "refusal_reason": ""
+ }
+]

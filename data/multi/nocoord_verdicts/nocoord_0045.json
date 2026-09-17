@@ -1,0 +1,107 @@
+[
+ {
+  "pageid": "30617530",
+  "verdict": "located",
+  "place": "Lý Thái Tổ Statue and Park, Đinh Tiên Hoàng, Hoàn Kiếm, Hanoi",
+  "confidence": 0.8,
+  "evidence": "Large paved plaza with Lý Thái Tổ bronze statue on pedestal among trees; former Indira Gandhi Park"
+ },
+ {
+  "pageid": "185646388",
+  "verdict": "located",
+  "place": "Junction of Mạc Thái Tông, Trung Kính and Vũ Phạm Hàm, Cầu Giấy, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Large signalised junction with blue-glass office block and Trung Hòa apartment towers; consistent with titled junction"
+ },
+ {
+  "pageid": "185646387",
+  "verdict": "located",
+  "place": "Junction of Mạc Thái Tông, Trung Kính and Vũ Phạm Hàm, Cầu Giấy, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Large signalised junction with blue-glass office block and Trung Hòa apartment towers; consistent with titled junction"
+ },
+ {
+  "pageid": "185646393",
+  "verdict": "located",
+  "place": "Junction of Mạc Thái Tông, Trung Kính and Vũ Phạm Hàm, Cầu Giấy, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Large signalised junction with blue-glass office block and Trung Hòa apartment towers; consistent with titled junction"
+ },
+ {
+  "pageid": "185646394",
+  "verdict": "located",
+  "place": "Junction of Mạc Thái Tông, Trung Kính and Vũ Phạm Hàm, Cầu Giấy, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Large signalised junction with blue-glass office block and Trung Hòa apartment towers; consistent with titled junction"
+ },
+ {
+  "pageid": "185925874",
+  "verdict": "located",
+  "place": "Junction of Trần Duy Hưng and Trung Kính, Cầu Giấy, Hanoi",
+  "confidence": 0.55,
+  "evidence": "Corner shops and raised concrete planter at a major junction; consistent with titled TDH–TK junction"
+ },
+ {
+  "pageid": "185925875",
+  "verdict": "located",
+  "place": "Junction of Trần Duy Hưng and Trung Kính, Cầu Giấy, Hanoi",
+  "confidence": 0.55,
+  "evidence": "Election billboard, traffic cabinets and wide arterial junction beyond; same corner as companion"
+ },
+ {
+  "pageid": "185646389",
+  "verdict": "located",
+  "place": "Junction of Mạc Thái Tông, Trung Kính and Vũ Phạm Hàm, Cầu Giấy, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Large signalised junction with blue-glass office block and Trung Hòa apartment towers; consistent with titled junction"
+ },
+ {
+  "pageid": "185647487",
+  "verdict": "located",
+  "place": "Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi",
+  "confidence": 0.5,
+  "evidence": "Dogs on patterned park pavers beside planter; same paving as rest of timed park series"
+ },
+ {
+  "pageid": "185647488",
+  "verdict": "located",
+  "place": "Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Stone benches, clipped shrubs, flower beds inside small urban park"
+ },
+ {
+  "pageid": "185647491",
+  "verdict": "located",
+  "place": "Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Curving brick-edged paths, stone benches, clipped shrubs, surrounding row houses"
+ },
+ {
+  "pageid": "185647494",
+  "verdict": "located",
+  "place": "Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Curving brick-edged paths, stone benches, clipped shrubs, surrounding row houses"
+ },
+ {
+  "pageid": "185647493",
+  "verdict": "located",
+  "place": "Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Curving brick-edged paths, stone benches, clipped shrubs, surrounding row houses"
+ },
+ {
+  "pageid": "185647497",
+  "verdict": "located",
+  "place": "Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Curving brick-edged paths, stone benches, clipped shrubs, surrounding row houses"
+ },
+ {
+  "pageid": "185647498",
+  "verdict": "located",
+  "place": "Công viên Trung Yên (Trung Yên Park), Trung Hòa, Cầu Giấy, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Curving brick-edged paths, stone benches, clipped shrubs, surrounding row houses"
+ }
+]

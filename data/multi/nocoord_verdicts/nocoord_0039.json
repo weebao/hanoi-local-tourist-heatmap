@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "49490731",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "semi-open canteen, no identifying feature"
+ },
+ {
+  "pageid": "10432992",
+  "verdict": "located",
+  "place": "Điện Kính Thiên, Hoàng thành Thăng Long, Hanoi",
+  "confidence": 0.7,
+  "evidence": "19th-century view of double-roofed palace on terrace at end of paved axis",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "10433062",
+  "verdict": "located",
+  "place": "Điện Kính Thiên, Hoàng thành Thăng Long, Hanoi",
+  "confidence": 0.85,
+  "evidence": "Stone dragon balustrade steps of Kính Thiên with French soldiers, unmistakable carvings",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "94043435",
+  "verdict": "located",
+  "place": "Điện Kính Thiên, Hoàng thành Thăng Long, Hanoi",
+  "confidence": 0.7,
+  "evidence": "Tinted copy of same palace-on-terrace view",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "77689655",
+  "verdict": "located",
+  "place": "103 Cầu Diễn, Bắc Từ Liêm, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Multi-storey Ding Tea shopfront with illuminated signs at night",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "78107061",
+  "verdict": "located",
+  "place": "306 Nguyễn Trãi, Thanh Xuân, Hanoi",
+  "confidence": 0.65,
+  "evidence": "Ding Tea shopfront; sign carries Nguyễn Trãi address",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "77686902",
+  "verdict": "located",
+  "place": "69 Quang Trung, Hai Bà Trưng, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Corner Ding Tea building with billboard on wide street",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "44816774",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "concert stage, venue not identifiable"
+ },
+ {
+  "pageid": "121829408",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "distant night skyline, vantage unknown"
+ },
+ {
+  "pageid": "63786084",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "building not identifiable to an address"
+ },
+ {
+  "pageid": "15506440",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "wreath ceremony; monument site ambiguous"
+ },
+ {
+  "pageid": "65939639",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "courtyard meeting, site not identifiable"
+ },
+ {
+  "pageid": "51412646",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "concert stage, venue not identifiable"
+ },
+ {
+  "pageid": "143711718",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "food/object close-up, no location features (market stall)"
+ },
+ {
+  "pageid": "26364466",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "food/object close-up, no location features (market stall)"
+ }
+]

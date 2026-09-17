@@ -1,0 +1,122 @@
+[
+ {
+  "pageid": "112446953",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Unidentified yellow institutional block; no signage."
+ },
+ {
+  "pageid": "112446958",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Unidentified yellow institutional block; no signage."
+ },
+ {
+  "pageid": "112446963",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Unidentified yellow institutional block; no signage."
+ },
+ {
+  "pageid": "121304388",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Portrait/people close-up; no location feature visible."
+ },
+ {
+  "pageid": "78106493",
+  "verdict": "located",
+  "place": "44 Hồ Tùng Mậu, Cầu Giấy, Hanoi",
+  "confidence": 0.7,
+  "evidence": "Illuminated \"bumba\" shopfront sign at night with parked motorbikes.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "25463804",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Food/drink close-up; no location feature."
+ },
+ {
+  "pageid": "7516925",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Food/drink close-up; no location feature."
+ },
+ {
+  "pageid": "150423657",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Food/drink close-up; no location feature."
+ },
+ {
+  "pageid": "50473445",
+  "verdict": "located",
+  "place": "Hầm D67, Imperial Citadel of Thăng Long, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Narrow bunker corridor with steel doors and patterned tiles.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "50473443",
+  "verdict": "located",
+  "place": "Hầm D67, Imperial Citadel of Thăng Long, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Steep concrete stairway descending into underground bunker.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "50473444",
+  "verdict": "located",
+  "place": "Hầm D67, Imperial Citadel of Thăng Long, Hanoi",
+  "confidence": 0.6,
+  "evidence": "Bunker room with vintage military communication equipment on tiled floor.",
+  "refusal_reason": ""
+ },
+ {
+  "pageid": "10008909",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "High panorama over citadel/ministry compound; camera vantage building unknown."
+ },
+ {
+  "pageid": "15364378",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Woman burning votive paper in unidentified alley."
+ },
+ {
+  "pageid": "98772977",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Shop with Chinese-character pediment; street not identifiable."
+ },
+ {
+  "pageid": "98642344",
+  "verdict": "refused",
+  "place": "",
+  "confidence": 0.0,
+  "evidence": "",
+  "refusal_reason": "Mat/bamboo shop interior; street not identifiable."
+ }
+]

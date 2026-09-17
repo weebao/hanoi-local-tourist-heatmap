@@ -99,7 +99,7 @@ def main(size=2000, directory=multi.MULTI_DIR, cap=None, out_dir=OUT_DIR,
     # Shared place pins are a Flickr place-picker artefact, but the same shape
     # of artefact exists on every source (a Commons uploader geotagging a batch
     # from a map click), so the detector runs over the merged set.
-    pins = find_pins(rows)
+    pins = find_pins(multi.pin_voters(rows))
     n_pin = sum(1 for r in rows if _pin_key(r) in pins)
     print(f"  {len(pins)} shared place-pin coordinates ({n_pin} photos)")
 
