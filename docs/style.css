@@ -1,0 +1,35 @@
+/* Plain by intent: the map is the only thing on the page with colour in it. */
+html, body { margin: 0; height: 100%; background: #fff; }
+#map { position: absolute; inset: 0; background: #fff; }
+
+#panel {
+  position: absolute;
+  top: 8px; left: 8px;
+  z-index: 2;
+  max-width: 21rem;
+  max-height: calc(100% - 16px);
+  overflow-y: auto;
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #999;
+  padding: 6px 8px;
+  font: 12px/1.45 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  color: #111;
+}
+#panel summary { cursor: pointer; font-weight: 700; }
+#panel[open] summary { margin-bottom: 6px; }
+#panel fieldset { border: 0; border-top: 1px solid #ddd; margin: 6px 0 0; padding: 4px 0 0; }
+#panel legend { padding: 0 4px 0 0; color: #555; }
+#panel label { display: block; padding: 1px 0; }
+#panel input { vertical-align: -1px; margin: 0 4px 0 0; }
+.sw { display: inline-block; width: 9px; height: 9px; border: 1px solid #777; vertical-align: 0; }
+.dim { color: #555; }
+.n { color: #555; }
+#status { color: #555; min-height: 1.45em; }
+.credit { margin: 6px 0 0; padding-top: 4px; border-top: 1px solid #ddd; color: #555; }
+.credit a { color: #111; }
+#panel a:focus-visible, #panel summary:focus-visible, #panel input:focus-visible { outline: 2px solid #000; }
+
+@media (max-width: 560px) {
+  #panel { max-width: calc(100% - 16px); font-size: 12px; }
+}

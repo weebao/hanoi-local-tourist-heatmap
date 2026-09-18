@@ -1,0 +1,322 @@
+{
+ "bemaps2_hn": {
+  "account": "bemaps2_hn",
+  "operator": "Be Group JSC (BeMaps mapping programme)",
+  "hq_city": "Ho Chi Minh City",
+  "hq_country": "Vietnam",
+  "is_fleet": true,
+  "countries_operated": [
+   "Vietnam"
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://blog.mapillary.com/update/2024/05/16/Be-Group-Vietnam-Mapillary-Imagery.html",
+   "https://be.com.vn/en/story/vietnamese-ride-hailing-startup-be-groups-alternative-approach-to-success/",
+   "https://app.dealroom.co/companies/be_group_"
+  ],
+  "note": "BeMaps is Be Group's in-house mapping programme, started late 2022, capture from April 2023 with three riders on scooters using GoPro Max 360 cameras, about 9 million images and 27000 km over Hanoi and Ho Chi Minh City. The hn suffix matches Hanoi and the account is 99.9 percent spherical, which fits the GoPro Max rig. No public roster of account names exists, so the account-level link rests on the prefix plus the matching capture profile."
+ },
+ "bemaps_hn_kien": {
+  "account": "bemaps_hn_kien",
+  "operator": "Be Group JSC (BeMaps mapping programme)",
+  "hq_city": "Ho Chi Minh City",
+  "hq_country": "Vietnam",
+  "is_fleet": true,
+  "countries_operated": [
+   "Vietnam"
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://blog.mapillary.com/update/2024/05/16/Be-Group-Vietnam-Mapillary-Imagery.html",
+   "https://app.dealroom.co/companies/be_group_"
+  ],
+  "note": "Same programme and same profile as bemaps2_hn, 100 percent spherical Hanoi imagery. The third name element is not researched; if it belongs to a rider it is an individual working under an organisational prefix and was left alone."
+ },
+ "bemaps3_sg": {
+  "account": "bemaps3_sg",
+  "operator": "Be Group JSC (BeMaps mapping programme)",
+  "hq_city": "Ho Chi Minh City",
+  "hq_country": "Vietnam",
+  "is_fleet": true,
+  "countries_operated": [
+   "Vietnam"
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://blog.mapillary.com/update/2024/05/16/Be-Group-Vietnam-Mapillary-Imagery.html",
+   "https://app.dealroom.co/companies/be_group_"
+  ],
+  "note": "The sg suffix matches the Saigon half of the same two-city programme, which is consistent with a small in-box footprint in Hanoi, 9642 images over four days."
+ },
+ "bemaps_1pd": {
+  "account": "bemaps_1pd",
+  "operator": "Be Group JSC (BeMaps mapping programme)",
+  "hq_city": "Ho Chi Minh City",
+  "hq_country": "Vietnam",
+  "is_fleet": true,
+  "countries_operated": [
+   "Vietnam"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://blog.mapillary.com/update/2024/05/16/Be-Group-Vietnam-Mapillary-Imagery.html"
+  ],
+  "note": "Carries the organisational prefix but is small, 1385 images over two days in September 2023. The 1pd suffix may identify a rider rather than a city or vehicle, so this may be an individual's account inside the programme. Not researched further for that reason."
+ },
+ "hn_right_1": {
+  "account": "hn_right_1",
+  "operator": null,
+  "hq_city": null,
+  "hq_country": null,
+  "is_fleet": true,
+  "countries_operated": [
+   "Vietnam"
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/List_of_street_view_services",
+   "https://community.openstreetmap.org/t/osm-in-vietnam/86254"
+  ],
+  "note": "Could not establish the operator. Naming is city code plus camera position plus vehicle number, imagery is 100 percent perspective, 167808 images over 227 capture days from November 2024 to October 2025, which reads as a multi-camera survey rig. No public source names it. is_fleet is inferred from the repo's own harvest pattern, not from a public source. Vietnam is where it was observed capturing, not a documented country of operation."
+ },
+ "hn_right_2": {
+  "account": "hn_right_2",
+  "operator": null,
+  "hq_city": null,
+  "hq_country": null,
+  "is_fleet": true,
+  "countries_operated": [
+   "Vietnam"
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/List_of_street_view_services",
+   "https://community.openstreetmap.org/t/osm-in-vietnam/86254"
+  ],
+  "note": "Could not establish the operator. Same naming scheme, same all-perspective profile and an overlapping date window with the other hn accounts, December 2024 to September 2025."
+ },
+ "hn_left_2": {
+  "account": "hn_left_2",
+  "operator": null,
+  "hq_city": null,
+  "hq_country": null,
+  "is_fleet": true,
+  "countries_operated": [
+   "Vietnam"
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/List_of_street_view_services",
+   "https://community.openstreetmap.org/t/osm-in-vietnam/86254"
+  ],
+  "note": "Could not establish the operator. Same naming scheme and window as the other hn accounts, December 2024 to October 2025."
+ },
+ "hn_front_1": {
+  "account": "hn_front_1",
+  "operator": null,
+  "hq_city": null,
+  "hq_country": null,
+  "is_fleet": true,
+  "countries_operated": [
+   "Vietnam"
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/List_of_street_view_services",
+   "https://community.openstreetmap.org/t/osm-in-vietnam/86254"
+  ],
+  "note": "Could not establish the operator. Same naming scheme and window as the other hn accounts, December 2024 to September 2025."
+ },
+ "sg_front_3": {
+  "account": "sg_front_3",
+  "operator": null,
+  "hq_city": null,
+  "hq_country": null,
+  "is_fleet": true,
+  "countries_operated": [
+   "Vietnam"
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/List_of_street_view_services"
+  ],
+  "note": "Could not establish the operator. Same naming scheme with an sg city code, only 442 images over three days in the Hanoi box in mid 2026, which is what a Saigon vehicle passing through would leave."
+ },
+ "kaart_1": {
+  "account": "kaart_1",
+  "operator": "Kaart Group, LLC",
+  "hq_city": "Grand Junction, Colorado",
+  "hq_country": "United States",
+  "is_fleet": true,
+  "countries_operated": [
+   "United States",
+   "Vietnam",
+   "Indonesia",
+   "Malaysia",
+   "Philippines",
+   "Cambodia",
+   "Kazakhstan",
+   "Turkey",
+   "Russia",
+   "Greece",
+   "Romania",
+   "Moldova",
+   "United Kingdom",
+   "Jordan",
+   "Ghana",
+   "Nigeria",
+   "South Africa",
+   "Mexico",
+   "Guatemala",
+   "Panama",
+   "Argentina",
+   "Brazil",
+   "Chile",
+   "Colombia",
+   "Uruguay"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://wiki.openstreetmap.org/wiki/Kaart",
+   "https://kaart.com/",
+   "https://opengovus.com/colorado-business/20131613940"
+  ],
+  "note": "Reads as a numbered survey vehicle under the Kaart brand. The harvest puts kaart_1, kaart_3 and kaartcam in the same Hanoi window, 17 to 21 April 2019, with the same all-perspective profile. The wiki documents kaartcam but not the numbered accounts, hence medium. The country list is the OSM wiki and company site list, of a claimed 65 to 75 or more countries."
+ },
+ "kaart_3": {
+  "account": "kaart_3",
+  "operator": "Kaart Group, LLC",
+  "hq_city": "Grand Junction, Colorado",
+  "hq_country": "United States",
+  "is_fleet": true,
+  "countries_operated": [
+   "United States",
+   "Vietnam",
+   "Indonesia",
+   "Malaysia",
+   "Philippines",
+   "Cambodia",
+   "Kazakhstan",
+   "Turkey",
+   "Russia",
+   "Greece",
+   "Romania",
+   "Moldova",
+   "United Kingdom",
+   "Jordan",
+   "Ghana",
+   "Nigeria",
+   "South Africa",
+   "Mexico",
+   "Guatemala",
+   "Panama",
+   "Argentina",
+   "Brazil",
+   "Chile",
+   "Colombia",
+   "Uruguay"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://wiki.openstreetmap.org/wiki/Kaart",
+   "https://kaart.com/",
+   "https://opengovus.com/colorado-business/20131613940"
+  ],
+  "note": "Same reasoning as kaart_1, a numbered vehicle account inside the same April 2019 Hanoi window."
+ },
+ "kaartcam": {
+  "account": "kaartcam",
+  "operator": "Kaart Group, LLC",
+  "hq_city": "Grand Junction, Colorado",
+  "hq_country": "United States",
+  "is_fleet": true,
+  "countries_operated": [
+   "United States",
+   "Vietnam",
+   "Indonesia",
+   "Malaysia",
+   "Philippines",
+   "Cambodia",
+   "Kazakhstan",
+   "Turkey",
+   "Russia",
+   "Greece",
+   "Romania",
+   "Moldova",
+   "United Kingdom",
+   "Jordan",
+   "Ghana",
+   "Nigeria",
+   "South Africa",
+   "Mexico",
+   "Guatemala",
+   "Panama",
+   "Argentina",
+   "Brazil",
+   "Chile",
+   "Colombia",
+   "Uruguay"
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://wiki.openstreetmap.org/wiki/Kaart",
+   "https://kaart.com/",
+   "https://opengovus.com/colorado-business/20131613940",
+   "https://www.mapillary.com/showcase"
+  ],
+  "note": "Documented username for Kaart's street-level imagery uploads to Mapillary and OpenStreetCam, over 11 million images shared. Kaart Group, LLC registered with the Colorado Secretary of State on 24 October 2013, office at 734 Main Street, Grand Junction. Listed on the OSM wiki under Organised Editing as a corporate data team and a bronze OSMF corporate member."
+ },
+ "theonenetwork": {
+  "account": "theonenetwork",
+  "operator": "TheOneNetwork JSC (Cong ty Co phan TheOneNetwork), tax code 0111085880",
+  "hq_city": "Hanoi",
+  "hq_country": "Vietnam",
+  "is_fleet": true,
+  "countries_operated": [
+   "Vietnam"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.theonenetwork.vn/streetview-virtual-tour",
+   "https://infocom.vn/cong-ty-co-phan-theonenetwork-0111085880.html",
+   "https://www.linkedin.com/company/theonenetwork-vietnam",
+   "https://theonemap.net/"
+  ],
+  "note": "Hanoi real-estate data and advisory business that sells a 360 Streetview and Virtual Tour service and feeds ground-level imagery into its TheOneMap price and planning map. Registered address in Thanh Luong ward, Hai Ba Trung district, Hanoi, registered 12 June 2025, brand active from 2023. The account is 100 percent spherical in Hanoi across 16 days from June 2024 to August 2025, consistent with commissioned property shoots rather than systematic road coverage. Match is name plus city plus capture type; no source ties the Mapillary account to the company explicitly."
+ },
+ "phoenixmap_right": {
+  "account": "phoenixmap_right",
+  "operator": null,
+  "hq_city": null,
+  "hq_country": null,
+  "is_fleet": true,
+  "countries_operated": [
+   "Vietnam"
+  ],
+  "confidence": "low",
+  "sources": [
+   "https://en.wikipedia.org/wiki/List_of_street_view_services",
+   "https://ensun.io/search/geospatial-data/vietnam"
+  ],
+  "note": "Could not establish the operator. No mapping or survey business under a Phoenix name could be tied to Vietnam or to this account; searches returned only Phoenix Arizona city mapping, a US LiDAR vendor and atlas publishers. It shares the _right camera-position suffix with the hn and sg accounts and its window, 29 November to 19 December 2024, sits inside theirs, which is a harvest observation and not evidence about a company."
+ },
+ "roadroid": {
+  "account": "roadroid",
+  "operator": "Roadroid AB",
+  "hq_city": "Ljusdal",
+  "hq_country": "Sweden",
+  "is_fleet": true,
+  "countries_operated": [
+   "Sweden",
+   "client road authorities worldwide"
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.crunchbase.com/organization/roadroid-ab",
+   "https://pitchbook.com/profiles/company/118692-10",
+   "https://www.davidpublisher.com/public/uploads/contribute/55472096c5198.pdf",
+   "https://trid.trb.org/view/1264278"
+  ],
+  "note": "Swedish company founded 2011, based in Ljusdal, a few employees. Its app measures road roughness from a phone accelerometer against the IRI standard and captures geo-referenced road photos alongside, sold to road authorities and consultants; it grew out of research for the Swedish Road Administration. So it is road condition survey work with imagery attached rather than a street-view fleet. Operator identity is solid because the product name is distinctive, but nothing published confirms the Mapillary account, hence medium. The account holds exactly one image in the Hanoi box, dated 1 September 2017, so it has no bulk presence here."
+ }
+}

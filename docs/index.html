@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Locals and Tourists: Hanoi</title>
+<meta name="description" content="Erica Fischer's Locals and Tourists method applied to Hanoi: blue locals, red tourists, yellow unknown, pan and zoom.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/5.24.0/maplibre-gl.css"
+      integrity="sha384-uTttxo/aOKbdE5RlD/SPzSDoDmNvGlUYPjONi2MN/b7c9HPSvW07OIuyP7uL6jxK"
+      crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="map"></div>
+
+<details id="panel" open>
+<summary>Locals and Tourists: Hanoi</summary>
+<div>
+  <fieldset>
+    <legend>photographs</legend>
+    <label><input type="radio" name="dataset" value="faithful" checked>
+      Flickr only <span class="n" id="n-faithful">20,274</span></label>
+    <label><input type="radio" name="dataset" value="merged">
+      + Commons, iNaturalist <span class="n" id="n-merged">42,394</span></label>
+  </fieldset>
+
+  <fieldset>
+    <legend>who</legend>
+    <label><input type="checkbox" class="cls" value="local" checked>
+      <span class="sw" style="background:#0000FF"></span> local
+      <span class="n" id="n-local"></span><br>
+      <span class="dim">photographed in Hanoi over a span of a month or more</span></label>
+    <label><input type="checkbox" class="cls" value="tourist" checked>
+      <span class="sw" style="background:#FF0000"></span> tourist
+      <span class="n" id="n-tourist"></span><br>
+      <span class="dim">a local of some other city, in Hanoi under a month</span></label>
+    <label><input type="checkbox" class="cls" value="unknown" checked>
+      <span class="sw" style="background:#FFFF00"></span> unknown
+      <span class="n" id="n-unknown"></span><br>
+      <span class="dim">photographed nowhere over a span of a month</span></label>
+  </fieldset>
+
+  <fieldset>
+    <legend>marks</legend>
+    <label><input type="checkbox" id="lines" checked> connecting lines
+      <span class="n" id="n-lines"></span><br>
+      <span class="dim">one photographer's consecutive photos, within 10 min
+      and 15,000 ft</span></label>
+  </fieldset>
+
+  <p id="status"></p>
+
+  <p class="credit">
+    The method and the look are
+    <a href="https://www.flickr.com/photos/walkingsf/albums/72157624209158632/">Erica
+    Fischer's <i>Locals and Tourists</i></a>, 2010. Fischer computed a Hanoi
+    box and never published its map. This is a reimplementation:
+    <a href="https://github.com/weebao/hanoi-local-tourist-heatmap">source and
+    method</a>.<br>
+    Basemap &copy; OpenStreetMap contributors (ODbL).
+    Photo metadata from YFCC100M, Wikimedia Commons and iNaturalist;
+    photographs are &copy; their photographers.
+  </p>
+</div>
+</details>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/5.24.0/maplibre-gl.js"
+        integrity="sha384-5+cfbwT0iiub6VsQAdn6yz16nr6sDiQoHx6tm4O8OVYXHYOxcffFmCJBL0dgdvGp"
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="app.js"></script>
+</body>
+</html>

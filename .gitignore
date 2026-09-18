@@ -34,3 +34,6 @@ data/multi/commons_exif_checked.txt
 data/multi/commons_exif_search_ids.tsv
 
 .secrets
+
+# harvest resume state; the harvester and its result TSVs are tracked
+data/multi/mapillary/
