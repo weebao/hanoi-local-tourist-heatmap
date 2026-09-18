@@ -1,0 +1,419 @@
+{
+ "generated": "Render the multi-source Hanoi map with the existing renderer.",
+ "frame": "EquirectFrame(6137px, bounds S20.926386 W105.728233 N21.144091 E105.961466, 3.95 m/px)",
+ "bounds_source": "Fischer bounds/flickr-picasa cluster 124 (as out/stats.json)",
+ "sources_loaded": [
+  {
+   "source": "commons",
+   "present": true,
+   "rows": 0,
+   "history_rows": 0,
+   "date_kind": null,
+   "columns": null,
+   "error": null
+  },
+  {
+   "source": "commonsplaced",
+   "present": true,
+   "rows": 0,
+   "history_rows": 0,
+   "date_kind": null,
+   "columns": null,
+   "error": null
+  },
+  {
+   "source": "gbif",
+   "present": true,
+   "rows": 0,
+   "history_rows": 0,
+   "date_kind": null,
+   "columns": null,
+   "error": null
+  },
+  {
+   "source": "inat",
+   "present": true,
+   "rows": 0,
+   "history_rows": 0,
+   "date_kind": null,
+   "columns": null,
+   "error": null
+  },
+  {
+   "source": "kartaview",
+   "present": true,
+   "rows": 0,
+   "history_rows": 0,
+   "date_kind": null,
+   "columns": null,
+   "error": null
+  },
+  {
+   "source": "mapillary",
+   "present": true,
+   "rows": 350015,
+   "history_rows": 932,
+   "date_kind": "taken",
+   "columns": {
+    "date": "date",
+    "date_kind": "date_kind",
+    "id": "id",
+    "lat": "lat",
+    "lon": "lon",
+    "precision": "accuracy",
+    "user": "user"
+   },
+   "error": null
+  },
+  {
+   "source": "openaerialmap",
+   "present": true,
+   "rows": 0,
+   "history_rows": 0,
+   "date_kind": null,
+   "columns": null,
+   "error": null
+  },
+  {
+   "source": "osmnotes",
+   "present": true,
+   "rows": 0,
+   "history_rows": 0,
+   "date_kind": null,
+   "columns": null,
+   "error": null
+  },
+  {
+   "source": "osv5m",
+   "present": true,
+   "rows": 0,
+   "history_rows": 0,
+   "date_kind": null,
+   "columns": null,
+   "error": null
+  },
+  {
+   "source": "panoramax",
+   "present": true,
+   "rows": 0,
+   "history_rows": 0,
+   "date_kind": null,
+   "columns": null,
+   "error": null
+  },
+  {
+   "source": "wikidata",
+   "present": true,
+   "rows": 0,
+   "history_rows": 0,
+   "date_kind": null,
+   "columns": null,
+   "error": null
+  }
+ ],
+ "source_docs": [
+  "inat_report.md"
+ ],
+ "rows_loaded": 350015,
+ "window": null,
+ "window_dropped": {},
+ "sources_present_but_excluded": {
+  "commons": "",
+  "commonsplaced": "",
+  "gbif": "48.8% of harvested rows state no uncertainty and the stated ones have a p90 of 16.4 km (1 sample row at 7,296 m is 1,846 px of slop on this map); `recordedBy` is free text, not a stable photographer id, so it cannot anchor a residency test; 863 rows are 1880s museum specimens; and 3,759 coordinate+day keys are shared with the iNaturalist harvest, which we already hold at better fidelity",
+  "inat": "",
+  "kartaview": "4,185 of the 5,016 thinned rows belong to one bulk-import account ('OpenStreetView', 4,585 single-photo 360 sequences), which is not a photographer and has no history; the rest is 831 rows from 10 contributors, of whom 4 have any history outside Hanoi, so almost every point would be yellow. A drive is also a different kind of object from a photograph someone chose to take",
+  "openaerialmap": "aerial imagery has no photographer standing anywhere: the coordinate is a scene centroid under an aircraft or satellite, `accuracy` is a ground sample distance in metres per pixel, and `acquisition_start` is a flight window. 2 rows in the box",
+  "osmnotes": "an OSM note is not a photograph. Its position is where the mapper says something needs fixing, which is routinely filed from aerial imagery at a desk, and its `created` date is a filing time. 2,334 rows from 1,185 accounts is good diversity, so it is one flag away (--sources osmnotes) if the map is ever redefined as 'people who recorded something here'",
+  "osv5m": "the 210,122-row test split has exactly one row inside the Hanoi box; the 2.9 GB train split extrapolates to about 25",
+  "panoramax": "320 rows in the drawn box from exactly 1 contributor, whose 34,327-row history file is that one person's global track. A locals-vs-tourists distinction cannot be drawn from a single identity at any coordinate quality",
+  "wikidata": "the `user` column is whatever the Wikidata item credits, which is often not a person at all (e.g. 'Northern Vietnam'), so it cannot anchor a per-photographer residency test; 58 of the drawn photographers existed only from these rows"
+ },
+ "harvester_exclusions_recheck": {
+  "inat": {
+   "rows_readable": 1030,
+   "would_still_map": 0,
+   "dropped_by_us": {
+    "inat/obscured": 1030
+   },
+   "their_reasons": {
+    "obscured": 1033
+   },
+   "agrees": true
+  }
+ },
+ "obscured_dropped": {},
+ "precision_dropped": {},
+ "precision_drop_metres": 5000.0,
+ "precision_coarse_metres": 1000.0,
+ "dedup_removed_by_pair": {},
+ "dedup_by_key": {},
+ "residency_date_kinds": [
+  "observed",
+  "taken"
+ ],
+ "photographers": {
+  "local": 25,
+  "unknown": 21,
+  "tourist": 12
+ },
+ "photographers_untestable": 0,
+ "photographers_on_map": {
+  "tourist": 12,
+  "unknown": 21,
+  "local": 25
+ },
+ "cap": null,
+ "cap_removed": {},
+ "cap_sweep": [
+  {
+   "cap": null,
+   "points": 350015,
+   "photographers": 58,
+   "by_source": {
+    "mapillary": 350015
+   },
+   "top3_share": 0.6121,
+   "top5_share": 0.8718,
+   "top5": [
+    [
+     "mapillary:hn_right_1",
+     85300
+    ],
+    [
+     "mapillary:hn_left_2",
+     64562
+    ],
+    [
+     "mapillary:hn_front_1",
+     64388
+    ],
+    [
+     "mapillary:hn_right_2",
+     56620
+    ],
+    [
+     "mapillary:bemaps2_hn",
+     34270
+    ]
+   ]
+  },
+  {
+   "cap": 2000,
+   "points": 37835,
+   "photographers": 58,
+   "by_source": {
+    "mapillary": 37835
+   },
+   "top3_share": 0.1586,
+   "top5_share": 0.2643,
+   "top5": [
+    [
+     "mapillary:bemaps2_hn",
+     2000
+    ],
+    [
+     "mapillary:bemaps_hn_kien",
+     2000
+    ],
+    [
+     "mapillary:hn_front_1",
+     2000
+    ],
+    [
+     "mapillary:hn_left_2",
+     2000
+    ],
+    [
+     "mapillary:hn_right_1",
+     2000
+    ]
+   ]
+  },
+  {
+   "cap": 1000,
+   "points": 25054,
+   "photographers": 58,
+   "by_source": {
+    "mapillary": 25054
+   },
+   "top3_share": 0.1197,
+   "top5_share": 0.1996,
+   "top5": [
+    [
+     "mapillary:alllenwang",
+     1000
+    ],
+    [
+     "mapillary:bemaps2_hn",
+     1000
+    ],
+    [
+     "mapillary:bemaps_1pd",
+     1000
+    ],
+    [
+     "mapillary:bemaps_hn_kien",
+     1000
+    ],
+    [
+     "mapillary:elsol8888",
+     1000
+    ]
+   ]
+  },
+  {
+   "cap": 500,
+   "points": 15500,
+   "photographers": 58,
+   "by_source": {
+    "mapillary": 15500
+   },
+   "top3_share": 0.0968,
+   "top5_share": 0.1613,
+   "top5": [
+    [
+     "mapillary:alllenwang",
+     500
+    ],
+    [
+     "mapillary:bemaps2_hn",
+     500
+    ],
+    [
+     "mapillary:bemaps3_sg",
+     500
+    ],
+    [
+     "mapillary:bemaps_1pd",
+     500
+    ],
+    [
+     "mapillary:bemaps_hn_kien",
+     500
+    ]
+   ]
+  },
+  {
+   "cap": 200,
+   "points": 7508,
+   "photographers": 58,
+   "by_source": {
+    "mapillary": 7508
+   },
+   "top3_share": 0.0799,
+   "top5_share": 0.1332,
+   "top5": [
+    [
+     "mapillary:HungTran9x0",
+     200
+    ],
+    [
+     "mapillary:alllenwang",
+     200
+    ],
+    [
+     "mapillary:bemaps2_hn",
+     200
+    ],
+    [
+     "mapillary:bemaps3_sg",
+     200
+    ],
+    [
+     "mapillary:bemaps_1pd",
+     200
+    ]
+   ]
+  },
+  {
+   "cap": 100,
+   "points": 4098,
+   "photographers": 58,
+   "by_source": {
+    "mapillary": 4098
+   },
+   "top3_share": 0.0732,
+   "top5_share": 0.122,
+   "top5": [
+    [
+     "mapillary:HungTran9x0",
+     100
+    ],
+    [
+     "mapillary:Jbovell77",
+     100
+    ],
+    [
+     "mapillary:XeLangThang",
+     100
+    ],
+    [
+     "mapillary:alllenwang",
+     100
+    ],
+    [
+     "mapillary:bemaps1",
+     100
+    ]
+   ]
+  },
+  {
+   "cap": 50,
+   "points": 2184,
+   "photographers": 58,
+   "by_source": {
+    "mapillary": 2184
+   },
+   "top3_share": 0.0687,
+   "top5_share": 0.1145,
+   "top5": [
+    [
+     "mapillary:HungTran9x0",
+     50
+    ],
+    [
+     "mapillary:Jbovell77",
+     50
+    ],
+    [
+     "mapillary:XeLangThang",
+     50
+    ],
+    [
+     "mapillary:alllenwang",
+     50
+    ],
+    [
+     "mapillary:bemaps1",
+     50
+    ]
+   ]
+  }
+ ],
+ "points_total": 350015,
+ "points_by_class": {
+  "tourist": 10226,
+  "unknown": 2959,
+  "local": 336830
+ },
+ "connecting_lines": 0,
+ "per_source": {
+  "mapillary": {
+   "points": 350015,
+   "photographers": 58,
+   "local": 336830,
+   "tourist": 10226,
+   "unknown": 2959,
+   "coarse": 350015,
+   "date_kinds": {
+    "taken": 350015
+   }
+  }
+ },
+ "per_source_renders": {},
+ "shared_pins": {
+  "coords": 0,
+  "photos": 0
+ }
+}

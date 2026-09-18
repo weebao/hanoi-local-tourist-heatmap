@@ -349,11 +349,12 @@ check("an open-ended window works",
       len(multi.filter_window(span, (None, datetime(2013, 1, 1)))[0]), 1)
 
 print("\nsources measured not worth mapping are off, not deleted")
-for k in ("gbif", "panoramax", "osmnotes", "openaerialmap"):
+for k in ("gbif", "panoramax", "osmnotes", "openaerialmap", "mapillary",
+          "kartaview", "osv5m"):
     check(f"{k} readable but off", multi.SOURCES[k].default_on, False)
     check(f"{k} records why", bool(multi.SOURCES[k].excluded_because), True)
 check("the default set", sorted(multi.enabled_sources()),
-      ["commons", "commonsdump", "commonsplaced", "flickr", "inat", "mapillary"])
+      ["commons", "commonsdump", "commonsplaced", "flickr", "inat"])
 # Wikidata was switched off after an audit found the documentation describing it
 # as excluded while the code still rendered it. Assert both halves so the flag
 # and the prose cannot drift apart again.

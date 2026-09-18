@@ -13,6 +13,11 @@ never published its map.
 *6137×6137 px at 3.95 m/px, the originals' canvas size. Smaller renders are in
 [`out/`](out/).*
 
+There is a pan-and-zoom version at
+[weebao.github.io/hanoi-local-tourist-heatmap](https://weebao.github.io/hanoi-local-tourist-heatmap/),
+built from the same marks. It has no API key and no tile service: MapLibre GL
+JS draws vector data generated here. Source in [`docs/`](docs/).
+
 ## Build
 
     .venv/bin/python lat/build_fischer.py --size 6137
@@ -159,6 +164,26 @@ Squares go down largest first and the points on top.
 
 The 50 largest squares hold between 17 and 142 photographers each. Sizing by
 photographs was tried first; 44 of its 50 largest squares held one person.
+
+### Street-level imagery (`out/multi/hanoi_mapillary_6137.png`)
+
+Mapillary holds 2,190,651 images inside the box. Thinned to one row per
+contributor per 50 m per day they are 350,015 points from 58 accounts, eight
+times the merged map, and 87% of them come from five organisational camera
+fleets. Four cameras on one fleet are 77%.
+
+![Hanoi, Mapillary street-level imagery](out/multi/hanoi_mapillary_6137.png)
+
+    .venv/bin/python lat/build_multi.py --size 6137 --sources mapillary --no-flickr --tag mapillary
+
+The picture is the argument for keeping it out of the composite: it draws the
+road network, because that is where survey cars go. The red trace down the west
+bank is Kaart Group, a Colorado company that captured everything in one
+three-day window in April 2019 and is a visitor by the same rule everyone else
+gets. The accounts classify normally, 25 local and 12 tourist and 21 unknown,
+and `data/multi/mapillary_operators.md` records which operators could be
+established from public business records. The source is registered
+`default_on=False`; the site offers it as a layer.
 
 ## Privacy
 

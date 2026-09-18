@@ -368,6 +368,34 @@ def merged(out_dir=OUT_DIR, size=SIZE, sources=MERGED_SOURCES):
     })
 
 
+def mapillary(out_dir=OUT_DIR, size=SIZE):
+    """Street-level imagery, its own layer and never part of the composite.
+
+    350,015 rows against the merged map's 42,394, 87% of them from five
+    organisational camera fleets. It draws the road network, which is why it
+    is offered as a layer the reader turns on rather than folded into a map
+    about where people photograph. The accounts are classified by the ordinary
+    residency rule, so the colours mean what they mean everywhere else.
+    """
+    from lat import multi
+
+    m = multi.merge(multi.MULTI_DIR, cap=None, sources=["mapillary"],
+                    include_flickr=False, verbose=True)
+    rows, labels = m["rows"], m["labels"]
+    frame = EquirectFrame(HANOI_BOUNDS, size)
+    pins = find_pins(multi.pin_voters(rows))
+    labels = {u: labels.get(u, "unknown") for u in {r["user"] for r in rows}}
+    pts, segs, on_map = _marks(rows, labels, frame, pins)
+    print(f"  {len(pts):,} points + {len(segs):,} connecting lines")
+    _check("out/multi/stats_mapillary.json", len(pts), len(segs))
+    return write_marks(os.path.join(out_dir, "mapillary.json"), pts, segs, {
+        "kind": "mapillary",
+        "label": "Mapillary street-level",
+        "sources": ["mapillary"],
+        "photographers": on_map,
+    })
+
+
 def _check(stats_path, n_pts, n_lines):
     """The rendered PNG is the reference; disagreeing with it is a bug here."""
     if not os.path.exists(stats_path):
@@ -389,7 +417,8 @@ def _check(stats_path, n_pts, n_lines):
 if __name__ == "__main__":
     import argparse
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    ap.add_argument("stage", choices=["basemap", "faithful", "merged"])
+    ap.add_argument("stage",
+                    choices=["basemap", "faithful", "merged", "mapillary"])
     ap.add_argument("--out", default=OUT_DIR)
     ap.add_argument("--size", type=int, default=SIZE,
                     help="canvas the marks are gated on; only the pixel "
@@ -399,5 +428,7 @@ if __name__ == "__main__":
         basemap(a.out)
     elif a.stage == "faithful":
         faithful(a.out, a.size)
+    elif a.stage == "mapillary":
+        mapillary(a.out, a.size)
     else:
         merged(a.out, a.size)

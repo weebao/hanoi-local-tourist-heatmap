@@ -289,9 +289,24 @@ SOURCES = {
             "34,327-row history file is that one person's global track. A "
             "locals-vs-tourists distinction cannot be drawn from a single "
             "identity at any coordinate quality")),
+    # Street-level imagery, harvested with a token the user supplied
+    # (lat/harvest_mapillary.py). This spec predates the harvest and was
+    # default_on, which would have folded 350,015 rows into the composite the
+    # moment the file appeared, exactly as an unregistered KartaView harvest
+    # once did. It is rendered as its own layer instead: the rows are real and
+    # the accounts classify normally, the objection is to the composite.
     "mapillary": SourceSpec(
-        "mapillary", "Mapillary", TAKEN, "metres", 10.0,
-        "captured_at; computed GPS"),
+        "mapillary", "Mapillary", TAKEN, "metres", 10.0, default_on=False,
+        note="captured_at; computed GPS; one row per contributor per 50 m per "
+             "day, from 2,190,651 images in the box",
+        excluded_because=(
+            "350,015 thinned rows outnumber every other source combined by 8 "
+            "to 1, and 87% of them come from five organisational camera "
+            "fleets rather than from people choosing to photograph a place. "
+            "Four cameras on one fleet are 77% of it. Folded in, the merged "
+            "map would stop showing where people photograph Hanoi and start "
+            "showing where survey cars drove. Rendered separately instead; "
+            "see data/multi/mapillary_operators.md")),
 }
 
 # When the same photograph arrives twice, which copy is authoritative. Ordered
