@@ -239,6 +239,7 @@ pipeline cannot discredit coordinates it created itself.
     lat/multi.py            multi-source merge (see data/multi/MERGE.md)
     lat/build_multi.py      renders the merged map to out/multi/
     lat/harvest_history.py  backfills per-photographer worldwide history
+    lat/titled.py           the map with title and legend, at the map's own size
     lat/density.py          squares sized by distinct photographers per cell
     lat/build_density.py    renders that variant to out/density/
     lat/harvest_commons_cats.py   walks Hanoi categories for files with no coordinate
