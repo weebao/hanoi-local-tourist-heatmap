@@ -22,7 +22,7 @@ from PIL import Image, ImageDraw
 
 SRC = "data/multi/commons_nocoord.tsv"
 OUT = "data/multi/nocoord"
-UA = "hanoi-locals-tourists/1.0 (+https://github.com/weebao/local-tourist-heatmap)"
+UA = "hanoi-locals-tourists/1.0 (+https://github.com/weebao/hanoi-local-tourist-heatmap)"
 THUMB = "https://commons.wikimedia.org/wiki/Special:FilePath/{}?width=460"
 
 

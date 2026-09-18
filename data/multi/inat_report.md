@@ -212,7 +212,7 @@ iNaturalist asks for <= 60 requests/minute and ~10,000/day, and asks that you id
 | Constraint probes and validation | ~10 | - | - |
 | **Total for the day** | **~115** | | **inside both limits** |
 
-Throttling is a hard floor between request *starts*, not a sleep after each response, so the ceiling holds even when a response is fast. Retries use linear backoff on 429 and 5xx. Every request carried `User-Agent: img-city-heatmap/1.0 (research; +https://github.com/weebao/local-tourist-heatmap)`. Batching the light observers is what kept the total under the daily budget - the naive shape estimated **11,280 requests**, which would have exceeded it.
+Throttling is a hard floor between request *starts*, not a sleep after each response, so the ceiling holds even when a response is fast. Retries use linear backoff on 429 and 5xx. Every request carried `User-Agent: img-city-heatmap/1.0 (research; +https://github.com/weebao/hanoi-local-tourist-heatmap)`. Batching the light observers is what kept the total under the daily budget - the naive shape estimated **11,280 requests**, which would have exceeded it.
 
 ### 5.2 Does this actually feed the locals-vs-tourists rule?
 

@@ -24,7 +24,7 @@ from collections import Counter
 import requests
 
 MULTI = "data/multi"
-UA = "hanoi-locals-tourists/1.0 (+https://github.com/weebao/local-tourist-heatmap)"
+UA = "hanoi-locals-tourists/1.0 (+https://github.com/weebao/hanoi-local-tourist-heatmap)"
 PER_USER_CAP = 2000
 
 

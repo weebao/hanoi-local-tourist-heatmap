@@ -7,7 +7,7 @@ import re
 import requests
 
 CACHE = "data/reloc/geocode_cache.json"
-UA = "hanoi-locals-tourists/1.0 (+https://github.com/weebao/local-tourist-heatmap)"
+UA = "hanoi-locals-tourists/1.0 (+https://github.com/weebao/hanoi-local-tourist-heatmap)"
 # Hanoi viewbox: left, top, right, bottom
 VIEWBOX = "105.55,21.30,106.15,20.80"
 

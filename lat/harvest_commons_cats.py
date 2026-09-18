@@ -26,7 +26,7 @@ from collections import deque
 import requests
 
 API = "https://commons.wikimedia.org/w/api.php"
-UA = "hanoi-locals-tourists/1.0 (+https://github.com/weebao/local-tourist-heatmap)"
+UA = "hanoi-locals-tourists/1.0 (+https://github.com/weebao/hanoi-local-tourist-heatmap)"
 OUT = "data/multi/commons_nocoord.tsv"
 
 ROOTS = [
