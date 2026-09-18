@@ -32,3 +32,5 @@ data/multi/kartaview/
 data/multi/osv5m/
 data/multi/commons_exif_checked.txt
 data/multi/commons_exif_search_ids.tsv
+
+.secrets
